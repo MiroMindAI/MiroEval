@@ -93,7 +93,7 @@ Active fact-checking powered by the [MiroFlow](https://github.com/MiroMindAI/Mir
 
 1. **Report Segmentation**: Splits the model-generated report into logical segments
 2. **Per-segment Fact-checking**: Deploys an agent for each segment to gather evidence via web search
-3. **Verdict**: Labels each factual statement as `Right` (correct) / `Wrong` (incorrect) / `Unknown` (unverifiable)
+3. **Verdict**: Labels each factual statement as `Right` (correct) / `Wrong` (incorrect) / `Unknown` (unverifiable) / `Conflict` (contradictory evidence between web and attachment sources)
 
 ### Directory Structure
 
@@ -187,7 +187,7 @@ Each query produces a JSON result containing a `core_state` list:
   "core_state": [
     {
       "statement": "The statement being verified",
-      "verification": "Right | Wrong | Unknown",
+      "verification": "Right | Wrong | Unknown | Conflict",
       "evidence": [
         { "source": "Evidence source URL", "excerpt": "Quoted key text from source" }
       ],
