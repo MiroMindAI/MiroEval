@@ -246,22 +246,27 @@ The input file is a JSON array of entries, each containing `query`, `rewritten_q
 ```bash
 cd point_quality
 
-pip install -r requirements.txt
+pip install openai python-dotenv pyyaml
 
 # Configure API keys (copy template and fill in values)
 cp .env.template .env
-# Edit .env with your OPENROUTER_API_KEY
+# Edit .env with your API keys
 ```
 
 ### Usage
 
+The API type is auto-detected from the model name: models with a provider prefix (e.g., `openai/gpt-5`) use OpenRouter, plain model names (e.g., `gpt-5.2`) use OpenAI directly.
+
 ```bash
-# Evaluate a specific model
+# Text-only evaluation
 python run_batch_eval.py --input ../data/method_results/mirothinker_v17_text_100.json --model_name mirothinker_v17
+
+# Multimodal evaluation (attachments resolved automatically from data/input_queries/multimodal/)
+python run_batch_eval.py --input ../data/method_multimodal_results/mirothinker_v17_multimodal.json --model_name mirothinker_v17
 
 # Specify evaluator model and query count
 python run_batch_eval.py --input ../data/method_results/claude_text_100.json --model_name claude \
-    --evaluator_model openai/gpt-5 --max_queries 50
+    --evaluator_model gpt-5.2 --max_queries 50
 
 # Reuse criteria from a previous run (only re-score)
 python run_batch_eval.py --input ../data/method_results/gemini_text_100.json --model_name gemini \
@@ -274,8 +279,8 @@ Configuration file located at `deepresearcharena/config/pointwise.yaml`. Key fie
 
 ```yaml
 evaluator_model:
-  name: "gpt-5"               # Judge LLM
-  api_type: "openrouter"
+  name: "gpt-5.2"             # Judge LLM
+  api_type: "auto"             # auto (detect by model name), openai, or openrouter
   temperature: 0.1
 
 evaluation:
@@ -436,7 +441,7 @@ python run_pipeline.py --clear-cache
 | **Method** | Agent + web search verification | LLM multi-dimension scoring | LLM structuring + scoring |
 | **Data Input** | response (report text) | response (report text) | process + response |
 | **Scoring Scale** | Right / Wrong / Unknown | 0-10 continuous | 1-10 integer |
-| **Judge LLM** | GPT-5-mini (default) | GPT-5 (default) | GPT-5.2 (default) |
+| **Judge LLM** | GPT-5-mini (default) | GPT-5.2 (default) | GPT-5.2 (default) |
 | **Parallelism** | Async + semaphore | ThreadPoolExecutor | ThreadPoolExecutor |
 | **Caching** | None (agent state) | Multi-level JSON cache | Three-level JSON cache |
 | **Python** | >= 3.11 (uv) | >= 3.10 (pip) | >= 3.10 (pip) |

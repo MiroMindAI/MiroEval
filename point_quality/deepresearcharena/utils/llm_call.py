@@ -20,17 +20,23 @@ class APIClient:
     # Class-level total cost tracking
     _total_cost = 0.0
     
-    def __init__(self, model_name: str = "google/gemini-2.5-pro-preview", API_Type: str = "openrouter"):
+    def __init__(self, model_name: str = "google/gemini-2.5-pro-preview", API_Type: str = "auto"):
         self.model_name = model_name
+        # Auto-detect API type: model with provider prefix (e.g. "openai/gpt-5") -> openrouter; plain name (e.g. "gpt-5") -> openai
+        if API_Type == "auto":
+            API_Type = "openrouter" if "/" in model_name else "openai"
+            logger.info(f"Auto-detected API type: {API_Type} (model: {model_name})")
         self.API_Type = API_Type
         if API_Type == "openai":
-            self.client = OpenAI(
-                api_key=os.environ.get("OPENAI_API_KEY"),
-            )
+            kwargs = {"api_key": os.environ.get("OPENAI_API_KEY")}
+            base_url = os.environ.get("OPENAI_BASE_URL")
+            if base_url:
+                kwargs["base_url"] = base_url
+            self.client = OpenAI(**kwargs)
         elif API_Type == "openrouter":
             self.client = OpenAI(
                 base_url=os.environ.get("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1"),
-                api_key=os.environ.get("OPENROUTER_KEY"),
+                api_key=os.environ.get("OPENROUTER_API_KEY"),
             )
         else:
             raise ValueError(f"Unsupported API type: {API_Type}")

@@ -43,8 +43,8 @@ def main():
                         help='Name for the target model (e.g., chatgpt)')
     parser.add_argument('--evaluator_model', type=str, default='openai/gpt-5',
                         help='Evaluator LLM model name')
-    parser.add_argument('--api_type', type=str, default='openrouter',
-                        help='API type: openai or openrouter')
+    parser.add_argument('--api_type', type=str, default='auto',
+                        help='API type: auto (detect by model name), openai, or openrouter')
     parser.add_argument('--max_queries', type=int, default=None,
                         help='Maximum number of queries to evaluate (default: all)')
     parser.add_argument('--max_workers', type=int, default=20,
