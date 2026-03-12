@@ -1,0 +1,59 @@
+# Canonical factual evaluation config for multimodal models.
+#
+# Data source (in priority order):
+#   1. --model-dir <dir>  in run_factual_eval.sh
+#        → evaluates a single model's pre-converted individual JSON files
+#        → translates to: benchmark.data.data_dir=${DATA_DIR}/factual-eval/<dir>
+#   2. --source-file <file.json>  in run_factual_eval.sh
+#        → evaluates a raw JSON-array result file from method_multimodal_results/
+#        → translates to: benchmark.data.source_file=<file>
+#                         benchmark.data.data_dir=${data_dir}/method_multimodal_results
+#   3. default: benchmark.data.data_dir=${data_dir}/factual-eval
+#        → scans all model sub-directories under factual-eval/
+#
+# Required env vars:
+#   DATA_DIR   Base data directory (default: ../../miroflow/data relative to factual_eval/)
+#
+# Example usage:
+#   bash scripts/run_factual_eval.sh --config config/benchmark_factual-eval_multimodal.yaml \
+#       --model-dir mirothinker-v17-multimodal
+
+defaults:
+  - benchmark: factual-eval
+  - override hydra/job_logging: none
+  - _self_
+
+entrypoint: main_agent
+main_agent:
+  name: main_agent
+  type: IterativeAgentWithToolAndRollback
+  max_consecutive_rollbacks: 3
+  max_turns: 30
+  llm:
+    _base_: config/llm/base_gpt5_mini.yaml
+  prompt: config/prompts/prompt_factual_eval_multimodal.yaml
+  tools:
+    - config/tool/tool-searching.yaml
+    - config/tool/tool-multimodal-qa.yaml
+  input_processor:
+    - ${input-message-generator}
+  output_processor:
+    - ${output-summary}
+
+segment_processor:
+  type: ReportSegmentProcessor
+  prompt: config/prompts/prompt_factual_eval.yaml
+  llm:
+    _base_: config/llm/base_gpt5_mini.yaml
+
+input-message-generator:
+  type: InputMessageGenerator
+output-summary:
+  type: SummaryGenerator
+
+output_dir: "${oc.env:OUTPUT_DIR,logs/factual-eval}"
+data_dir: "${oc.env:DATA_DIR,../../miroflow/data}"
+
+benchmark:
+  data:
+    data_dir: "${data_dir}/factual-eval"
