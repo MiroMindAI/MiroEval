@@ -260,8 +260,6 @@ The input file is a JSON array of entries, each containing `query`, `rewritten_q
 ```bash
 cd point_quality
 
-pip install -r requirements.txt
-
 ```
 
 ### Usage
