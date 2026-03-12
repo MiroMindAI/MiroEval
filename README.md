@@ -24,11 +24,13 @@ MiroEval/
 
 ### Input Queries (`data/input_queries/`)
 
-| File / Directory | Description | Count |
-|------------------|-------------|-------|
-| `mirobench_text.json` | Text-only query set | 100 |
-| `mirobench_multimodal.json` | Multimodal query set (with image/document attachments) | 47 |
-| `multimodal-attachments/` | Attachment files referenced by multimodal queries, organized by query ID (e.g., `102/`, `132/`). Contains images, PDFs, and other documents. | — |
+
+| File / Directory            | Description                                                                                                                                  | Count |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
+| `mirobench_text.json`       | Text-only query set                                                                                                                          | 100   |
+| `mirobench_multimodal.json` | Multimodal query set (with image/document attachments)                                                                                       | 47    |
+| `multimodal-attachments/`   | Attachment files referenced by multimodal queries, organized by query ID (e.g., `102/`, `132/`). Contains images, PDFs, and other documents. | —     |
+
 
 **Query Schema:**
 
@@ -49,6 +51,7 @@ MiroEval/
 ```
 
 **Pattern Taxonomy (T1-T6):**
+
 - T1: Landscape Survey
 - T2: Comparative Evaluation
 - T3: Fact Verification
@@ -201,9 +204,9 @@ Each query produces a JSON result containing a `core_state` list:
 
 ---
 
-## 2. Point Quality
+## 2. Comprehensive Adaptive Point-wise Quality Evaluation
 
-Adaptive Point-wise Quality Evaluation system that dynamically generates evaluation dimensions, criteria, and weights for each query task, enabling fine-grained quality assessment.
+Comprehensive Adaptive Point-wise Quality Evaluation that dynamically generates evaluation dimensions, criteria, and weights for each query task, enabling fine-grained quality assessment.
 
 ### How It Works
 
@@ -216,12 +219,15 @@ The evaluation pipeline consists of 5 stages:
 5. **Hierarchical Aggregation**: Criteria scores -> dimension scores -> total weighted score
 
 **4 Fixed Dimensions:**
-| Dimension | Description |
-|-----------|-------------|
-| Coverage | Breadth, depth, and relevance of coverage |
-| Insight | Depth, originality, logic, and analytical value |
-| Instruction Following | Accuracy in meeting all query requirements |
-| Clarity | Readability, fluency, structure, and ease of understanding |
+
+
+| Dimension             | Description                                                |
+| --------------------- | ---------------------------------------------------------- |
+| Coverage              | Breadth, depth, and relevance of coverage                  |
+| Insight               | Depth, originality, logic, and analytical value            |
+| Instruction Following | Accuracy in meeting all query requirements                 |
+| Clarity               | Readability, fluency, structure, and ease of understanding |
+
 
 ### Directory Structure
 
@@ -237,8 +243,6 @@ point_quality/
 │   ├── config/                # YAML configuration files
 │   └── utils/                 # LLM calls, config loading
 ├── run_batch_eval.py          # Entry point script
-├── .env.template              # Environment variables template
-└── requirements.txt
 ```
 
 ### Data Loading
@@ -258,14 +262,9 @@ cd point_quality
 
 pip install -r requirements.txt
 
-# Configure API keys (copy template and fill in values)
-cp .env.template .env
-# Edit .env with your API keys
 ```
 
 ### Usage
-
-The API type is auto-detected from the model name: models with a provider prefix (e.g., `openai/gpt-5`) use OpenRouter, plain model names (e.g., `gpt-5.2`) use OpenAI directly.
 
 ```bash
 # Text-only evaluation
@@ -276,7 +275,7 @@ python run_batch_eval.py --input ../data/method_multimodal_results/mirothinker_v
 
 # Specify evaluator model and query count
 python run_batch_eval.py --input ../data/method_results/claude_text_100.json --model_name claude \
-    --evaluator_model gpt-5.2 --max_queries 50
+    --evaluator_model gpt-5 --max_queries 50
 
 # Reuse criteria from a previous run (only re-score)
 python run_batch_eval.py --input ../data/method_results/gemini_text_100.json --model_name gemini \
@@ -289,7 +288,7 @@ Configuration file located at `deepresearcharena/config/pointwise.yaml`. Key fie
 
 ```yaml
 evaluator_model:
-  name: "gpt-5.2"             # Judge LLM
+  name: "gpt"             # Judge LLM
   api_type: "auto"             # auto (detect by model name), openai, or openrouter
   temperature: 0.1
 
@@ -331,25 +330,29 @@ Evaluates the quality of a model's research process (intermediate reasoning, sea
 The evaluation consists of two phases:
 
 **Phase 1 - Structuring:**
+
 - Auto-detects different models' process trace formats (JSON array, block tags, step tags, plain text, etc.)
 - Uses LLM to unify heterogeneous formats into a structured JSON schema (step list + global findings)
 
 **Phase 2 - Evaluation:**
+
 - **Intrinsic Evaluation**: 5 dimensions assessing the research process quality itself
 - **Alignment Evaluation**: 3 dimensions assessing consistency between process and report
 
 **8 Evaluation Dimensions:**
 
-| Type | Dimension | Description |
-|------|-----------|-------------|
-| Intrinsic | search_breadth | Diversity of sources and angles explored |
-| Intrinsic | analytical_depth | Depth of analysis and insight |
-| Intrinsic | progressive_refinement | Ability to iteratively deepen investigation |
-| Intrinsic | critical_thinking | Cross-verification and critical reasoning |
-| Intrinsic | efficiency | Conciseness and effectiveness of steps |
-| Alignment | findings_to_report | Fraction of process findings covered in the report |
-| Alignment | report_to_process | Whether report claims can be traced back to the process |
-| Alignment | contradiction | Consistency between process and report (10 = fully consistent) |
+
+| Type      | Dimension              | Description                                                    |
+| --------- | ---------------------- | -------------------------------------------------------------- |
+| Intrinsic | search_breadth         | Diversity of sources and angles explored                       |
+| Intrinsic | analytical_depth       | Depth of analysis and insight                                  |
+| Intrinsic | progressive_refinement | Ability to iteratively deepen investigation                    |
+| Intrinsic | critical_thinking      | Cross-verification and critical reasoning                      |
+| Intrinsic | efficiency             | Conciseness and effectiveness of steps                         |
+| Alignment | findings_to_report     | Fraction of process findings covered in the report             |
+| Alignment | report_to_process      | Whether report claims can be traced back to the process        |
+| Alignment | contradiction          | Consistency between process and report (10 = fully consistent) |
+
 
 ### Directory Structure
 
@@ -401,6 +404,7 @@ cp .env.template .env
 ### Usage
 
 Supports both **text-only** and **multimodal** evaluation, selected via config file:
+
 - Text-only (default): `config/process_eval.yaml` — reads from `data/method_results/`
 - Multimodal: `config/process_eval_multimodal.yaml` — reads from `data/method_multimodal_results/`
 
@@ -449,16 +453,18 @@ python run_pipeline.py --clear-cache
 
 ## Module Comparison
 
-| Aspect | Factual Eval | Point Quality | Process Eval |
-|--------|-------------|---------------|--------------|
-| **Goal** | Report factual correctness | Report content quality | Research process quality |
-| **Method** | Agent + web search verification | LLM multi-dimension scoring | LLM structuring + scoring |
-| **Data Input** | response (report text) | response (report text) | process + response |
-| **Scoring Scale** | Right / Wrong / Unknown | 0-10 continuous | 1-10 integer |
-| **Judge LLM** | GPT-5-mini (default) | GPT-5.2 (default) | GPT-5.2 (default) |
-| **Parallelism** | Async + semaphore | ThreadPoolExecutor | ThreadPoolExecutor |
-| **Caching** | None (agent state) | Multi-level JSON cache | Three-level JSON cache |
-| **Python** | >= 3.11 (uv) | >= 3.10 (pip) | >= 3.10 (pip) |
+
+| Aspect            | Factual Eval                    | Point Quality               | Process Eval              |
+| ----------------- | ------------------------------- | --------------------------- | ------------------------- |
+| **Goal**          | Report factual correctness      | Report content quality      | Research process quality  |
+| **Method**        | Agent + web search verification | LLM multi-dimension scoring | LLM structuring + scoring |
+| **Data Input**    | response (report text)          | response (report text)      | process + response        |
+| **Scoring Scale** | Right / Wrong / Unknown         | 0-10 continuous             | 1-10 integer              |
+| **Judge LLM**     | GPT-5-mini (default)            | GPT-5.2 (default)           | GPT-5.2 (default)         |
+| **Parallelism**   | Async + semaphore               | ThreadPoolExecutor          | ThreadPoolExecutor        |
+| **Caching**       | None (agent state)              | Multi-level JSON cache      | Three-level JSON cache    |
+| **Python**        | >= 3.11 (uv)                    | >= 3.10 (pip)               | >= 3.10 (pip)             |
+
 
 ## License
 
