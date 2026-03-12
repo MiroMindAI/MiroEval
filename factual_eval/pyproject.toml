@@ -2,7 +2,6 @@
 name = "miroflow"
 version = "1.6.0"
 description = "MiroFlow: Performance-first agent framework that makes any model better"
-readme = "README.md"
 license = "Apache-2.0"
 requires-python = ">=3.11,<3.14"
 authors = [

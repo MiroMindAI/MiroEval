@@ -15,7 +15,7 @@
 #   bash scripts/run_factual_eval.sh --result-dir logs/factual-eval/prev_run  # resume
 #
 # Key env vars:
-#   DATA_DIR            Base data directory (default: ../../miroflow/data)
+#   DATA_DIR            Base data directory (default: ./data)
 #   CONFIG              Config file to use (default: config/benchmark_factual-eval_text.yaml)
 #   MAX_CONCURRENT      Max concurrent model calls (default: 10)
 
@@ -23,7 +23,7 @@
 CONFIG=${CONFIG:-"config/benchmark_factual-eval_text.yaml"}
 MAX_CONCURRENT=${MAX_CONCURRENT:-10}
 MAX_CONCURRENT_CHUNKS=${MAX_CONCURRENT_CHUNKS:-10}
-DATA_DIR=${DATA_DIR:-"../../miroflow/data"}
+DATA_DIR=${DATA_DIR:-"./data"}
 
 # Parse command line arguments
 EXTRA_OVERRIDES=()

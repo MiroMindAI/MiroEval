@@ -124,19 +124,18 @@ factual_eval/
 
 ### Data Loading
 
-Factual eval reads per-item JSON files from `miroflow/data/factual-eval/<model-dir>/`.
-The base data directory is configured via the `DATA_DIR` environment variable (default: `../../miroflow/data` relative to `factual_eval/`).
+Factual eval reads per-item JSON files from `data/factual-eval/<model-dir>/` inside `factual_eval/`.
+The base data directory is configured via the `DATA_DIR` environment variable (default: `./data` relative to `factual_eval/`).
 
 **Step 1 — Convert raw results to per-item files** (one-time, skip if already done):
 
 ```bash
 cd factual_eval
 
-# Convert a method_results JSON array → individual files in miroflow/data/factual-eval/
+# Convert a method_results JSON array → individual files in factual_eval/data/factual-eval/
 python utils/convert_to_factual_eval.py \
     --input ../data/method_results/mirothinker_v17_text_100.json \
-    --output-dir ../../miroflow/data/factual-eval/mirothinker-v17-text-only-50 \
-    --num-samples 50
+    --output-dir data/factual-eval/mirothinker-v17-text-100
 ```
 
 The output format is one JSON file per item (same schema as the source), named `<model-name>_<id>.json`.
@@ -165,10 +164,7 @@ cp .env.template .env
 cd factual_eval
 
 # Evaluate a specific model (from pre-converted per-item files)
-bash scripts/run_factual_eval.sh --model-dir chatgpt-text-only-50
-
-# Evaluate directly from a raw method_results JSON array (no pre-conversion needed)
-bash scripts/run_factual_eval.sh --source-file mirothinker_v17_text_100.json
+bash scripts/run_factual_eval.sh --model-dir mirothinker-v17-text-100
 
 # Multimodal evaluation
 bash scripts/run_factual_eval.sh \
@@ -176,13 +172,10 @@ bash scripts/run_factual_eval.sh \
     --model-dir mirothinker-v17-multimodal
 
 # Limit number of tasks (for testing)
-bash scripts/run_factual_eval.sh --model-dir chatgpt-text-only-50 --max-tasks 5
+bash scripts/run_factual_eval.sh --model-dir chatgpt-text-only --max-tasks 5
 
 # Resume a previous run
 bash scripts/run_factual_eval.sh --result-dir logs/factual-eval/prev_run
-
-# Override data directory
-DATA_DIR=/path/to/miroflow/data bash scripts/run_factual_eval.sh --model-dir gemini-text-only-50
 ```
 
 ### Output Format

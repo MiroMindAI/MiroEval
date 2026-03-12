@@ -161,7 +161,7 @@ data/method_multimodal_results/*
 debug.py
 **/debug.py
 
-factual-eval/.github/
+factual_eval/data/
 process_eval/outputs/
 process_eval/experiments/outputs/
 point_quality/outputs/*
