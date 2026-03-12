@@ -33,4 +33,4 @@ output-summary:
   type: SummaryGenerator
 
 output_dir: logs/factual-eval/
-data_dir: "${oc.env:DATA_DIR,data}"
+data_dir: "${oc.env:DATA_DIR,../data}"

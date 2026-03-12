@@ -8,6 +8,7 @@ name: "factual-eval"
 data:
   data_dir: "${data_dir}/factual-eval"
   metadata_file: "standardized_data.jsonl"
+  source_file: null  # JSON array file to load from data_dir (shared MiroEval data format)
   whitelist: []
 
 execution:

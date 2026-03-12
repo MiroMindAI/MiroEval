@@ -2,7 +2,7 @@
 
 MiroEval is a comprehensive evaluation framework for Deep Research systems, providing automated assessment across three complementary dimensions: **Factual** correctness, **Point**-wise quality, and **Process** quality.
 
-All three evaluation modules share a unified `data/` directory as their input data source.
+All three evaluation modules share a unified `data/` directory as their input data source. Each sub-project manages its own `.env` file for API keys (see `.env.template` in each sub-project).
 
 ## Architecture
 
@@ -12,7 +12,7 @@ MiroEval/
 │   ├── input_queries/         # Evaluation query sets
 │   ├── method_results/        # Text-only model results (14 models × 100 queries)
 │   └── method_multimodal_results/  # Multimodal model results (10 models × 47 queries)
-├── factual-eval/              # Factual evaluation (MiroFlow-based fact-checking agent)
+├── factual_eval/              # Factual evaluation (MiroFlow-based fact-checking agent)
 ├── point_quality/             # Quality evaluation (adaptive point-wise scoring)
 └── process_eval/              # Process evaluation (intrinsic process quality + report alignment)
 ```
@@ -59,7 +59,7 @@ MiroEval/
 
 ### Model Results (`data/method_results/`, `data/method_multimodal_results/`)
 
-One JSON file per model, containing complete query-response pairs.
+One JSON file per model, containing a JSON array of complete query-response pairs.
 
 **Text-only models (14):** chatgpt, claude, deepseek, doubao, gemini, glm, grok, kimi, manus, minimax, mirothinker, mirothinker_base_17, mirothinker_v17, qwen
 
@@ -97,7 +97,7 @@ Active fact-checking powered by the [MiroFlow](https://github.com/MiroMindAI/Mir
 ### Directory Structure
 
 ```
-factual-eval/
+factual_eval/
 ├── config/                    # Hydra configuration files
 │   ├── benchmark/             # Benchmark configs (factual-eval.yaml, etc.)
 │   ├── llm/                   # LLM model configs
@@ -114,28 +114,42 @@ factual-eval/
 ├── scripts/
 │   ├── run_factual_eval.sh    # Main run script
 │   └── benchmark/             # Per-model benchmark scripts
+├── .env.template              # Environment variables template
 └── pyproject.toml             # Dependencies (Python >= 3.11)
 ```
 
 ### Data Loading
 
-- Data path is specified via Hydra config: `data_dir: "${data_dir}/factual-eval/mirothinker-text-only-gen"`
-- Data must be preprocessed into `standardized_data.jsonl` format in the target directory
-- Each entry contains `task_id`, `task_question` (query + report segment), `ground_truth`, etc.
-- For multimodal queries, associated attachment files (images, PDFs, etc.) are stored in `data/input_queries/multimodal-attachments/<query_id>/` and referenced via the `files` field in the query
+Reads model result files from the shared `data/` directory. Each per-model config specifies the data source:
+
+```yaml
+data_dir: "${oc.env:DATA_DIR,../data}"
+
+benchmark:
+  data:
+    data_dir: "${data_dir}/method_results"           # Text-only
+    source_file: "mirothinker_text_100.json"         # Specific model file
+```
+
+The loader supports multiple data formats:
+- **JSON array files** (shared MiroEval data format, via `source_file` config)
+- `standardized_data.jsonl` (preprocessed format)
+- Sub-directory structure with individual JSON files
+- Flat directory with JSON files
+
+For multimodal queries, associated attachment files are stored in `data/input_queries/multimodal-attachments/<query_id>/` and referenced via the `files` field.
 
 ### Setup
 
 ```bash
-cd factual-eval
+cd factual_eval
 
 # Install dependencies
 uv sync
 
-# Configure API keys
-export OPENAI_API_KEY="..."       # GPT models
-export SERPER_API_KEY="..."       # Google search
-# Optional: ANTHROPIC_API_KEY, OPENROUTER_API_KEY, JINA_API_KEY, etc.
+# Configure API keys (copy template and fill in values)
+cp .env.template .env
+# Edit .env with your API keys (OPENAI_API_KEY, SERPER_API_KEY, etc.)
 ```
 
 ### Usage
@@ -212,22 +226,20 @@ point_quality/
 │   ├── cache/                 # Caching system
 │   ├── config/                # YAML configuration files
 │   └── utils/                 # LLM calls, config loading
-├── example_pointwise_usage.py # Usage example
+├── run_batch_eval.py          # Entry point script
+├── .env.template              # Environment variables template
 └── requirements.txt
 ```
 
 ### Data Loading
 
-Reads from the `data/` directory (path specified in YAML config):
+Takes a model result JSON file from the shared `data/` directory as input via the `--input` flag:
 
+```bash
+python run_batch_eval.py --input ../data/method_results/mirothinker_v17_text_100.json --model_name mirothinker_v17
 ```
-<data_dir>/
-├── input_queries/
-│   └── query.jsonl            # One query per line: {id, topic, language, prompt}
-└── method_results/
-    └── <model_name>/          # One directory per model
-        └── <query_id>.json    # Contains entries[].response
-```
+
+The input file is a JSON array of entries, each containing `query`, `rewritten_query`, `response`, and optional `files` for attachments. Attachment paths are resolved relative to `{data_dir}/input_queries/multimodal/`.
 
 ### Setup
 
@@ -236,24 +248,24 @@ cd point_quality
 
 pip install -r requirements.txt
 
-# Configure API key (uses OpenRouter to call the judge LLM)
-export OPENROUTER_API_KEY="..."
+# Configure API keys (copy template and fill in values)
+cp .env.template .env
+# Edit .env with your OPENROUTER_API_KEY
 ```
 
 ### Usage
 
 ```bash
-# Run with default config
-python example_pointwise_usage.py
+# Evaluate a specific model
+python run_batch_eval.py --input ../data/method_results/mirothinker_v17_text_100.json --model_name mirothinker_v17
 
-# Specify config file
-python example_pointwise_usage.py --config deepresearcharena/config/pointwise.yaml
+# Specify evaluator model and query count
+python run_batch_eval.py --input ../data/method_results/claude_text_100.json --model_name claude \
+    --evaluator_model openai/gpt-5 --max_queries 50
 
-# Specify models and query count
-python example_pointwise_usage.py --models mirothinker gemini --max_queries 50
-
-# Dry-run validation
-python example_pointwise_usage.py --dry_run
+# Reuse criteria from a previous run (only re-score)
+python run_batch_eval.py --input ../data/method_results/gemini_text_100.json --model_name gemini \
+    --criteria_file outputs/mirothinker_v17_results.json
 ```
 
 ### Configuration
@@ -262,15 +274,12 @@ Configuration file located at `deepresearcharena/config/pointwise.yaml`. Key fie
 
 ```yaml
 evaluator_model:
-  name: "google/gemini-2.5-pro"   # Judge LLM
+  name: "gpt-5"               # Judge LLM
   api_type: "openrouter"
   temperature: 0.1
 
-target_models:                     # Models to evaluate
-  - "mirothinker"
-
 evaluation:
-  max_workers: 20                  # Parallel workers
+  max_workers: 20              # Parallel workers
   scoring:
     score_range: [0, 10]
     decimal_places: 2
@@ -343,13 +352,13 @@ process_eval/
 │   ├── evaluation/            # Intrinsic + alignment evaluators
 │   ├── cache/                 # Thread-safe JSON caching
 │   └── utils/                 # LLM client, config loading
-├── experiments/               # Experimental comparison scripts
+├── .env.template              # Environment variables template
 └── requirements.txt
 ```
 
 ### Data Loading
 
-Reads model result files directly from the shared data directory:
+Reads model result files directly from the shared data directory. The data loader auto-discovers files by matching `{model_name}_{data_type}*.json` pattern:
 
 ```yaml
 # config/process_eval.yaml
@@ -369,7 +378,9 @@ cd process_eval
 
 pip install -r requirements.txt   # openai, pyyaml, tqdm, python-dotenv
 
-export OPENAI_API_KEY="..."        # Or OPENROUTER_API_KEY
+# Configure API keys (copy template and fill in values)
+cp .env.template .env
+# Edit .env with your OPENAI_API_KEY (or OPENROUTER_API_KEY)
 ```
 
 ### Usage
@@ -425,7 +436,7 @@ python run_pipeline.py --clear-cache
 | **Method** | Agent + web search verification | LLM multi-dimension scoring | LLM structuring + scoring |
 | **Data Input** | response (report text) | response (report text) | process + response |
 | **Scoring Scale** | Right / Wrong / Unknown | 0-10 continuous | 1-10 integer |
-| **Judge LLM** | GPT-5-mini (default) | Gemini 2.5 Pro | GPT-5.2 (default) |
+| **Judge LLM** | GPT-5-mini (default) | GPT-5 (default) | GPT-5.2 (default) |
 | **Parallelism** | Async + semaphore | ThreadPoolExecutor | ThreadPoolExecutor |
 | **Caching** | None (agent state) | Multi-level JSON cache | Three-level JSON cache |
 | **Python** | >= 3.11 (uv) | >= 3.10 (pip) | >= 3.10 (pip) |
@@ -433,4 +444,3 @@ python run_pipeline.py --clear-cache
 ## License
 
 Apache-2.0
-

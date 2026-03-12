@@ -71,7 +71,9 @@ def load_factual_eval_tasks(cfg: DictConfig) -> list[Task]:
     """
     Load factual eval tasks from the data directory.
 
-    Supports three data layouts:
+    Supports four data layouts:
+    0. source_file mode: Load a specific JSON array file from data_dir
+       (shared MiroEval data format: [{id, query, response, ...}, ...])
     1. standardized_data.jsonl in data_dir: Each line is a JSON object with
        task_id, task_question, ground_truth, metadata.user_query
     2. data_dir/{model_name}/*.json: Sub-directories by model, each containing
@@ -80,6 +82,18 @@ def load_factual_eval_tasks(cfg: DictConfig) -> list[Task]:
     """
     data_cfg = cfg.benchmark.data
     data_dir = Path(data_cfg.get("data_dir", "data/factual-eval"))
+
+    # Mode 0: source_file — load a specific JSON array file from the shared data directory
+    source_file = data_cfg.get("source_file", None)
+    if source_file:
+        source_path = data_dir / source_file
+        if source_path.exists():
+            tasks = _load_json_array_tasks(source_path)
+            if tasks:
+                print(f"Loaded {len(tasks)} tasks from {source_path}")
+                return tasks
+        else:
+            print(f"source_file not found: {source_path}")
 
     # Try JSONL format first
     metadata_file = data_dir / data_cfg.get("metadata_file", "standardized_data.jsonl")
@@ -121,7 +135,7 @@ def load_factual_eval_tasks(cfg: DictConfig) -> list[Task]:
         print(f"Loaded {len(tasks)} tasks total from {len(subdirs)} model(s)")
         return tasks
 
-    # Flat directory: data_dir/*.json
+    # Flat directory: data_dir/*.json (supports both single-object and array files)
     json_files = sorted(data_dir.glob("*.json")) if data_dir.exists() else []
     if not json_files:
         print(f"No data found in {data_dir}")
@@ -129,12 +143,68 @@ def load_factual_eval_tasks(cfg: DictConfig) -> list[Task]:
 
     tasks = []
     for json_file in json_files:
-        task = _load_single_json_task(json_file)
-        if task:
-            tasks.append(task)
+        # Try loading as JSON array first
+        array_tasks = _load_json_array_tasks(json_file)
+        if array_tasks:
+            tasks.extend(array_tasks)
+        else:
+            task = _load_single_json_task(json_file)
+            if task:
+                tasks.append(task)
 
     print(f"Loaded {len(tasks)} tasks from {data_dir}")
     return tasks
+
+
+def _load_json_array_tasks(json_file: Path) -> list[Task]:
+    """Load tasks from a JSON array file (shared MiroEval data format).
+
+    Each entry has: {id, query, rewritten_query, response, process, files, annotation, ...}
+    The response field is fact-checked as the task_question.
+    Returns empty list if the file is not a JSON array or entries lack required fields.
+    """
+    try:
+        with open(json_file, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        if not isinstance(data, list):
+            return []
+
+        model_name = json_file.stem  # e.g., "mirothinker_v17_text_100"
+        tasks = []
+        for entry in data:
+            if not isinstance(entry, dict):
+                continue
+            response = entry.get("response", "")
+            query = entry.get("rewritten_query") or entry.get("query", "")
+            if not response:
+                continue
+
+            entry_id = entry.get("id", "")
+            task_id = f"{model_name}/{entry_id}"
+            metadata = {
+                "user_query": query,
+                "source_file": str(json_file),
+                "entry_id": entry_id,
+            }
+            annotation = entry.get("annotation", {})
+            if annotation:
+                metadata["annotation"] = annotation
+
+            file_paths = entry.get("files")
+            tasks.append(
+                Task(
+                    task_id=task_id,
+                    task_question=response,
+                    ground_truth="",
+                    file_path=file_paths if file_paths else None,
+                    metadata=metadata,
+                )
+            )
+        return tasks
+    except Exception as e:
+        print(f"Error loading JSON array from {json_file}: {e}")
+        return []
 
 
 def _load_single_json_task(

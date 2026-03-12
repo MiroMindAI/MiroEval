@@ -34,8 +34,9 @@ output-summary:
   type: SummaryGenerator
 
 output_dir: logs/factual-eval-mirothinker-v17-multimodal/
-data_dir: "${oc.env:DATA_DIR,data}"
+data_dir: "${oc.env:DATA_DIR,../data}"
 
 benchmark:
   data:
-    data_dir: "${data_dir}/factual-eval/mirothinker-v17-multimodal"
+    data_dir: "${data_dir}/method_multimodal_results"
+    source_file: "mirothinker_v17_multimodal.json"
