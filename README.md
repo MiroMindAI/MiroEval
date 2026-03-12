@@ -400,9 +400,16 @@ cp .env.template .env
 
 ### Usage
 
+Supports both **text-only** and **multimodal** evaluation, selected via config file:
+- Text-only (default): `config/process_eval.yaml` — reads from `data/method_results/`
+- Multimodal: `config/process_eval_multimodal.yaml` — reads from `data/method_multimodal_results/`
+
 ```bash
-# Full pipeline
+# Text-only evaluation (default)
 python run_pipeline.py
+
+# Multimodal evaluation
+python run_pipeline.py --config config/process_eval_multimodal.yaml
 
 # Run structuring phase only
 python run_pipeline.py --phase phase1
@@ -412,9 +419,6 @@ python run_pipeline.py --phase phase2
 
 # Specify models and entry count
 python run_pipeline.py --models claude gemini --max-entries 10
-
-# Multimodal evaluation
-python run_pipeline.py --config config/process_eval_multimodal.yaml
 
 # Clear cache and re-run
 python run_pipeline.py --clear-cache
