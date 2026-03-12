@@ -256,7 +256,7 @@ The input file is a JSON array of entries, each containing `query`, `rewritten_q
 ```bash
 cd point_quality
 
-pip install openai python-dotenv pyyaml
+pip install -r requirements.txt
 
 # Configure API keys (copy template and fill in values)
 cp .env.template .env
