@@ -1,0 +1,12 @@
+name: "tool-multimodal-qa"
+tool_command: "python"
+args:
+  - "-m"
+  - "miroflow.tool.mcp_servers.multimodal_qa_hybrid_mcp_server"
+env:
+  OPENAI_API_KEY: "${oc.env:OPENAI_API_KEY}"
+  OPENAI_BASE_URL: "${oc.env:OPENAI_BASE_URL,https://api.openai.com/v1}"
+  CACHE_DIR: "${oc.env:MULTIMODAL_QA_CACHE_DIR,data/cache}"
+  CHUNK_TOKEN_SIZE: "${oc.env:CHUNK_TOKEN_SIZE,4096}"
+  QA_MODEL: "${oc.env:QA_MODEL,gpt-5-mini}"
+  EMBEDDING_MODEL: "${oc.env:EMBEDDING_MODEL,text-embedding-3-large}"

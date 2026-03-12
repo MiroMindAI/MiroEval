@@ -1,0 +1,25 @@
+version = 1
+
+# cursor, gitignore and github workflow
+[[annotations]]
+path = ["**/.cursor/**", ".github/**", "**/.gitignore", "**/justfile", "**/Makefile", "**/.env.template"]
+SPDX-FileCopyrightText = "MiromindAI"
+SPDX-License-Identifier = "Apache-2.0"
+
+# hydra configs
+[[annotations]]
+path = ["config/**.yaml", "config/**.py"]
+SPDX-FileCopyrightText = "MiromindAI"
+SPDX-License-Identifier = "Apache-2.0"
+
+# uv-related
+[[annotations]]
+path = ["**/.python-version", "**/pyproject.toml", "**/uv.lock"]
+SPDX-FileCopyrightText = "MiromindAI"
+SPDX-License-Identifier = "Apache-2.0"
+
+# docs
+[[annotations]]
+path = ["**/*.md"]
+SPDX-FileCopyrightText = "MiromindAI"
+SPDX-License-Identifier = "Apache-2.0"

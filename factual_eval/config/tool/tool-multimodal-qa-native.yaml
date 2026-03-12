@@ -1,0 +1,9 @@
+name: "tool-multimodal-qa-native"
+tool_command: "python"
+args:
+  - "-m"
+  - "miroflow.tool.mcp_servers.multimodal_qa_native_mcp_server"
+env:
+  OPENAI_API_KEY: "${oc.env:OPENAI_API_KEY}"
+  OPENAI_BASE_URL: "${oc.env:OPENAI_BASE_URL,https://api.openai.com/v1}"
+  QA_MODEL: "${oc.env:QA_MODEL,gpt-5-mini}"

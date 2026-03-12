@@ -1,0 +1,21 @@
+# config/benchmark/factual-eval.yaml - Factual evaluation benchmark configuration
+defaults:
+  - default
+  - _self_
+
+name: "factual-eval"
+
+data:
+  data_dir: "${data_dir}/factual-eval"
+  metadata_file: "standardized_data.jsonl"
+  whitelist: []
+
+execution:
+  max_tasks: null
+  max_concurrent: 2
+  max_concurrent_chunks: 20
+  max_retries: 5
+  chunk_timeout: 1800  # Per-chunk timeout in seconds. null = no limit.
+  chunk_tracing: true  # Write per-chunk trace files. Set false to reduce I/O.
+  pass_at_k: 1
+  max_retry: 1

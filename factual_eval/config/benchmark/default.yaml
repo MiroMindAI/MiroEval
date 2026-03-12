@@ -1,0 +1,14 @@
+# config/benchmark/default.yaml - Default benchmark configuration
+# This is a base configuration for benchmarks. Specific benchmarks can override these defaults.
+name: "default"
+
+data:
+  metadata_file: "standardized_data.jsonl"
+  whitelist: []
+
+execution:
+  max_tasks: null  # null means no limit
+  max_concurrent: 5
+  pass_at_k: 1
+  max_retry: 1
+  exceed_max_turn_summary: false

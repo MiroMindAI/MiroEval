@@ -1,0 +1,8 @@
+name: "tool-reading"
+tool_command: "python"
+args:
+  - "-m"
+  - "miroflow.tool.mcp_servers.reading_mcp_server"
+env:
+  SERPER_API_KEY: "${oc.env:SERPER_API_KEY,''}" 
+  JINA_API_KEY: "${oc.env:JINA_API_KEY,''}"

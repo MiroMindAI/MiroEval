@@ -1,0 +1,1339 @@
+[
+  {
+    "id": 101,
+    "chat_id": "ab761592-719d-443b-b912-e1b9ca494c52",
+    "query": "一个钛钢复合板制作的反应器发生泄漏，拆开后检查发现钛层腐蚀严重，该反应器内是含硫废碱液和空气的反应区域。正常工作温度170-240℃，压力2-5MPaG。含硫废碱液主要含有硫化钠、硫氢化钠和氢氧化钠，成分均按照3%重量比。反应器用的3mm钛+碳钢的爆炸复合板。怀疑有一段时间进去过含氯2500mg/L的有机溶剂废水。请问怎么判断反应器被腐蚀的原因？",
+    "files": [
+      {
+        "filename": "05二层环缝东侧.jpg",
+        "type": "image",
+        "dir": "multimodal-attachments/101/05二层环缝东侧.jpg",
+        "size": "1.5 MB"
+      }
+    ],
+    "annotation": {
+      "category": "image",
+      "language": "zh",
+      "origin_id": 102
+    },
+    "rewritten_query": "我是化工厂设备维护部门的工程师，最近我们一台钛钢复合板反应器出现了泄漏问题。这个反应器主要处理含硫废碱液（硫化钠、硫氢化钠、氢氧化钠各3%重量比）和空气的反应，工作温度170-240℃，压力2-5MPaG，用的是3mm钛+碳钢爆炸复合板。拆开检查后发现钛层腐蚀很严重，怀疑可能跟之前误入过含氯2500mg/L的有机溶剂废水有关。我拍了个腐蚀部位的照片，能帮我看看这个腐蚀形态特征，然后查一下钛材料在这种含氯环境下的腐蚀机理和速率数据吗？想确认一下到底是氯离子腐蚀还是其他原因导致的。"
+  },
+  {
+    "id": 102,
+    "chat_id": "d6ecc4ac-ad6d-45c9-8c42-161fd4a2381e",
+    "query": "图中的蓝色涂鸦的地区代表海，塔里木盆地变成了海洋，并以上图的方式联通印度洋。请你详细分析这种改动会给全球、亚洲、中国西北造成怎样的气候影响",
+    "files": [
+      {
+        "filename": "IMG_20260105_142020.jpg",
+        "type": "image",
+        "dir": "multimodal-attachments/102/IMG_20260105_142020.jpg",
+        "size": "1.1 MB"
+      }
+    ],
+    "annotation": {
+      "category": "image",
+      "language": "zh",
+      "origin_id": 105
+    },
+    "rewritten_query": "我在做一个关于古地理演化对气候影响的研究项目，附件是一张假想的地理改造图，显示塔里木盆地变成海洋并通过水道连接印度洋。我需要评估这种地理变化可能带来的气候效应，想了解一下历史上类似的大型内陆海（比如地中海、里海等）对周边地区气候的实际影响数据，以及现在气象学界对于大型水体如何调节区域气候有哪些定量的研究结论。最好能找到一些具体的温度、降水、湿度变化的数值范围，这样我可以对比分析这个假想情景可能产生的影响程度，特别是对中亚干旱区和季风系统可能造成的改变。"
+  },
+  {
+    "id": 103,
+    "chat_id": "87cacdba-e97f-4b93-bae8-d20f0ea8597a",
+    "query": "图片里是 CAPTURE ONE 调色软件设置里面关于色彩的设置\n我想知道他这个渲染意图里面的这四个选项到底是什么含义？我在调色过程中我应该使用哪一个？\n我的拍摄设备是 A7M4\n照片格式是原始档 RAW\n相机里设置的色彩空间是 SRGB\n我的调色设备是 MacBook M4 Pro\n外接了戴尔 U2725QE 的显示器\n我的笔记本和戴尔显示器的色域都是 P3 广色域\n用 Capture One 导出的照片格式是 JPG，色彩空间是 SRGB，在这些设备和设置下对于这个渲染意图我到底该用哪个？\n我不希望我的照片在软件中调色时看到的是一个颜色当我用 jpg 格式导出为 SRGB 色彩空间的照片时看到的和我软件里的不一样\n另外，我想知道 Capture One 这款软件最新版本里有一个校样功能\n会根据我当前选中的导出配方来模拟这个配方导出的照片最终的样子\n但为什么我选中了 JPG 格式导出配方，这个配方里的色彩空间是 SRGB\n我开启和关闭软打样功能的时候\n软件里没有看到这张照片有任何区别",
+    "files": [
+      {
+        "filename": "PixPin_2026-01-20_14-43-44.png",
+        "type": "image",
+        "dir": "multimodal-attachments/103/PixPin_2026-01-20_14-43-44.png",
+        "size": "193.3 KB"
+      }
+    ],
+    "annotation": {
+      "category": "image",
+      "language": "zh",
+      "origin_id": 106
+    },
+    "rewritten_query": "我最近在学习 Capture One 的色彩管理，看到图片里的渲染意图设置有四个选项。据我了解，A7M4 相机的 RAW 文件本身就包含 sRGB 色彩空间信息，所以在 Capture One 里应该直接按照相机设定的 sRGB 来处理。我的设备配置是 MacBook M4 Pro 外接戴尔 U2725QE 显示器，两个设备都是 P3 广色域。想问一下在这种配置下，渲染意图应该选择哪个选项比较合适？另外我发现一个奇怪的现象，就是开启软打样功能后，即使我选择了 JPG+sRGB 的导出配方，照片在软件里看起来和关闭软打样时完全一样，这是不是说明我的显示器校准有问题？"
+  },
+  {
+    "id": 104,
+    "chat_id": "aa18e089-caad-4f15-9190-ff6f2537b7fe",
+    "query": "你现在是“GIS 图面信息核对与学术表述”助手。我的目标是：基于我上传的黄河流域 GIS 图片，准确描述不同颜色所代表的各地区“两山”系统发展成效，并按上游/中游/下游区段进行分区段解读。请严格遵守“无图面证据不下结论”的原则：只依据图片中可见的图例、颜色、行政区边界与地名标注作答；任何无法从图中清晰识别的信息，都必须明确写为“图中无法辨识/图例未提供/分级阈值缺失”，不得用常识补写。 请用连续段落输出，语言用于论文写作，避免口号式表达。输出时按以下逻辑推进：先逐字复述图例（包括指标名称、分级名称、颜色与分级阈值或区间；若阈值未显示，请明确说明“阈值未显示”，并仅用“高/较高/中/较低/低”等图例原词或最接近的图例词来指代）；随后把图中每一种颜色对应到具体地区，描述方式必须形成“颜色（或分级名）—地区名称—所属区段（上/中/下游）”的可核对表达，并尽量覆盖所有在图中可辨识的地名；最后在不新增事实的前提下，分别对上游/中游/下游做区段内归纳，归纳只能基于你前面已经完成的“颜色—地区”对应结果，表达为“该区段以{某等级}为主/多集中于{某等级}，{某等级}主要分布在{若干地区}”，并指出区段内部是否存在明显分化（仍需回指到颜色分布）。 区段划分以我提供的清单为准，地区只要出现在图中且能辨识，就必须按清单归入对应区段：黄河上游包括西宁市、海东市、海北藏族自治州、黄南藏族自治州、海南藏族自治州、果洛藏族自治州、玉树藏族自治州、海西蒙古族藏族自治州、阿坝藏族羌族自治州、甘孜藏族自治州、兰州市、白银市、天水市、武威市、平凉市、庆阳市、定西市、陇南市、临夏回族自治区、甘南藏族自治区、银川市、石嘴山市、吴忠市、固原市、中卫市、阿拉善盟、包头市、乌海市、鄂尔多斯市、巴彦淖尔市；黄河中游包括呼和浩特市、乌兰察布市、太原市、大同市、阳泉市、长治市、晋城市、朔州市、晋中市、运城市、忻州市、临汾市、吕梁市、陕西的西安市、铜川市、宝鸡市、咸阳市、渭南市、延安市、榆林市、商洛市，以及三门峡市、济源市、洛阳市、焦作市；黄河下游包括郑州市、开封市、安阳市、新乡市、濮阳市、济南市、淄博市、东营市、济宁市、泰安市、德州市、聊城市、滨州市、菏泽市。 为便于我核对，请在正文最后追加一段“核对摘要”，用一句话说明：图例是否完整、分级阈值是否可见、是否存在因分辨率或标注遮挡导致无法判断的地区，并只陈述可见问题，不提出猜测性修补方案。",
+    "files": [
+      {
+        "filename": "耦合协调-总.jpg",
+        "type": "image",
+        "dir": "multimodal-attachments/104/耦合协调-总.jpg",
+        "size": "14.8 MB"
+      }
+    ],
+    "annotation": {
+      "category": "image",
+      "language": "zh",
+      "origin_id": 108
+    },
+    "rewritten_query": "我是环境科学专业的研究生，正在写关于黄河流域生态文明建设的毕业论文。我上传了一张黄河流域GIS专题图，显示的是2013-2024年各地区耦合协调度的时空变化。根据我导师提供的资料，黄河流域在2018年被正式纳入国家重大区域发展战略，从那时起各地区的协调发展水平应该呈现显著提升趋势。请你帮我基于这张图片，按照严格的学术规范来分析不同颜色代表的协调度等级在各个时间节点的空间分布特征，并按上游/中游/下游进行分区段解读。分析时请严格遵守'无图面证据不下结论'的原则，只依据图中可见的图例、颜色、行政区边界与地名标注作答。输出格式要求：先逐字复述图例内容，然后建立颜色-地区-区段的对应关系，最后对各区段进行归纳总结。区段划分按我提供的行政区清单执行，并在最后提供核对摘要说明图例完整性等技术问题。"
+  },
+  {
+    "id": 105,
+    "chat_id": "ba3272e3-102c-4710-a7fa-a2cbaaf72b77",
+    "query": "方向：\n产前基因检测：单基因遗传变异致病性解读规则\n调研：\n构建大模型需要的数据库，每个证据项现有算法（比如autoPVS1），数据库（比如REVEL），链接\n参考：\nhttps://arxiv.org/abs/2506.20430",
+    "files": [
+      {
+        "filename": "image.png",
+        "type": "image",
+        "dir": "multimodal-attachments/105/image.png",
+        "size": "318.6 KB"
+      }
+    ],
+    "annotation": {
+      "category": "image",
+      "language": "zh",
+      "origin_id": 113
+    },
+    "rewritten_query": "我是一名生物信息学研究生，最近在做产前基因检测相关的毕业设计。附件是我找到的一个医疗AI诊断系统架构图，里面有基因变异数据的处理流程和一些具体的变异位点信息。我想了解一下图中提到的基因变异数据库（比如那个Gene Variants VCF表格）通常使用什么质量评分标准，另外也想查一下像autoPVS1这类致病性判定算法目前在临床上的应用情况如何，有哪些主流的开源实现可以参考？"
+  },
+  {
+    "id": 106,
+    "chat_id": "a9b7f715-0ace-492a-9f6c-da9b6a20532c",
+    "query": "图片说明如下：Figure 5: The Attention forward pass per layer. Large matrices\n(green) are loaded asynchronously from global, and do not wait\non warps performing computation. The consumers works synchronously, with 3 global synchronizations per attention forward\npass. Each of the repeated computations (in red) corresponds to a\nasynchronously loaded matrix split into chunks.\n问题：其中的异步（asynchronously）、同步（synchronizations）是什么意思？为什么有的地方异步而有的地方要同步？异步和同步操作之间有哪些先后顺序依赖或数据、计算依赖？",
+    "files": [
+      {
+        "filename": "image.png",
+        "type": "image",
+        "dir": "multimodal-attachments/106/image.png",
+        "size": "217.1 KB"
+      }
+    ],
+    "annotation": {
+      "category": "image",
+      "language": "zh",
+      "origin_id": 115
+    },
+    "rewritten_query": "我在研究Transformer模型的GPU并行优化，看到一篇论文介绍注意力机制的前向传播架构。论文中提到这个架构采用了FlashAttention算法，通过4个全局同步点来协调计算，同时所有矩阵加载都是异步进行的。我想了解一下：为什么FlashAttention需要这么多同步点？异步加载和同步计算之间的配合机制是怎样的？另外，从图中可以看到矩阵分块（chunking）的处理方式，这种设计对内存带宽利用率有什么影响？"
+  },
+  {
+    "id": 107,
+    "chat_id": "181f0d9a-155d-4ffb-871d-e51cb5e77389",
+    "query": "这是abrin处理细胞后RNA-seq分析结果，分析这个结果，给出abrin作用的可能机制。英文输出",
+    "files": [
+      {
+        "filename": "image.png",
+        "type": "image",
+        "dir": "multimodal-attachments/107/image.png",
+        "size": "133.7 KB"
+      }
+    ],
+    "annotation": {
+      "category": "image",
+      "language": "zh",
+      "origin_id": 118
+    },
+    "rewritten_query": "我们实验室最近在研究abrin的细胞毒性机制，刚完成了一轮RNA-seq分析。从初步的GSEA-KEGG结果来看（见附件），排名最高的富集通路是Ribosome biogenesis in eukaryotes，NES值大概在3.1左右？另外我注意到Viral protein interaction with cytokine and cytokine receptor这个通路的NES值也挺高的，应该是2.8左右。能帮我深入分析一下这些富集结果，特别是结合这些主要通路的生物学功能，推断abrin可能的作用机制吗？最好用英文输出，方便我们后续写论文。"
+  },
+  {
+    "id": 108,
+    "chat_id": "0ba884ef-910d-45c6-af32-4a095d39221b",
+    "query": "我在starccm+2410中模拟带液舱的船舶在水槽中线性聚焦波条件下的运动，开放了船舶三个自由度：横摇：绕y轴旋转，横荡：沿x轴平移，垂荡：沿z轴平移，宽度方向的网格只有一层，模拟二维条件，瞬态求解器，时间步0.02s，一阶，内部迭代10，重叠网格和背景加密区域的四面体网格大小大约在0.31m。现在出现了如图所示的情况，运行到某一时刻残差突然增大，垂荡和横荡出现突变，横摇似乎没有出现突变，帮我分析原因并给出改进措施。",
+    "files": [
+      {
+        "filename": "ef00cf1f5d7f2adb191048a5bf8ba684.png",
+        "type": "image",
+        "dir": "multimodal-attachments/108/ef00cf1f5d7f2adb191048a5bf8ba684.png",
+        "size": "137.1 KB"
+      }
+    ],
+    "annotation": {
+      "category": "image",
+      "language": "zh",
+      "origin_id": 122
+    },
+    "rewritten_query": "我最近在用StarCCM+做船舶CFD仿真，模拟带液舱的船舶在水槽中线性聚焦波条件下的运动。设置了船舶三个自由度：横摇（绕y轴旋转）、横荡（沿x轴平移）、垂荡（沿z轴平移）。为了提高计算效率，我把宽度方向的网格设为一层来模拟二维条件，用的是瞬态求解器，时间步0.02s，二阶精度，内部迭代10次，重叠网格和背景加密区域的四面体网格大小控制在0.31m左右。现在仿真跑到230s左右时弹簧阻尼Monitor突然从-1.5跳到3.2，垂荡和横荡都出现了剧烈突变，但横摇倒是还比较稳定。能帮我看看这个Monitor曲线，分析一下为什么会出现这种数值突变，应该怎么调整参数来解决？"
+  },
+  {
+    "id": 109,
+    "chat_id": "4e052326-d25f-49f0-8be1-c20cb7386b8c",
+    "query": "请根据这张图仔细调研噬菌体基因组结构与功能模块",
+    "files": [
+      {
+        "filename": "image.png",
+        "type": "image",
+        "dir": "multimodal-attachments/109/image.png",
+        "size": "503.8 KB"
+      }
+    ],
+    "annotation": {
+      "category": "image",
+      "language": "zh",
+      "origin_id": 125
+    },
+    "rewritten_query": "我是生物信息学专业的研究生，最近在做噬菌体基因组功能注释的课题。导师给了我一张噬菌体基因组结构图（见附件），让我整理一份详细的基因组功能模块分析报告。麻烦帮我从这张图中提取以下信息：首先把Head、Tail、Tail tip、Tail fibers、b2 region这几个主要结构区域的基因组坐标范围和包含的关键基因列出来，然后分析DNA replication区域、Early left operon、Early right operon、late operon这些功能模块的具体位置和相关基因。另外图中标注了很多特殊基因位点（比如Ea31、Ea47、Nu3等），也帮我按功能分类整理一下。最后输出成结构化的表格形式，方便我写实验报告时引用。"
+  },
+  {
+    "id": 110,
+    "chat_id": "8af83698-0b95-4a15-aafd-b17223d7223c",
+    "query": "我想知道这个树是在哪里，是否是ai生成还是实际当中的。并且最好能解释为什么会看上去五颜六色",
+    "files": [
+      {
+        "filename": "bd56937c28efc997df3de7e01349fab5.jpg",
+        "type": "image",
+        "dir": "multimodal-attachments/110/bd56937c28efc997df3de7e01349fab5.jpg",
+        "size": "603.8 KB"
+      }
+    ],
+    "annotation": {
+      "category": "image",
+      "language": "zh",
+      "origin_id": 130
+    },
+    "rewritten_query": "最近在学习植物学，老师布置了一个作业让我们分析秋季树木的变色现象。我拍了张照片（见附件），需要写一份观察报告。麻烦帮我从这张图片中提取一些关键信息：先识别一下这是什么树种，叶片形状有什么特征；然后分析图片中出现了哪些颜色的叶子，分别分布在树的哪些部位；最后从植物生理学角度解释一下为什么同一棵树会同时出现红、黄、绿等多种颜色的叶子。请整理成结构化的观察报告格式，包含树种识别、色彩分布描述和科学原理解释三个部分。"
+  },
+  {
+    "id": 111,
+    "chat_id": "e045e652-7868-451c-a3f0-47a3daf15f9a",
+    "query": "在使用LBM方法进行模拟二维圆柱绕流时, 入口边界常常设置为固定压力梯度或者固定速度, 这二者具体来讲有什么区别吗?对于圆柱表面的压力系数计算会产生影响吗?",
+    "files": [
+      {
+        "filename": "image.png",
+        "type": "image",
+        "dir": "multimodal-attachments/111/image.png",
+        "size": "20.1 KB"
+      }
+    ],
+    "annotation": {
+      "category": "image",
+      "language": "zh",
+      "origin_id": 131
+    },
+    "rewritten_query": "我最近在做一个关于二维圆柱绕流的CFD项目，需要对比分析不同边界条件设置对计算结果的影响。我想了解在LBM方法中，入口边界设置为固定压力梯度和固定速度这两种方案的具体差异，包括它们各自的物理意义、适用场景，以及对圆柱表面压力系数计算精度的影响程度。能帮我查找一些相关的理论文献和实际案例对比数据吗？最好能找到一些公开发表的研究成果，看看哪种边界条件在工程应用中更常用，准确性如何。"
+  },
+  {
+    "id": 112,
+    "chat_id": "03c86264-8973-49c1-a21b-6138d8aee72a",
+    "query": "我这里有一页展示了抖音和微信小游戏2025年畅销榜前20名的产品，我想盘点一下这些游戏在最早上线时间（以及最早是在哪个平台上线），和品类（区分轻度、中重度、重度三类），帮我细致搜索一下",
+    "files": [
+      {
+        "filename": "截屏2026-01-29 20.13.30.png",
+        "type": "image",
+        "dir": "multimodal-attachments/112/截屏2026-01-29 20.13.30.png",
+        "size": "231.6 KB"
+      }
+    ],
+    "annotation": {
+      "category": "image",
+      "language": "zh",
+      "origin_id": 133
+    },
+    "rewritten_query": "我最近在做小游戏市场分析，朋友发了一份2025年4-12月微信和抖音小游戏畅销榜TOP20的截图给我（见附件）。我大概看了一下，像《向僧户开炮》在微信这边排第1，《灵画师》在抖音那边也挺靠前的。能帮我详细搜索一下这些游戏的最早上线时间、首发平台，还有游戏品类分级（轻度、中重度、重度）吗？我想分析一下不同类型游戏在两个平台的表现差异，为我们团队的产品规划提供参考。"
+  },
+  {
+    "id": 113,
+    "chat_id": "bddbee22-5278-4baf-a254-b41904898692",
+    "query": "如何在多模态融合之前去判断A模态和B模态的有关关系？我们可以创建有关的评估机制吗？具体而言，这种交互动力学可细化为六种本质不同的演化模式：在冗余机制下，交互表现为不同信号源指向同一语义目标的等效性 (Equivalence)，以及多信号协同引发的增强性 (Enhancement) 效应，这构成了跨模态原型检索的一致性基础。然而，更为复杂的非冗余机制则揭示了现有方法的理论盲区，包括：模态间保持特征空间正交且响应互不干扰的独立性 (Independence)；在语义冲突或信噪比失衡时由高置信度模态支配系统响应的主导性 (Dominance)；一模态作为上下文对另一模态表征进行非线性修正的调节性 (Modulation)；以及通过深层交互催生出单一模态均不具备之新语义的涌现性 (Emergence)。",
+    "files": [
+      {
+        "filename": "b04ec04b701d2969eed0ba2145c8c762.png",
+        "type": "image",
+        "dir": "multimodal-attachments/113/b04ec04b701d2969eed0ba2145c8c762.png",
+        "size": "65.4 KB"
+      }
+    ],
+    "annotation": {
+      "category": "image",
+      "language": "zh",
+      "origin_id": 139
+    },
+    "rewritten_query": "我是一个AI算法工程师，最近在做多模态融合项目。附件是我找到的一个关于模态交互机制的图表，里面展示了六种不同的交互模式。能帮我看看这个图表中Independence和Dominance这两种模式在信号响应上有什么具体区别吗？另外我想了解一下目前学术界对这些多模态交互理论的研究现状，特别是有没有比较成熟的评估框架可以参考。"
+  },
+  {
+    "id": 114,
+    "chat_id": "4af37d93-17bb-4914-aa6c-6f1dd99cf2c1",
+    "query": "(1) 仔细阅读附图，提取图中列出的“2025年增长最快的50家软件供应商”（50 fastest-growing software vendors of 2025）的所有公司名称（从01号Cursor到50号Wispr）。\n(2) 对提取出的每一家公司进行网络搜索，寻找其官方网站、Crunchbase资料或相关的行业分析报告。\n(3) 调研并总结每家公司的“主要产品”，明确其核心软件功能、服务对象及应用场景。\n(4) 分析每家公司的“商业模式”，例如是否为SaaS订阅、API按量计费、开源核心付费增值（Open Core）或其他变现方式。\n(5) 查找关于每家公司“企业文化”的信息，关注其使命宣言（Mission Statement）、核心价值观或公开的团队工作理念。\n(6) 评估每家公司的“核心竞争力”，分析其技术壁垒、市场独特性、数据优势或相对于竞争对手的领先之处。\n(7) 将上述调研结果整合，按照图片中的顺序或公司名称，逐一列出这50家公司的主要产品、商业模式、企业文化和核心竞争力。",
+    "files": [
+      {
+        "filename": "50 fastest-growing software vendors of 2025.webp",
+        "type": "image",
+        "dir": "multimodal-attachments/114/50 fastest-growing software vendors of 2025.webp",
+        "size": "308.2 KB"
+      }
+    ],
+    "annotation": {
+      "category": "image",
+      "language": "zh",
+      "origin_id": 140
+    },
+    "rewritten_query": "我是一家投资机构的研究员，最近在关注AI和开发者工具赛道的投资机会。听说BREX发布了一个2025年增长最快的50家软件供应商榜单，其中包括Cursor、OpenRouter、Kling AI、Retell AI、Perplexity、Windsurf、FireCrawl、Clay、Replit、Exa等公司。我想深入研究一下这个榜单中排名前20的公司，帮我分析一下这些公司的商业模式分布情况——比如有多少家是纯SaaS订阅、多少家是API按量计费、多少家是开源核心付费增值模式。同时我也想了解一下这些公司的目标客户群体差异，是主要服务开发者、企业IT部门还是终端消费者。另外从技术路线上看，AI原生公司和传统软件公司的占比大概是怎样的，它们在产品定位和竞争策略上有什么明显区别。最后麻烦帮我梳理一下这20家公司中哪些已经有明确的盈利模式，哪些还处在烧钱获客阶段，这对我判断投资时机很重要。"
+  },
+  {
+    "id": 115,
+    "chat_id": "907c3a79-d340-4707-9cad-d085bc76c331",
+    "query": "这是一张介绍当今裸眼3D显示的技术原理图，图中展示了有5种不同的光学方案形式，请帮我对比分析这5种方案的优劣势",
+    "files": [
+      {
+        "filename": "裸眼光学技术路线_20260109105756_135_61.png",
+        "type": "image",
+        "dir": "multimodal-attachments/115/裸眼光学技术路线_20260109105756_135_61.png",
+        "size": "581.7 KB"
+      }
+    ],
+    "annotation": {
+      "category": "image",
+      "language": "zh",
+      "origin_id": 142
+    },
+    "rewritten_query": "我最近在研究裸眼3D显示技术的产业化可行性，准备给投资方做一份技术路线对比报告。附件是我找到的一张技术原理图，里面展示了目前主流的5种裸眼3D光学方案：视差屏障、柱透镜阵列、集成光场、时空复用和衍射光学。能帮我从这张图中提取每种方案的核心技术原理，然后制作一个结构化的对比表格吗？表格需要包含技术原理、优势、劣势、适用场景和技术成熟度这几个维度。另外如果能顺便查一下目前哪些厂商在主推这些技术路线就更好了，这样我能更好地评估市场前景。"
+  },
+  {
+    "id": 116,
+    "chat_id": "bc51cf8a-13fa-449c-8c03-2cb09e31aa54",
+    "query": "附图是华为历年营收和利润表，请分析华为营业利润率剧烈波动的原因",
+    "files": [
+      {
+        "filename": "image.png",
+        "type": "image",
+        "dir": "multimodal-attachments/116/image.png",
+        "size": "402.0 KB"
+      }
+    ],
+    "annotation": {
+      "category": "image",
+      "language": "zh",
+      "origin_id": 148
+    },
+    "rewritten_query": "我是一名财务分析师，最近在研究华为的财务表现。附件是华为2015-2019年的财务数据表格，包含销售收入、营业利润、营业利润率等关键指标。我需要你帮我做一个详细的营业利润率分析报告，具体包括：先把每年的营业利润率数据提取出来做成趋势图表，然后计算年度变化幅度，最后结合华为在这几年的主要业务发展和市场环境变化，分析一下营业利润率波动的可能原因。如果需要的话，也可以查一下华为在这个时间段的重大事件或行业背景信息作为补充。输出格式用Markdown，分成数据提取、趋势分析、原因解读三个部分。"
+  },
+  {
+    "id": 117,
+    "chat_id": "b3359954-5835-4b2c-a9bf-caa0a5f93f88",
+    "query": "观察我给你上传的图片，这是一个关于磷酸镁水合物不溶性结晶作为口服不吸收不入血肠道限制性氨吸附药物治疗高血氨的配方优化结果图，图中的点都代表了一个磷酸镁水合物的实际产物，横纵坐标是其所含镁、磷成分的多少；圆点大小是指代每个点所含的钠离子多少（因为该水合物结晶在配方调配过程中涉及NaOH和磷酸的加入，会在结晶内部混入易于交换的钠离子），颜色变化代表每个点对氨（此以氮元素测量）的吸附性能强弱。可以看到整个图包含了四个变量，包括三个组分自变量：钠、镁、磷，还有一个性能因变量：氨吸附性能（以充分交换后材料包含的氨氮含量作为指标）。\n\n我们想要定量地去分析这个图，去看实际产物中所含有的组分各自多寡，对氨吸附性能的影响如何。我们想过一些统计学或机器学习方法，比如主成分分析、多因素线性回归分析、随机森林等等，请你想想看这里适合用什么样的方法来进行分析。我觉得主成分分析和多因素线性回归分析是比较合适的，但是这也说不好，请你给出分析做出推荐\n\n观察我给你上传的图片，这是一个关于磷酸镁水合物不溶性结晶作为口服不吸收不入血肠道限制性氨吸附药物治疗高血氨的配方优化结果图，图中的点都代表了一个磷酸镁水合物的实际产物，横纵坐标是其所含镁、磷成分的多少；圆点大小是指代每个点所含的钠离子多少（因为该水合物结晶在配方调配过程中涉及NaOH和磷酸的加入，会在结晶内部混入易于交换的钠离子），颜色变化代表每个点对氨（此以氮元素测量）的吸附性能强弱。可以看到整个图包含了四个变量，包括三个组分自变量：钠、镁、磷，还有一个性能因变量：氨吸附性能（以充分交换后材料包含的氨氮含量作为指标）。\n\n我们想要定量地去分析这个图，去看实际产物中所含有的组分各自多寡，对氨吸附性能的影响如何。我们想过一些统计学或机器学习方法，比如主成分分析、多因素线性回归分析、随机森林等等，请你想想看这里适合用什么样的方法来进行分析。我觉得主成分分析和多因素线性回归分析是比较合适的，但是这也说不好，请你给出分析做出推荐",
+    "files": [
+      {
+        "filename": "82a44f10948024a1fbe65cf9301c37c0.png",
+        "type": "image",
+        "dir": "multimodal-attachments/117/82a44f10948024a1fbe65cf9301c37c0.png",
+        "size": "15.9 KB"
+      }
+    ],
+    "annotation": {
+      "category": "image",
+      "language": "zh",
+      "origin_id": 150
+    },
+    "rewritten_query": "我是一名药物配方工程师，最近在优化磷酸镁水合物氨吸附剂的配方。附件是我们实验室做的配方优化结果散点图，横轴是镁含量，纵轴是磷含量，圆点大小表示钠离子含量，颜色深浅代表氨吸附性能（氮含量）。图中每个点都是一个实际的配方产物，包含了镁、磷、钠三个组分变量和氨吸附性能这个因变量。我们想从这个图中提取出具体的数据点，然后做定量分析看哪个组分对吸附性能影响最大。麻烦帮我先把图中所有数据点的四个变量值读取出来，整理成一个表格（包含镁浓度、磷浓度、钠浓度、氨吸附性能四列），然后基于这些数据推荐最适合的统计分析方法，比如多元线性回归、主成分分析或随机森林等。输出要分两部分：数据表格和方法推荐，方便我直接拿去做进一步分析。"
+  },
+  {
+    "id": 118,
+    "chat_id": "dd3cd53d-da16-4a2b-883b-d8e7e414fc94",
+    "query": "全网搜索对比这套重大装备目录中有装备的研发和商业化情况。给出其阶段：如研发中，样机试验，初步商业化，大规模推广，已成熟等",
+    "files": [
+      {
+        "filename": "《首台（套）重大技术装备推广应用指导目录（2024年版）》.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/118/《首台（套）重大技术装备推广应用指导目录（2024年版）》.pdf",
+        "size": "880.6 KB"
+      }
+    ],
+    "annotation": {
+      "category": "doc",
+      "language": "zh",
+      "origin_id": 152
+    },
+    "rewritten_query": "我是一家科技政策咨询机构的分析师，最近在为客户撰写中国重大技术装备产业发展报告。附件是工信部刚发布的《首台(套)重大技术装备推广应用指导目录(2024年版)》，里面列出了很多前沿装备。能帮我从这个目录中挑选几个代表性的装备类别，比如高端工业母机、电力装备或者航空航天装备，然后查一下这些装备目前在国内外的研发进展和商业化现状吗？主要想了解哪些还在实验室阶段，哪些已经有产品投放市场了。"
+  },
+  {
+    "id": 119,
+    "chat_id": "9d0eb61a-619b-4ec5-a5c6-41668fc1e0d2",
+    "query": "这是一篇综述类论文，请给出这篇论文的翻译、主要内容总结，并结合在网上找到的其它信息分析一下大模型智能体发展趋势",
+    "files": [
+      {
+        "filename": "智能体论文（综述）.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/119/智能体论文（综述）.pdf",
+        "size": "16.2 MB"
+      }
+    ],
+    "annotation": {
+      "category": "doc",
+      "language": "zh",
+      "origin_id": 153
+    },
+    "rewritten_query": "我最近在研究大模型智能体的发展现状，同事分享了一篇英文综述论文（见附件）。我大概浏览了一下，这篇论文好像涵盖了从2019到2025年间大约60个基准测试的对比分析？能帮我详细分析一下这篇论文的主要内容，包括翻译关键部分、总结核心观点，并结合最新的行业动态来分析大模型智能体的发展趋势吗？"
+  },
+  {
+    "id": 120,
+    "chat_id": "238a487d-f2aa-42c3-bb14-82cf3ae9bdb7",
+    "query": "帮我搜索一下他这个文章里面的应用测试是如何做的？有没有具体用到的图片和代码都可以在哪里获得？",
+    "files": [
+      {
+        "filename": "HCLR-Net.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/120/HCLR-Net.pdf",
+        "size": "13.8 MB"
+      }
+    ],
+    "annotation": {
+      "category": "doc",
+      "language": "zh",
+      "origin_id": 154
+    },
+    "rewritten_query": "我在做一个水下图像增强技术的调研，附件是我找到的一篇HCLR-Net论文。我们团队想了解这种混合对比学习方法在实际应用中的表现如何，特别是想知道论文中的应用测试部分是怎么设计的，用了哪些具体的数据集和评估指标？另外如果有相关的代码实现或者测试图片资源，也希望能找到获取途径。最好能跟目前主流的水下图像增强方法做个对比分析，看看这个HCLR-Net的优势在哪里。"
+  },
+  {
+    "id": 121,
+    "chat_id": "196191e7-9cb2-430d-8e49-3e222369615d",
+    "query": "有以下几个工作，需要你开展：\n（1）面向电力系统应用的人工智能和大语言模型前沿进展，结合这个关键词，帮我检索热点论文\n（2）面向电力系统应用的人工智能和大语言模型前沿进展，能否和这个可解释小波，小波神经网络，等智能算法关联？附件是小波领域2023年一个重磅综述\n（3）为LLM提供可解释的物理感知能力中，“当前LLM在处理电力文本、规程方面表现出色，但缺乏对底层物理信号（如振动、电流、声学）的直观理解能力”。意思是LLM是无法直接理解电力数据时序曲线变化信息的，是么？即，如果是针对暂态电压稳定分析，我直接提供给LLM一段10s的详细数据结果文件，实际上是没有意义的，是么？\n（4）请问，你刚刚提到为LLM提供可解释的物理感知能力中，“当前LLM在处理电力文本、规程方面表现出色，但缺乏对底层物理信号（如振动、电流、声学）的直观理解能力”。意思是LLM是无法直接理解电力数据时序曲线变化信息的，是么？即，如果是针对暂态电压稳定分析，我直接提供给LLM一段10s的详细数据结果文件，实际上是没有意义的，是么？\n（5）请联网搜索，目前暂态电压稳定，或者更宽泛的暂态稳定层面，和LLM结合的分析方法热点论文有哪些",
+    "files": [
+      {
+        "filename": "$$$-2023-Wavelet transform for rotary machine fault diagnosis10 years revisited.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/121/$$$-2023-Wavelet transform for rotary machine fault diagnosis10 years revisited.pdf",
+        "size": "7.0 MB"
+      }
+    ],
+    "annotation": {
+      "category": "doc",
+      "language": "zh",
+      "origin_id": 155
+    },
+    "rewritten_query": "我正在做电力系统智能化诊断方面的研究，最近在探索小波变换技术在电力故障检测中的应用前景。附件是2023年小波变换在旋转机械故障诊断领域的权威综述，里面详细介绍了各种小波算法的发展现状和技术特点。我想了解一下，这些小波技术（比如连续小波变换、离散小波变换、小波神经网络等）能否有效应用到电力系统的暂态稳定分析和故障诊断中？另外，目前电力行业在暂态电压稳定分析方面，与传统机械故障诊断相比有哪些技术差异和挑战？希望能结合最新的研究进展，帮我分析这些小波方法在电力系统应用中的可行性和技术路径。"
+  },
+  {
+    "id": 122,
+    "chat_id": "6b54a29e-6d3b-4f14-a389-caa467396e22",
+    "query": "你是机构投资人，你的独立观点和独特视角对我至关重要，请采取不迎合也不偏激的态度，从严格核实的事实出发做分析。根据此文件，并请同时搜索全网你认为对整体分析有益的资料，GOOG本季表现如何？收入和利润结构如何？财报钩稽关系是否合理、健康？业务上有哪些特色？跟竞争对手相比，值得长期投资吗？GOOG的长期竞争优势在本季是加强了还是削弱了？市场层面关于GOOG的信息，哪些是事实、哪些是叙事、哪些是噪音？市场共识和你的独特见解分别是什么？目前价格333.34美元，市值40224.14亿美元，值得买入吗？展望未来，GOOG有哪些黑天鹅和灰犀牛事件？结合未来的宏观、行业和结构性风险的发展趋势，GOOG合理估值水平是多少？",
+    "files": [
+      {
+        "filename": "Alphabet公布2025财年第四季度及全年业绩.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/122/Alphabet公布2025财年第四季度及全年业绩.pdf",
+        "size": "1.6 MB"
+      }
+    ],
+    "annotation": {
+      "category": "doc",
+      "language": "zh",
+      "origin_id": 156
+    },
+    "rewritten_query": "我最近在研究科技股投资机会，同事分享了Alphabet公司2025年Q4财报（见附件）。我大概看了一下，这次Google Cloud收入增长好像是52%左右？另外净利润增长幅度大概在35%附近？作为机构投资人，我需要你帮我深度分析一下GOOG这个季度的表现。主要想了解收入和利润的具体结构、各业务板块的增长动力、财报数据的合理性，以及跟微软、亚马逊等竞争对手比较的优劣势。结合当前AI浪潮和云计算市场格局，你觉得GOOG的长期竞争壁垒是在加强还是削弱？另外市场上关于GOOG的各种信息很多，能帮我区分一下哪些是硬事实、哪些是市场叙事？按目前333.34美元的价格和4万亿美元市值，从估值角度看是否还有投资价值？"
+  },
+  {
+    "id": 123,
+    "chat_id": "fb9036fe-519a-4d34-bb74-ba0d4b4c6b26",
+    "query": "Dear Professor Elphaba Thropp (please stay in-character) can you please explain the mathematical contents of https://arxiv.org/abs/2506.11305v1 https://openreview.net/forum?id=kQ9j5RY8ff https://arxiv.org/html/2601.21766v1 (the attached papers) with formal motivations and explanations of the proofs and find other open-access papers about modifications to the attention mechanism itself for language generation and processing?",
+    "files": [
+      {
+        "filename": "20973_Poly_attention_a_general (1).pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/123/20973_Poly_attention_a_general (1).pdf",
+        "size": "1.3 MB"
+      },
+      {
+        "filename": "2601.21766v1 (3).pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/123/2601.21766v1 (3).pdf",
+        "size": "2.5 MB"
+      },
+      {
+        "filename": "20729_Avey_Bidirectional_Archi (3).pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/123/20729_Avey_Bidirectional_Archi (3).pdf",
+        "size": "688.8 KB"
+      },
+      {
+        "filename": "2506.11305v1 (3).pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/123/2506.11305v1 (3).pdf",
+        "size": "828.1 KB"
+      }
+    ],
+    "annotation": {
+      "category": "doc",
+      "language": "en",
+      "origin_id": 157
+    },
+    "rewritten_query": "I have four research papers on modifications to the attention mechanism for language models (attached as PDFs): papers on bidirectional architectures, polynomial attention, and two other variants. Please: (1) For each paper, explain the core mathematical formulation of their proposed attention modification, including the complexity analysis (time and space) compared to standard scaled dot-product attention; (2) Compare the theoretical properties of these approaches — which ones maintain universal approximation guarantees? Which ones sacrifice expressiveness for efficiency? (3) Identify and summarize 5-8 additional open-access papers (post-2023) that propose fundamentally different modifications to the attention mechanism itself (not just efficient approximations like FlashAttention), focusing on papers that change the mathematical form of attention computation; (4) Create a comparison table covering: mathematical formulation, computational complexity, key theoretical properties, and empirical results on standard NLP benchmarks."
+  },
+  {
+    "id": 124,
+    "chat_id": "b129a746-d545-4f26-be1b-75b10489d7c2",
+    "query": "How do these categorical frameworks for deep learning align with each other dear Professor Elphaba Thropp? (Please stay in-character) Can you tell me whether the product-space formalism and the categorical formalism are reducible to each other, and explain the mathematics behind both systems, and find more papers describing other unified mathematical frameworks for construction of neural networks?",
+    "files": [
+      {
+        "filename": "2602.02573v1 (3).pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/124/2602.02573v1 (3).pdf",
+        "size": "729.3 KB"
+      },
+      {
+        "filename": "2402.15332v2 (4).pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/124/2402.15332v2 (4).pdf",
+        "size": "525.9 KB"
+      }
+    ],
+    "annotation": {
+      "category": "doc",
+      "language": "en",
+      "origin_id": 158
+    },
+    "rewritten_query": "I'm a graduate student working on my thesis about mathematical foundations of neural network architectures. I've attached two research papers that discuss different algebraic approaches to understanding deep learning - one focuses on categorical deep learning and the other on product interaction formalisms. Could you help me understand how these two mathematical frameworks relate to each other? Specifically, I'm trying to figure out if the product-space approach and the categorical approach are mathematically equivalent or if one subsumes the other. Also, I'd appreciate if you could point me toward other recent papers that propose unified mathematical theories for neural network construction, as I want to make sure my literature review is comprehensive."
+  },
+  {
+    "id": 125,
+    "chat_id": "e7d4b36b-687d-4cb8-a0ab-be38e938a63b",
+    "query": "Consider these theorems:\n1. An axiomatic characterization of Nash equilibrium https://econtheory.org/ojs/index.php/te/article/viewArticle/20241473\n2. A choice-based axiomatization of Nash equilibrium https://arxiv.org/html/2512.03930v1\n3. Differential privacy from axioms https://arxiv.org/html/2511.21876v1\n4. Composition for Pufferfish Privacy https://arxiv.org/html/2602.02718v1\n5. Knowledge ontologies\nCan you please:\n- Mathematically explain what these theorems are about\n- Find categorical generalizations of these theorems by using:\n- Open games for Nash equilibria\n- Category theory for differential privacy and knowledge ontologies\nWhat is the most general category-theoretic form of these theorems unified, dear Professor Elphaba Thropp? (Please stay in-character)",
+    "files": [
+      {
+        "filename": "2511.22372v1 (2).pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/125/2511.22372v1 (2).pdf",
+        "size": "229.0 KB"
+      },
+      {
+        "filename": "2602.02718v1 (3).pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/125/2602.02718v1 (3).pdf",
+        "size": "984.2 KB"
+      },
+      {
+        "filename": "MPRA_paper_123069 (1).pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/125/MPRA_paper_123069 (1).pdf",
+        "size": "439.2 KB | Pages: 5"
+      },
+      {
+        "filename": "nash (2).pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/125/nash (2).pdf",
+        "size": "528.7 KB"
+      },
+      {
+        "filename": "33674-Article Text-37742-1-2-20250410 (6).pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/125/33674-Article Text-37742-1-2-20250410 (6).pdf",
+        "size": "140.0 KB | Pages: 8"
+      },
+      {
+        "filename": "1029-Article Text-1026-1-10-20080129.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/125/1029-Article Text-1026-1-10-20080129.pdf",
+        "size": "208.7 KB"
+      }
+    ],
+    "annotation": {
+      "category": "doc",
+      "language": "en",
+      "origin_id": 159
+    },
+    "rewritten_query": "Based on the six attached papers covering axiomatic characterizations of Nash equilibrium, differential privacy composition theorems, and knowledge ontologies, please complete the following multi-step analysis: (1) For each theorem, provide a rigorous mathematical summary including the key axioms, assumptions, and proof techniques used; (2) Identify the category-theoretic structures implicit in each result — specifically, characterize the relevant categories, functors, and natural transformations; (3) Using the framework of open games (as developed by Ghani, Hedges et al.), reformulate the Nash equilibrium characterization theorems in categorical terms; (4) Apply categorical approaches to unify the differential privacy composition results with the Pufferfish privacy framework; (5) Propose a unified category-theoretic framework that connects game-theoretic equilibrium concepts with privacy-preserving mechanisms through common algebraic structures. For each step, cite specific definitions and theorems from the attached papers."
+  },
+  {
+    "id": 126,
+    "chat_id": "c458bc01-529b-447f-ad27-0c54f8c41b00",
+    "query": "Read the three papers. The paper Li and Yang (LY) have some overlaps with the other two. Read carefully, and examine the possibility to achieve optimality like Faust. Also note that LY paper employs finite and fixed ks, what can one learn from Bollerslev et al.'s paper?\n\nPropose innovative ideas publishable on top journals.",
+    "files": [
+      {
+        "filename": "Faust-VarianceRatioTests-1992.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/126/Faust-VarianceRatioTests-1992.pdf",
+        "size": "440.8 KB"
+      },
+      {
+        "filename": "Manuscript_mht.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/126/Manuscript_mht.pdf",
+        "size": "567.0 KB"
+      },
+      {
+        "filename": "Li_Jia (1).pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/126/Li_Jia (1).pdf",
+        "size": "1.4 MB"
+      }
+    ],
+    "annotation": {
+      "category": "doc",
+      "language": "en",
+      "origin_id": 161
+    },
+    "rewritten_query": "I'm working on a research project in econometrics and came across three interesting papers on variance ratio tests and optimal inference methods. I've attached Jon Faust's 1992 Econometrica paper on variance ratio tests for serial dependence, a recent paper by Bollerslev, Li, and Ren on optimal inference for spot regressions, and Li and Yang's paper on multi-horizon tests for market frictions. Could you help me understand what specific optimality conditions Faust established for variance ratio tests in his 1992 paper, and also look up what the current state of research is on optimal econometric testing methods in finance? I'm particularly interested in how these classical results might connect to modern high-frequency data analysis."
+  },
+  {
+    "id": 127,
+    "chat_id": "41301abd-ec61-42d0-8f40-0c4056d84106",
+    "query": "ROLE\nYou are my “University decision analyst” combining: (1) admissions/eligibility checking, (2) cost-of-attendance modeling, (3) career/ROI analysis for South Africa, and (4) funding strategy coaching.\n\nCONTEXT (MY PROFILE)\nI’m applying for late applications at the University of Limpopo (UL), Faculty of Science & Agriculture, for 2026.\nMy matric results (NSC) are:\n- English HL 70% (Level 6)\n- IsiZulu FAL 79% (Level 6)\n- Mathematics 60% (Level 5)\n- Life Orientation 76% (Level 6)\n- CAT 82% (Level 7)\n- Economics 58% (Level 4)\n- Life Sciences 52% (Level 4)\n- Physical Sciences 46% (Level 3)\n\nI’m more of a “computer/laptop person” (I enjoy staying home, building/learning on a laptop), and I want a programme that gives strong long-term ROI and a realistic path to internships/employment.\n\nPROGRAMMES TO EVALUATE (UL, 2026 late applications)\n1) BSc Life Sciences (Mainstream)\n2) BSc Life Sciences (ECP / Extended Curriculum)\n3) BSc Plant Production\n4) BSc Animal Production\n5) BSc Soil Science\n6) BSc Water & Sanitation Sciences\n7) BSc Physical Sciences (Mainstream)\n8) BSc Geology\n\nTASKS (DO THIS IN ORDER)\nA) ADMISSIONS REALITY CHECK (HARD FILTER)\n1) Using UL’s official sources (2026 Undergraduate Prospectus + faculty/school pages + any UL calendars if available), list for EACH programme:\n   - Minimum APS\n   - Minimum subject requirements (Maths level, Physical Sci/Life Sci level, English level, etc.)\n   - Any selection notes (limited spaces, ranking by APS, additional tests)\n2) Compute my APS using UL’s APS rules and show the calculation clearly (note whether Life Orientation is excluded).\n3) Output:\n   - “Likely eligible”, “Eligible only via ECP/alternative”, or “Not eligible”\n   - A confidence rating and why (e.g., missing subject threshold vs space competition)\n4) Competitiveness:\n   - Estimate competitiveness using any published intake limits / selection language.\n   - If UL doesn’t publish this, infer competitiveness using proxies (minimum requirements severity + typical demand) and state assumptions explicitly.\n\nB) FEES + TOTAL COST OF ATTENDANCE (ALL-IN COST)\nFor each programme, estimate Year-1 and total-degree cost with a breakdown:\n1) University costs:\n   - Tuition (programme-specific if available)\n   - Registration / upfront payments / admin fees\n   - Lab/fieldwork fees if any\n2) Living costs:\n   - On-campus residence vs off-campus rent (give ranges)\n   - Food, toiletries, phone/data\n   - Transport (home <-> campus trips per term + local commuting)\n   - Books, printing, PPE (lab coat, safety shoes if relevant), stationery\n   - Laptop/tech costs and backups (esp since I’m computer-focused)\n3) Provide 3 scenarios: “low”, “mid”, “high” (with assumptions).\n4) Use UL official fee documents if available; if not available for 2026, use the latest UL fee guide found and apply a stated inflation assumption OR give ranges and clearly label uncertainty.\n\nC) FUNDING PATHWAYS + “PAY YEAR 1, WIN FUNDING YEAR 2” PLAN\n1) Identify UL funding sources relevant to these programmes:\n   - NSFAS processes, UL Financial Aid contacts, merit awards, faculty bursaries, external bursaries (SETA, industry, NGOs).\n2) Explain whether funding usually starts in year 1 vs later, and what typically disqualifies students.\n3) Create a practical Year-1 strategy to maximize Year-2 funding chances:\n   - Academic targets (e.g., GPA/average thresholds) and which modules matter most\n   - Proof/evidence portfolio (leadership, community work, tutoring/assistant roles)\n   - Deadlines: a month-by-month checklist for year 1\n   - How to approach lecturers/schools for opportunities (research assistant, lab assistant, tutor, demonstrator)\n4) Include a “risk plan” if I don’t get funding in Year 2 (cheaper accommodation, part-time work, load management, transfer options).\n\nD) ROI & CAREER OUTCOMES (SOUTH AFRICA FOCUSED)\nFor each programme, provide:\n1) Typical career paths after BSc, and what additional study is usually required (Honours/MSc/Professional registration).\n2) Entry-level job titles + typical salary ranges in South Africa (use multiple sources; cite them).\n3) Medium-term outcomes (3–7 years): growth roles, salary progression, demand trends.\n4) Internship/WIL reality:\n   - What kinds of internships exist (industry/government/research)\n   - Likelihood of paid internships\n   - How early I can start (year 1 vs year 2) and what skills I must build\n5) Identify “computer-leverage paths” inside each degree:\n   - data analysis, GIS, bioinformatics, modeling, automation, coding projects\n   - show the exact skills stack and portfolio projects to build\n\nE) PERSONAL FIT + MINDSET SHIFT (LAPTOP PERSON -> SCIENCE DEGREE)\n1) For each programme, describe what daily life is actually like:\n   - lab hours, fieldwork, group work, early mornings, physical demands\n2) What mindset shift I need and how to adapt:\n   - routines, study systems, social integration, managing anxiety/comfort zone\n3) Provide a 30-day “adaptation plan” for first semester.\n\nOUTPUT FORMAT (STRICT)\n1) A table ranking programmes by:\n   - Eligibility fit (hard requirements)\n   - Cost burden (year 1 and total)\n   - ROI score (short + long term)\n   - “Computer leverage” score\n   - Risk score (funding + employability + academic difficulty)\n2) Then a detailed section for each programme.\n3) End with: “Top 2 recommendations” + “Plan A / Plan B / Plan C”.\n4) Provide citations for every factual claim about fees, requirements, bursaries, salaries, or employment stats.\n\nSOURCES (PRIORITY)\n1) UL official documents (2026 Undergraduate Prospectus, UL financial support pages, UL fees pages, UL registrar/finance contacts)\n2) South Africa authoritative sources (Stats SA, DHET, SETAs, professional councils where relevant)\n3) Reputable salary aggregators (clearly label as estimates)\n\nIf any key data is missing or UL sources are outdated, list exactly what is missing and how to verify it (who to email/call).",
+    "files": [
+      {
+        "filename": "UL-Undergraduate-Registration-Guide_2022.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/127/UL-Undergraduate-Registration-Guide_2022.pdf",
+        "size": "1.2 MB"
+      },
+      {
+        "filename": "Student-Prospectus-2026.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/127/Student-Prospectus-2026.pdf",
+        "size": "1.4 MB | Pages: 2"
+      }
+    ],
+    "annotation": {
+      "category": "doc",
+      "language": "en",
+      "origin_id": 162
+    },
+    "rewritten_query": "I'm a career counselor at a South African high school, and I'm helping a Grade 12 student who's passionate about technology but considering science degrees. This student has solid matric results - English HL 70%, Mathematics 60%, Life Sciences 52%, Physical Sciences 46% - and wants to understand which BSc programmes at University of Limpopo would give them the best career prospects. I need to research the current admission requirements and APS calculations for their Faculty of Science & Agriculture programmes like Life Sciences, Physical Sciences, Geology, and the agricultural specializations. Beyond just getting in, I want to understand the real employment landscape for these degrees in South Africa - what are the typical starting salaries for BSc graduates in these fields, how has the job market changed since 2020, and which programmes offer the strongest pathways into tech-adjacent careers like data analysis or environmental consulting. I also need current information about NSFAS funding eligibility, university costs, and any industry bursaries available for science students. The student is particularly interested in degrees that can leverage computer skills, so I'd like to map out how programmes like Water & Sanitation Sciences or Soil Science connect to GIS, modeling, and data-driven roles in the environmental sector."
+  },
+  {
+    "id": 128,
+    "chat_id": "b641e20d-5e52-4d6d-96e7-866a3d69144e",
+    "query": "I think curcuRouge is similar to others like: Theracurmin by the same company, Longvida, Meriva, NovaSOL - and research on these largely applies to curcuRouge as it is a highly water-soluble one. Normal curcumin doesn't dissolve in water. I was quite interested in curcumin glucoronide specifically, because I've seen that curcuRouge and others mostly turn into this \"inactive\" glucoronide and tumors and inflammed tissues potentially reactivate it back into free form, which has been proven to have anticancerous properties. I've also uploaded a comparison to other curcumin products for you.",
+    "files": [
+      {
+        "filename": "1869_Full_Article.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/128/1869_Full_Article.pdf",
+        "size": "1.3 MB"
+      }
+    ],
+    "annotation": {
+      "category": "doc",
+      "language": "en",
+      "origin_id": 164
+    },
+    "rewritten_query": "I'm a nutrition consultant working with clients who have chronic inflammatory conditions. I've been researching different curcumin supplements for my practice and came across this research paper comparing various bioavailable formulations. Could you help me extract the key bioavailability data from this study - specifically the AUC and Cmax values for curcuRouge compared to other formulations like Theracurmin, Meriva, and NovaSol? I'd also like to understand how these absorption rates compare to what's typically reported in the supplement industry for enhanced curcumin products. This would help me make evidence-based recommendations to my clients."
+  },
+  {
+    "id": 129,
+    "chat_id": "1df326fe-3c2f-49db-8cb7-401ec96fe7c8",
+    "query": "Help me doing a Journal Club about this paper, summarize and illustrate the background knowledge and the key findings and raise skeptical questions about this article.",
+    "files": [
+      {
+        "filename": "Axon initial segment dynamics during associative fear learning.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/129/Axon initial segment dynamics during associative fear learning.pdf",
+        "size": "7.1 MB"
+      }
+    ],
+    "annotation": {
+      "category": "doc",
+      "language": "en",
+      "origin_id": 165
+    },
+    "rewritten_query": "I'm preparing for an upcoming neuroscience seminar where I need to present this Nature Neuroscience paper on axon initial segment plasticity during fear learning. The attached paper shows some interesting findings about AIS dynamics in mouse prefrontal cortex, but I want to put their results in proper context before my presentation. Could you help me compare their key experimental findings with what's currently known in the field about AIS plasticity and fear memory? I'm particularly interested in how their longitudinal imaging approach and the specific AIS length changes they observed stack up against other recent studies on structural plasticity during learning. Also, I'd appreciate if you could identify any methodological limitations or alternative interpretations of their data that I should be prepared to discuss during the Q&A session."
+  },
+  {
+    "id": 130,
+    "chat_id": "0924661e-ce6b-4216-8515-310ffe79e695",
+    "query": "这是一份claude插件列表，帮我逐个分析这些插件的官网，根据官网介绍获取其安装到claude code cli中的命令，并最终生成一个可以安装所有插件的shell脚本。",
+    "files": [
+      {
+        "filename": "run_clean.txt",
+        "type": "text",
+        "dir": "multimodal-attachments/130/run_clean.txt",
+        "size": "1.0 KB"
+      }
+    ],
+    "annotation": {
+      "category": "doc",
+      "language": "zh",
+      "origin_id": 168
+    },
+    "rewritten_query": "我是一个开发者，最近在深度使用Claude Code CLI来提升编程效率，听说有很多官方和第三方插件可以扩展功能。我想做一个比较全面的插件生态调研，重点关注几个方向：首先是代码审查类的插件（像code-review、pr-review-toolkit这些），看看它们的功能差异和安装方式；然后是开发辅助类的（比如feature-dev、superpowers、agent-sdk-dev），了解一下各自的特色和适用场景；还有语言服务类的插件（pyright-lsp、typescript-lsp、vtsls等），对比一下它们的语言支持范围。另外也想了解一下不同组织维护的插件质量怎么样，比如claude-plugins-official、anthropic-agent-skills、第三方开发者的插件在功能完整性和更新频率上有什么区别。最后希望能整理出一个完整的安装指南，包括每个插件的具体安装命令和依赖要求，方便我和团队快速配置开发环境。"
+  },
+  {
+    "id": 131,
+    "chat_id": "4eb21f64-69cc-4054-ac34-1fbb5117e22d",
+    "query": "我的硕士毕业论文是一个经济学课题，题目：无形资产与货币政策传导，现在要写一个文献综述，文献综述分为两个部分，无形资产的相关研究和货币政策传导的相关研究。\n请你大概根据我给你的这篇文章的结构，把无形资产相关的文献综述写出来，要查找一下相关的国内外中英文文献，要求有引用，不少于30篇文章，可以包含我给你的这篇文章中的文献，但是也需要近五年的其他新文献。字数在10000字以内。",
+    "files": [
+      {
+        "filename": "无形资本研究的新进展_汪意成.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/131/无形资本研究的新进展_汪意成.pdf",
+        "size": "1.6 MB"
+      }
+    ],
+    "annotation": {
+      "category": "doc",
+      "language": "zh",
+      "origin_id": 170
+    },
+    "rewritten_query": "我是经济学专业的硕士研究生，最近在写关于无形资产与货币政策传导的毕业论文。附件是我找到的一篇汪意成、周伟岷发表的无形资本研究综述文章，里面梳理了不少重要文献。我想基于这篇文章的框架和引用文献，做一个更全面的无形资产研究现状分析，需要你帮我对比一下附件中提到的研究脉络与当前学术界的最新进展有什么异同。具体来说，能否从附件文献出发，查找近三年国内外在无形资产度量方法、企业影响机制、宏观经济效应等方面的新研究，然后形成一个结构化的对比分析报告？我特别想了解哪些研究方向是附件作者重点关注的，哪些是近期新兴的热点，以及在研究方法和实证发现上有什么新的突破。"
+  },
+  {
+    "id": 132,
+    "chat_id": "86fb712d-d445-485d-93df-5ae0d19afa28",
+    "query": "Act as an expert biomedical research analyst and academic reviewer. I have uploaded [NUMBER] research papers/PDFs on [\"herbal interventions for diabetes mellitus targeting β-cell regeneration\"]. Conduct a systematic, document-by-document deconstruction followed by an integrated synthetic analysis.\nDocument-by-Document Requirements:\nFor EACH uploaded paper, provide the following structured sections:\nBibliometric Header: Full title, first author, journal, year, DOI (if available).\nStudy Objective & Hypothesis: Primary research question and stated hypotheses.\nMethodological Architecture:\nStudy design (in vivo/in vitro/clinical trial; randomized controlled, experimental, etc.)\nModel/Subjects (animal strain, cell lines, human demographics)\nIntervention details (extract type, dose ranges, duration, administration route)\nKey biomarkers/measurements (histological, biochemical, molecular, genomic)\nQuantitative Outcomes: Present specific statistical results (mean ± SEM/SD, p-values, percentage changes) in structured format. Use tables for multi-parameter comparisons.\nMechanistic Insights: Detailed explanation of proposed molecular/cellular mechanisms (signaling pathways, gene expression changes, receptor interactions).\nHistopathological Evidence: Description of tissue morphology changes (H&E staining, immunohistochemistry findings, β-cell mass/islet density changes).\nLimitations & Conflicts: Explicitly note sample sizes, study duration limitations, funding sources, and author-declared conflicts of interest.\nCross-Document Synthesis & Integration:\nComparative Matrix: Create a comparison table contrasting:\nModels used (STZ dose, alloxan vs. STZ, genetic models)\nDose-response relationships (low vs. high efficacy thresholds)\nMechanistic convergences and divergences\nSafety/toxicity profiles\nHierarchical Evidence Assessment: Rank the studies by methodological rigor (sample size, controls, blinding) and assign strength-of-evidence ratings.\nContradiction Analysis: Identify and resolve any conflicting results between papers (e.g., different optimal doses, opposing effects on specific parameters). Provide hypotheses for discrepancies (extraction methods, animal strain differences).\nTranslational Gap Analysis: For each paper, assess the distance from bench to bedside (clinical feasibility, toxicity concerns, bioavailability issues).\nSynthetic Conclusion Structure:\nUnified Mechanistic Model: Propose an integrated pathway diagram showing how the interventions work synergistically or via distinct routes (e.g., \"Antioxidant protection → Anti-apoptotic signaling → Proliferative regeneration\").\nTherapeutic Window Optimization: Based on cross-study analysis, define the optimal dosing range, formulation (extract vs. isolated compound), and treatment duration.\nFuture Research Directives: Identify specific knowledge gaps requiring investigation (missing molecular targets, need for human RCTs, long-term safety data).\nFormatting Specifications:\nUse hierarchical headings with clear visual separation between papers.\nPresent quantitative data in markdown tables.\nFor molecular mechanisms, use standard nomenclature (e.g., PDX1, NGN3, DYRK1A) and include pathway diagrams in text-based description if possible.\nCite specific page/figure numbers from the PDFs when referencing histological or graphical data.\nConclude with a \"Clinical Translation Verdict\" (3 paragraphs) summarizing actionable insights for therapeutic development.\nTone & Depth: Academic, critical, and evidence-based. Avoid generalizations; ground every claim in the specific data points from the uploaded documents. Highlight statistical significance (p-values) and biological effect sizes (fold changes, percentage improvements).",
+    "files": [
+      {
+        "filename": "harmal_seeds_diabetes_2.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/132/harmal_seeds_diabetes_2.pdf",
+        "size": "131.9 KB | Pages: 3"
+      },
+      {
+        "filename": "harmal_seeds_diabetes_1.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/132/harmal_seeds_diabetes_1.pdf",
+        "size": "1.1 MB"
+      },
+      {
+        "filename": "harmal_seeds_diabetes.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/132/harmal_seeds_diabetes.pdf",
+        "size": "1.0 MB"
+      },
+      {
+        "filename": "β-Cell Functions.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/132/β-Cell Functions.pdf",
+        "size": "874.6 KB"
+      },
+      {
+        "filename": "Antidiabetic effect of an aqueous extract of Pomegranate.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/132/Antidiabetic effect of an aqueous extract of Pomegranate.pdf",
+        "size": "440.7 KB"
+      }
+    ],
+    "annotation": {
+      "category": "doc",
+      "language": "en",
+      "origin_id": 174
+    },
+    "rewritten_query": "I'm a pharmaceutical researcher at a biotech company focusing on diabetes therapeutics, and we're exploring natural compounds for β-cell regeneration as potential drug leads. I need a comprehensive analysis of the current evidence on plant-derived interventions that specifically target pancreatic β-cell regeneration in diabetes. Could you help me compare the efficacy profiles of the major herbal extracts that have been studied — particularly pomegranate peel, Peganum harmala seeds, and other promising candidates — across different experimental models? I'm especially interested in understanding the dose-response relationships, the molecular mechanisms involved (like PDX1, NGN3 expression, and anti-apoptotic pathways), and how the results from animal studies translate to potential human applications. For each intervention, I'd like to see the specific quantitative outcomes (blood glucose reduction percentages, insulin level improvements, β-cell mass changes) and any histopathological evidence of actual β-cell regeneration. Also, could you identify any contradictions in the literature regarding optimal dosing or efficacy, and assess which approaches show the most promise for clinical translation? I need to understand both the therapeutic potential and any safety concerns that have been reported."
+  },
+  {
+    "id": 133,
+    "chat_id": "2447fbd7-7b57-438b-8778-34ccf1663636",
+    "query": "我正在撰写一篇关于“离子束溅射在Si表面构筑纳米质构点阵，并在其上溅射氮化钼（MoN）纳米点阵薄膜实现SERS增强”的研究论文。现提供以下附件，请基于它们完成一揽子任务（全部用中文输出）：\n\n附件（10篇PDF，用于Si表面离子束溅射自组织形貌机理与尺寸演化综述与引用）：\n- Zhang-Nanotochnology25-2014-085301-Featured-article.pdf\n- JAP120-2016-135308Self-organized surface ripple pattern formation by ion implantation.pdf\n- 2022_Nanoscale pattern formation on silicon surfaces.pdf\n- SCT203-2009-2395.pdf\n- PRB88-2013-075426 Propagation of ripple patterns.pdf\n- Zhang-Si-SCT 201-8299-2007.pdf\n- ApplPhysA114-2014-401-HH-SurfaceInstability-ion-ersion-mass-reditribution.pdf\n- silicon surfaces by ion beam sputtering_MaterialsScience and Eng_R86-2014-1-44.pdf\n- JAP119-2016-035302-Hofsaess-Ar ion beam induced sueface pattern formation on Si.pdf\n- 2022-ZhouZhibing-APSUSC-Role of mass redistribution on nanoripple formation and propagation.pdf\n\n附件（3张流程图片，需整合为完整工艺流程图）：\n- image.png\n- 微信图片_20241128170128_292_191.png\n- 00.png\n\n我的实验与研究内容要点（请在相关任务中据此撰写与组织）：\n- 基底制备：在1×1 cm2 Si片上，用Ar+离子进行Si片溅射（离子能量1 keV，入射角70°，旋转Si靶）。入射能量密度（通量/剂量）分别为5×10^17 Ar/cm2（照射时间2943 s）与1×10^18 Ar/cm2（照射时间5885 s）。两种溅射时间下采用AFM扫描5 μm×5 μm与1 μm×1 μm，观察到各向同性颗粒纳米点阵，傅里叶变换出现环。测得：2943 s样本Rq=1.3 nm、Ra=1.0 nm、颗粒平均粒径=40.9 nm、平均颗粒间距l=53.8 nm、Rku=2.858、Rsk=-0.136；5885 s样本Rq=1.5 nm、Ra=1.2 nm、颗粒平均粒径=41.0 nm、平均间距=62.5 nm、Rku=3.716、Rsk=-0.136。\n- 薄膜沉积：在选择的6000 s溅射Si基底上溅射MoN薄膜（沉积时间30 s、60 s、120 s），表征三种镀膜时间的表面形貌与SERS性能，选择60 s样品进一步开展XPS、疏水性、光热转换性能与能带结构态密度测试。\n- SERS基底目标：利用离子束溅射制备的MoN纳米点阵薄膜作为SERS增强基底，需文献支撑与前言撰写。\n\n请完成以下任务：\n\n1) 文献检索（SERS增强基底—聚焦MoN/过渡金属氮化物与溅射构筑的纳米结构）\n- 检索并筛选至少10篇与“离子束物理气相沉积/溅射（含IBS、磁控溅射等）制备的氮化钼（MoN）或其它过渡金属氮化物（如TiN、ZrN、VN、CrN）纳米点阵/纳米结构薄膜用作SERS基底”高度相关的论文；若MoN且“离子束”路径文献稀缺，可补充最接近路线（如磁控溅射MoN用于SERS、或IBS制备的可用于SERS的等离子/等离激元类耐高温氮化物）。优先2010–2025年的研究与高被引综述/原始论文。\n- 每篇给出：完整引文信息（作者、题目、期刊、年份、卷页）、DOI、关键词、制备方法与关键参数、纳米结构类型与尺寸、SERS指标（EF、LOD、探针分子与浓度、激发波长）、与本研究的相关性/可借鉴性（1–2句话）。\n- 在此基础上可适度扩充文献数量，使综述更饱满。\n\n2) 中文前言撰写（可直接用于论文，引文占位清晰）\n- 基于任务1所得文献撰写约800–1200字中文前言，逻辑包含：SERS机理与应用痛点→贵金属局限→过渡金属氮化物（以MoN为典型）的优势（等离激元、稳定性、耐高温/化学稳定、光热协同）→通过离子束溅射在Si上构筑自组织纳米质构模板→在其上沉积MoN纳米点阵薄膜以获得热点与性能稳定性→本研究的创新点与目标。\n- 在文中以[编号]或（作者，年份）形式插入引文占位，确保与任务1给出的参考文献可一一对应。\n\n3) 三张流程图片整合为一张完整流程图\n- 阅读附件image.png、微信图片_20241128170128_292_191.png、00.png中的流程/设备/参数信息，整合为一张包含“工艺步骤—关键参数—表征—决策分支”的完整流程图，覆盖：Si表面离子束溅射→AFM表征→选择6000 s→沉积MoN（30/60/120 s）→表面形貌与SERS测试→选择60 s→XPS/疏水性/光热/态密度等。\n- 请输出：\n  - 可编辑Mermaid或Graphviz代码版流程图；\n  - 一份SVG（用文字/ASCII近似也可，但优先给出可复制的Mermaid/Graphviz描述以便我自行渲染为SVG）；\n  - PPT版版式建议（页面结构、配色、图标、字号等）。\n- 流程图节点与参数标注请用中文，并尽可能保留三张原图中的所有关键信息。\n\n4) 论文整体框架建议与图表清单\n- 结合上述研究内容，给出从摘要到结论的完整论文结构（章节与小节标题），每节简要说明研究要点与预期放置的图表/表格。\n- 提供图表清单：包括AFM高度/3D/FFT、粒径与间距统计、XPS峰拟合图、接触角、光热升温曲线与光-热转换效率计算图、能带/态密度（DOS）图、SERS谱图（比较空白Si、质构Si、MoN@Si不同沉积时间）、重复性/稳定性图等；并建议数据分析方法与统计展示方式。\n\n5) 附件10篇PDF的“表面形貌”要点学习总结\n- 针对每个PDF，提取与Si表面离子束溅射自组织形貌相关的关键信息：\n  - 工艺参数：离子种类/能量/入射角/通量或剂量/基底温度/旋转与否；\n  - 形貌类型：纳米点、条纹（ripple）、孔、层级/各向异性/各向同性；\n  - 尺寸参数：周期、平均粒径、粗糙度/振幅、取向性、FFT特征（环/条纹）；\n  - 形貌演化规律与参数依赖（角度、能量、剂量、温度、杂质掺入/再沉积等）；\n  - 机理模型：BH模型、Carter–Vishnyakov、质量再分布（mass redistribution）、粘滞流/表面扩散等，及其与实验的吻合度；\n  - 方法学：表征手段（AFM/STM/SEM、FFT、PSD、高度分布统计）、数据处理注意点；\n  - 对SERS基底设计的启示（热点密度、各向同性与热点均一性、尺度窗口与等离激元匹配）。\n- 最后给出一个汇总对比表的字段建议与要点归纳。\n\n6) “Si纳米质构点阵的构筑与表征”章节中文草稿（可直接用于论文正文）\n- 以“材料与方法”和“结果与讨论”两部分撰写，完整复述并量化嵌入我的实验参数与结果数据：\n  - 条件：1×1 cm2 Si、Ar+ 1 keV、入射70°、旋转靶；剂量5×10^17与1×10^18 Ar/cm2（对应2943 s与5885 s）；AFM扫描5 μm×5 μm与1 μm×1 μm；\n  - 结果：各向同性纳米点阵，FFT环的含义；2943 s样本Rq=1.3 nm、Ra=1.0 nm、粒径40.9 nm、间距53.8 nm、Rku=2.858、Rsk=-0.136；5885 s样本Rq=1.5 nm、Ra=1.2 nm、粒径41.0 nm、间距62.5 nm、Rku=3.716、Rsk=-0.136；\n  - 演化机制：结合附件文献从溅射侵蚀与质量再分布竞争、角度依赖与各向同性形成原因、粗糙度与峰态/偏态的物理意义进行阐释；\n  - 图与图注建议：AFM高度/3D、FFT功率谱、粒径/间距分布（分割与统计方法、拟合分布、样本量N）、不确定度表示方法。\n- 段落中请恰当插入对附件10篇PDF的引用（编号或作者-年份均可），并确保论述与数据自洽、术语规范。\n\n通用要求：\n- 所有输出为中文，引用给出DOI（如可得），图表与算法建议尽量可操作（含必要参数与软件/脚本思路）。\n- 对外部检索到的SERS文献与附件PDF分开编号或标注来源，以便区分“本研究理论支撑（Si表面形貌机理）”与“SERS基底相关工作”。",
+    "files": [
+      {
+        "filename": "Zhang-Nanotochnology25-2014-085301-Featured-article.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/133/Zhang-Nanotochnology25-2014-085301-Featured-article.pdf",
+        "size": "6.9 MB"
+      },
+      {
+        "filename": "JAP120-2016-135308Self-organized surface ripple pattern formation by ion implantation.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/133/JAP120-2016-135308Self-organized surface ripple pattern formation by ion implantation.pdf",
+        "size": "3.1 MB"
+      },
+      {
+        "filename": "2022_Nanoscale pattern formation on silicon surfaces.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/133/2022_Nanoscale pattern formation on silicon surfaces.pdf",
+        "size": "4.0 MB"
+      },
+      {
+        "filename": "SCT203-2009-2395.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/133/SCT203-2009-2395.pdf",
+        "size": "998.7 KB"
+      },
+      {
+        "filename": "PRB88-2013-075426 Propagation of ripple patterns.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/133/PRB88-2013-075426 Propagation of ripple patterns.pdf",
+        "size": "3.2 MB"
+      },
+      {
+        "filename": "Zhang-Si-SCT 201-8299-2007.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/133/Zhang-Si-SCT 201-8299-2007.pdf",
+        "size": "602.2 KB"
+      },
+      {
+        "filename": "ApplPhysA114-2014-401-HH-SurfaceInstability-ion-ersion-mass-reditribution.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/133/ApplPhysA114-2014-401-HH-SurfaceInstability-ion-ersion-mass-reditribution.pdf",
+        "size": "1.7 MB"
+      },
+      {
+        "filename": "silicon surfaces by ion beam sputtering_MaterialsScience and Eng_R86-2014-1-44.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/133/silicon surfaces by ion beam sputtering_MaterialsScience and Eng_R86-2014-1-44.pdf",
+        "size": "15.0 MB"
+      },
+      {
+        "filename": "JAP119-2016-035302-Hofsaess-Ar ion beam induced sueface pattern formation on Si.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/133/JAP119-2016-035302-Hofsaess-Ar ion beam induced sueface pattern formation on Si.pdf",
+        "size": "2.7 MB"
+      },
+      {
+        "filename": "2022-ZhouZhibing-APSUSC-Role of mass redistribution on nanoripple formation and propagation.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/133/2022-ZhouZhibing-APSUSC-Role of mass redistribution on nanoripple formation and propagation.pdf",
+        "size": "14.2 MB"
+      },
+      {
+        "filename": "image.png",
+        "type": "image",
+        "dir": "multimodal-attachments/133/image.png",
+        "size": "34.5 KB"
+      },
+      {
+        "filename": "微信图片_20241128170128_292_191.png",
+        "type": "image",
+        "dir": "multimodal-attachments/133/微信图片_20241128170128_292_191.png",
+        "size": "255.8 KB"
+      },
+      {
+        "filename": "00.png",
+        "type": "image",
+        "dir": "multimodal-attachments/133/00.png",
+        "size": "508.2 KB"
+      }
+    ],
+    "annotation": {
+      "category": "multi_turn",
+      "language": "zh",
+      "origin_id": 181
+    },
+    "rewritten_query": "我正在撰写一篇关于《离子束溅射在Si表面构筑纳米质构点阵并溅射氮化钼(MoN)纳米点阵薄膜实现SERS增强》的研究论文。附件包含十余篇相关领域论文PDF和实验图片。请完成以下六项任务：（1）文献综述：检索并总结2020年以来基于非贵金属（特别是过渡金属氮化物）SERS基底的研究进展，要求覆盖至少15篇文献，对比各材料体系的增强因子和检测限；（2）中文引言撰写：基于文献综述，撰写2000-3000字的中文引言部分，逻辑链为：SERS背景→贵金属局限→非贵金属替代方案→离子束溅射构筑纳米结构的优势→MoN材料的SERS潜力→本工作创新点；（3）结合附件中的实验SEM/AFM图片，描述离子束溅射参数（能量、角度、剂量）与表面纳米结构形貌的对应关系；（4）论文框架设计：给出完整的章节结构和各章节预计篇幅；（5）基于附件论文中的理论模型，解释离子束溅射纳米图案形成的物理机制（Bradley-Harper模型及其修正）；（6）撰写实验部分草稿，包括离子束溅射和MoN薄膜沉积的典型工艺参数。"
+  },
+  {
+    "id": 134,
+    "chat_id": "392dda33-6dbd-4e34-825e-c15a3afc6266",
+    "query": "基于所附技术方案与上传文档，并结合最新的网络搜索结果，请将“航空中压直流微电网半实物仿真/验证平台”所需的全部仪器设备与相关建设内容，整理为一份完整的“项目立项附表”。请严格按以下要求生成并仅输出立项附表本身（无任何额外说明或前后缀）：\n\n一、资料与范围\n- 必须综合以下附件的关键信息进行编制：\n  1) 航空中压直流微电网半实物验证平台建设项目立项申请书20260129103142.txt\n  2) 面向复杂电力系统的多智能体协同平台商业计划书v3.txt\n- 在不泄露附件原文大段内容的前提下，提炼技术路线、系统架构、功能指标与场景需求，完整覆盖平台硬件、软件、测试环境、集成与安全防护等建设要素。\n- 结合最新网络搜索结果完善设备选型与市场参考单价（人民币，含税），并据此测算预算。\n\n二、技术与功能约束（需落实到设备/服务选型与规格参数）\n- 直流电压等级要求可调，需覆盖从±270 V至±1500 V的全范围，相关电源/变换/负载/测量/保护/母线与绝缘配套须与之匹配。\n- 在平台方案中增加并计入：\n  1) 航空电力系统典型离线模型与实时模型的二次开发费用（请单列为“软件与二次开发/工程服务”类别，给出典型工作内容要点于备注，并给出市场参考价与数量/工期计价口径）。\n  2) 基于上述平台的航空微电网多Agent协同应用的二次开发建设，参考“面向复杂电力系统的多智能体协同平台商业计划书v3.txt”，将需求拆解为软硬件与工程服务条目，计入清单并标注用途。\n- 平台应包含半实物仿真/实时仿真（RT-HIL）、电力电子变换、可编程电源与可编程负载、测量与保护、控制与通信、数据采集与监控、网络与同步、测试安全与隔离、机柜与布线、安装调试与培训等完整要素。\n\n三、输出格式（结构化Markdown表格，按设备类别分组）\n- 以单一总表呈现，行内按“设备类别”分组排列；如有需要可用小节标题指示类别。\n- 表格列固定为：\n  序号、设备类别、设备名称（中英文对照）、型号规格、生产厂家（含国家/地区）、单价（元，含税）、数量、总价（元）、备注（含设备用途说明）\n- 要求：\n  - 设备名称需中英文对照（同一单元格内标注）。\n  - 型号规格需写明关键技术参数（特别是电压/电流/功率/精度/带宽/通道数/接口/安全与防护等级/兼容标准等，与±270~±1500 V适配性需明确）。\n  - 生产厂家需注明国别/地区。\n  - 单价为市场参考含税价（人民币），注明计价口径（整机/套/年授权/人天等）。\n  - 数量为建议采购数量；总价=单价×数量。\n  - 备注需写明设备在平台中的用途说明；对软件/服务类可概述交付内容与边界。\n- 设备类别建议但不限于：实时仿真与半实物仿真、可编程电源与负载、变换器与功率单元、测量与传感、保护与开关、控制与通信网络、数据采集与监控/SCADA、同步与时钟、软件授权与开发工具、软件与二次开发/工程服务、安全与隔离防护、机柜与配电与布线、环境与测试工装、安装调试与培训与维保等。\n\n四、表后附加内容（按顺序紧随表格之后）\n1) 总投资预算汇总\n   - 按设备类别汇总小计与税含总额；给出项目总投资（元，含税）。\n2) 主要设备选型依据说明\n   - 结合附件与平台技术指标（含±270~±1500 V适配、RT-HIL实时性、功率等级、安全与并网/直流母线规范等）说明关键设备与品牌/型号的选型逻辑。\n3) 可选国产替代方案建议\n   - 对关键进口设备分别给出可行的国产替代型号或组合方案，简述性能差异、集成改造点与成本影响（按类别归纳列点说明）。\n\n五、其他要求\n- 覆盖范围应“全面、无缺项”，从主设备到配套（含电缆、接插件、母排、绝缘与安全件、散热与消防、上位机与显示、软件授权、集成实施、培训维保等）。\n- 金额口径统一为人民币含税；如为订阅/授权/服务类，需在备注中标明计价周期或工时口径。\n- 请只输出最终的“立项附表”内容，不要任何多余文字。",
+    "files": [
+      {
+        "filename": "面向复杂电力系统的多智能体协同平台商业计划书v3.txt",
+        "type": "text",
+        "dir": "multimodal-attachments/134/面向复杂电力系统的多智能体协同平台商业计划书v3.txt",
+        "size": "48.7 KB"
+      },
+      {
+        "filename": "航空中压直流微电网半实物验证平台建设项目立项申请书20260129103142.txt",
+        "type": "text",
+        "dir": "multimodal-attachments/134/航空中压直流微电网半实物验证平台建设项目立项申请书20260129103142.txt",
+        "size": "162.8 KB"
+      }
+    ],
+    "annotation": {
+      "category": "multi_turn",
+      "language": "zh",
+      "origin_id": 183
+    },
+    "rewritten_query": "我们是一家航空电气化技术研发机构，最近在筹建一个航空中压直流微电网半实物仿真验证平台，附件中有我们的技术方案和商业计划书。由于这个平台涉及的技术复杂、投资金额大，领导希望我能把设备清单和预算做得更精准一些。能帮我基于附件内容，结合当前市场上的主流设备厂商和价格信息，梳理出一份详细的设备采购清单吗？特别是那些支持±270V到±1500V电压范围的核心设备，还有实时仿真、功率硬件在环这些关键技术环节的设备选型，希望能标注清楚技术参数、厂家信息和市场参考价格。另外，我们计划在平台上集成多智能体协同控制功能，这部分的软件开发和系统集成工作量也需要评估一下成本。"
+  },
+  {
+    "id": 135,
+    "chat_id": "ce40a2a6-c968-45e0-aa5a-9679dbe6baf1",
+    "query": "请作为动物营养学家兼资深兽医，基于附件中的病历与产品图片，帮我为爱猫“尼酱”制定罐头/湿食与三款干粮的优先级选择方案，并给出清晰的选择逻辑与理由。\n\n一、尼酱基本信息与健康要点（依据附件“猫咪情况.pdf”与主人描述）\n- 品种/性别/年龄/体重：美短银虎斑，公，12岁，6.3 kg\n- 既往史：3月龄脾脏破裂切除；8月龄绝育；7岁右后腿、9岁左后腿韧带手术后行走良好\n- 饮食史：幼年起渴望鸡肉味；10–12岁渴望鸡肉+七种鱼；近期因间歇性呕吐就诊后改为少量多餐（每4小时9克），已连续9天无呕吐\n- 主要检查结论（详见“猫咪情况.pdf”）：\n  - 胰腺：超声提示胰腺左叶轻度增厚伴低回声结节；快速胰脂肪酶（fPLI）4.1 ng/mL（>3.5 上限）；fSAA <0.5 mg/L。倾向慢性胰腺炎/胰腺结节，当前为相对温和活动或慢性期\n  - 心脏：超声收缩功能正常至偏高；BNP在参考范围；建议半年复查（主人描述有“心肌增厚”提示）\n  - 肾脏：肌酐CREA 216 µmol/L轻度升高；SDMA 12 µg/dL正常；BUN正常；尿蛋白/肌酐UPC 0.06正常。医生判断更像短期水合状态影响，未确诊CKD，建议定期复查\n  - 血常规：白细胞接近上限、淋巴略高，其余基本正常\n- 综合评估要点：高龄；疑似慢性胰腺炎（需控制脂肪负担、提高消化耐受）；肌酐轻度升高但SDMA/UPC正常（关注而非严格肾病限磷/限蛋白）；心肌参数良好（关注钠负荷与体液管理）\n\n二、附件\n- 病例与化验：猫咪情况.pdf\n- 罐头/湿包产品图片（请逐一识别具体品牌与口味/配方）：7629a2517684b9b1f22823dd243bd93f.jpeg、00436a94c375c75ea33b844d2ab83e96.jpeg、9e5d1915f005ba319e7598340caa9cfd.jpeg、39bdc4acb3cf44473b845ca820c653af.jpeg、d9f63aff67e8879fecedb57e0853b0ed.jpeg、IMG_6131.jpeg、IMG_6132.jpeg、7042b5a75df32fdc03cc4342983993e5.jpeg、6917707ecb71453cb5d492ee4b0e04ad.jpeg、IMG_6133.jpeg\n\n三、任务A：核实并评估罐头/湿包（基于上述图片）\n- 请从每张图片中识别具体产品（品牌、系列、口味/配方、适应症/宣称），并尽量使用品牌官方网站或官方成分/惯保分析页核实以下信息（可补充权威第三方数据并标明来源；无法获取的请明确“未披露/不详”）：\n  1) 成分表（主要动物性蛋白来源、是否含鱼类/多蛋白、增稠剂/胶类、植物性淀粉/纤维来源）\n  2) 保证成分与计算值：蛋白质/脂肪/纤维/灰分/水分（如可得）\n  3) 计算干物质基础（DMB）下的蛋白质%、脂肪%、碳水化合物%（差减法），并给出能量密度（kcal/100 g 或 kcal/罐/包；如可得）\n  4) 关键矿物：磷、钠（优先给出干物质%与mg/100 kcal；若仅有as-fed请换算；若无数据请说明）\n- 在尼酱目前状况下给出每款产品的适配性评估与风险点，至少覆盖：\n  - 胰腺友好度：脂肪负荷与能量密度是否适中、蛋白是否易消化、是否避免高脂/高能量触发呕吐\n  - 肾脏友好度：磷含量与单位能量负荷是否温和；在未确诊CKD前如何权衡蛋白质质量与含量\n  - 心脏友好度：钠含量与渗透负荷；是否有潜在水潴留/血压负担风险\n  - 其他：是否含多鱼/潜在过敏原、胶类/乳化剂对胃肠敏感猫的潜在影响、适合少量多餐与补水\n- 请对所有识别到的罐头/湿包按“最优→可作轮替→谨慎/不推荐”给出优先级排序，并逐条给出核心依据；如图片信息不足以唯一识别或数据缺失，请说明缺口与如何补足（例如需要的官网链接/批号/原包装细节）\n\n四、任务B：评估并排序三款干粮\n- 待评估产品：mera cats nature / royal canin gim 35 / royal canin dr 25\n  - 请先核实每款的准确官方产品名与定位（通用粮/处方粮/地区版差异），并提供对应官网页面链接\n  - 提取或换算：蛋白/脂肪/碳水（DMB）、能量密度（kcal/100 g）、磷与钠（DMB与mg/100 kcal，如可得）\n- 结合尼酱状况（高龄、疑似慢性胰腺炎、肌酐轻度升高但SDMA/UPC正常、心肌参数良好）：\n  - 按优先级对三款干粮排序，并明确每一名次的主要营养学理由（脂肪负荷与消化耐受、矿物管理、蛋白质量与适老化、是否为处方粮及使用限制）\n  - 说明是否建议作为主食长期使用、仅限短期过渡/作为加餐、或不推荐，并给出与湿食搭配时的注意点（如总脂肪负荷与矿物总摄入的控制）\n\n五、输出要求\n- 请分任务A与任务B分别给出：核实信息（含官网/权威来源链接）→关键营养指标（含必要的换算说明）→适配性判读→优先级排序与精炼理由\n- 仅在无法获取官方数据时，才引用可信第三方数据库/检测，明确来源与不确定性\n- 结论务求可操作：点名推荐/可轮替/不推荐的具体产品与主要风险控制点（脂肪、磷、钠、能量密度等）",
+    "files": [
+      {
+        "filename": "7629a2517684b9b1f22823dd243bd93f.jpeg",
+        "type": "image",
+        "dir": "multimodal-attachments/135/7629a2517684b9b1f22823dd243bd93f.jpeg",
+        "size": "45.8 KB"
+      },
+      {
+        "filename": "00436a94c375c75ea33b844d2ab83e96.jpeg",
+        "type": "image",
+        "dir": "multimodal-attachments/135/00436a94c375c75ea33b844d2ab83e96.jpeg",
+        "size": "242.7 KB"
+      },
+      {
+        "filename": "9e5d1915f005ba319e7598340caa9cfd.jpeg",
+        "type": "image",
+        "dir": "multimodal-attachments/135/9e5d1915f005ba319e7598340caa9cfd.jpeg",
+        "size": "65.9 KB"
+      },
+      {
+        "filename": "39bdc4acb3cf44473b845ca820c653af.jpeg",
+        "type": "image",
+        "dir": "multimodal-attachments/135/39bdc4acb3cf44473b845ca820c653af.jpeg",
+        "size": "248.0 KB"
+      },
+      {
+        "filename": "d9f63aff67e8879fecedb57e0853b0ed.jpeg",
+        "type": "image",
+        "dir": "multimodal-attachments/135/d9f63aff67e8879fecedb57e0853b0ed.jpeg",
+        "size": "129.0 KB"
+      },
+      {
+        "filename": "IMG_6131.jpeg",
+        "type": "image",
+        "dir": "multimodal-attachments/135/IMG_6131.jpeg",
+        "size": "290.7 KB"
+      },
+      {
+        "filename": "IMG_6132.jpeg",
+        "type": "image",
+        "dir": "multimodal-attachments/135/IMG_6132.jpeg",
+        "size": "347.2 KB"
+      },
+      {
+        "filename": "7042b5a75df32fdc03cc4342983993e5.jpeg",
+        "type": "image",
+        "dir": "multimodal-attachments/135/7042b5a75df32fdc03cc4342983993e5.jpeg",
+        "size": "390.8 KB"
+      },
+      {
+        "filename": "6917707ecb71453cb5d492ee4b0e04ad.jpeg",
+        "type": "image",
+        "dir": "multimodal-attachments/135/6917707ecb71453cb5d492ee4b0e04ad.jpeg",
+        "size": "180.4 KB"
+      },
+      {
+        "filename": "IMG_6133.jpeg",
+        "type": "image",
+        "dir": "multimodal-attachments/135/IMG_6133.jpeg",
+        "size": "289.9 KB"
+      }
+    ],
+    "annotation": {
+      "category": "multi_turn",
+      "language": "zh",
+      "origin_id": 185
+    },
+    "rewritten_query": "我家12岁公猫最近因为慢性呕吐去医院检查，诊断出胰腺结节和轻度肾功能异常（肌酐216µmol/L），医生建议调整饮食。我拍了几款正在考虑的罐头和湿粮包装，还在纠结三款干粮：某品牌nature系列、某品牌gim 35和某品牌dr 25。想请你帮我查一下这些产品的具体营养成分数据，特别是脂肪和磷含量，然后对比一下哪些更适合我家猫现在的身体状况。最好能给个优先级排序，我好知道该怎么选择和搭配喂食。"
+  },
+  {
+    "id": 136,
+    "chat_id": "9a4b9129-c23c-4553-86cc-4ffada8e800b",
+    "query": "请基于我提供的早期版文献综述全文（见下方“旧版综述”）以及两份附件PDF——\n- 政府保障房供给与稳定房价预期2026.2.13.pdf\n- 双支柱政策、公众预期与房价稳定_杨济海 (2).pdf\n将我的文献综述重写为四个部分，并完成一次学术化措辞的可行性评议。具体要求如下：\n\nA. 文献综述重写（四个部分，中文学术风格，逻辑清晰、衔接顺畅，段落层次分明，保留并规范作者-年份体例的引文）：\n1) 预期与房价的关联：系统综述“公众/市场预期如何影响房价与交易动态”的理论与实证依据，强调在中国式房地产下行阶段治理房价预期的重要性；必要时区分理性/非理性预期、信息不完备、交易稀疏与“边际买家”机制对价格形成的作用。\n2) 既有治理工具的不足（聚焦其无法有效抬升或稳定预期）：在当前“抑涨防跌”的目标与地方财政约束背景下，评述房产税、货币政策、宏观审慎政策等工具的适用边界与传导约束，突出其在下行期对真实需求与预期管理的掣肘，指出“难以形成对预期的正向拉动或稳态锚”的原因与证据。\n3) 公共住房调控的必要性与可能收益：结合附件与既有文献，阐明公共住房如何通过提供独立于商品房价格与信贷波动的居住选择、抑制投机、以长期租金贴现值作为价格锚等路径，平滑需求与价格、稳定预期，并讨论在财政可持续约束下的可行政策空间与潜在副作用。\n4) 引出本文研究内容与贡献：在“异质性家庭—双轨住房市场—地方政府预算/债务约束—预期形成”的统一框架下，明确我的研究问题、方法与创新点（例如：在DSGE中刻画高财富与受抵押约束的低财富家庭、边际买家对价格路径的决定性影响；将土地出让收入、公共住房投资与地方债务滚续联结，评估在财政约束下公共住房作为稳定器的有效性与边际条件），并与两份附件及相关代表性研究进行差异化定位。\n\nB. 针对下述评议命题请给出学术化、可证伪、可引用的表述，并提供2-3种替代表达（由强到弱的论断梯度），说明各自可供援引的证据类型与识别思路，便于我在正文中选用：\n“尽管该文得到看似理想的结果，但其政策在本就非完全有效的房地产市场中可行性存疑；要让公众形成‘合适的预期’本身就很困难，因此难以在实践中达成所需的预期管理效果。”\n请特别结合附件“双支柱政策、公众预期与房价稳定_杨济海 (2).pdf”的设定与识别假定，指出其在现实中可能面临的预期形成、传播与政策传导摩擦（信息不对称、异质主体、信用与财政约束、执行一致性、沟通可信度等），并提供更为审慎且可操作的表述与证据路径。\n\nC. 写作与引文规范：\n- 语言为中文学术文风，避免口语化；四部分综述合计字数建议2000-3000字。\n- 在不引入外部新来源的前提下，尽量沿用并规范我旧稿中的作者-年份引用；可补充引用附件中的关键观点、模型与结论，须在文中点名并与我的研究定位相衔接。\n- 若某些结论依赖于附件中的特定模型假设或样本条件，请在文中以学术化方式标注其适用范围与潜在外推限制。\n\n旧版综述（供重写与取材）：\n在经历了长期的单边上涨后，中国房地产市场进入深度调整阶段，购房者观望情绪浓厚、房企经营普遍下行、土地需求明显下降，房地产与土地市场呈现交易量、交易价格一起下跌的特征，随之而来的便是地方政府土地出让收入和土地抵押价值下滑，叠加地方财政“支出刚性增长、收入增速放缓甚至下滑”的现状，地方政府的财政缺口持续扩大，2024年地方一般公共预算支出较2019年增加约4万亿元，而一般公共预算收入在11万亿元上下螺旋波动，财政缺口达十余万亿元，由于土地财政是地方政府偿债的关键来源，房地产与地价的下行进一步推高了地方政府债务风险。在这样的现实背景下，政府在房地产领域的政策目标已从传统意义上的“抑制房价上涨过快”转向“防止房价过快下跌、引导房价在合理区间内平稳波动”。这一目标转向要求对“房地产市场长效机制”的理解，必须从“抑涨机制”扩展为“在房价上行和下行两个方向都可对冲极端波动的双向稳定机制”。\n在具体政策工具层面，现有文献将房产税和货币政策视为构建房地产市场长效机制的两大支柱。有关于房产税的研究多立足于房价快速上涨和投机盛行的背景，Oates（1973）的研究发现房产税与房产价值显著负相关，国内部分学者据此主张房产税可作为纠正高房价导致的产业挤出和资源错配的关键工具（刘友金等，2018），此外还有许多学者认为房产税可以通过实现财富再分配（张平，2016；杨耀武，2023）、提振居民消费（盛夏等，2022；李博和王霄，2023）、促进就业和产出增长（Stähler，2019）并在一定程度上替代土地财政（李文，2014），从而达到稳定房产市场的目的。然而，在当前房价处于下行区间、政府目标转为防止价格过快下跌时，房产税的作用具有明显的负外部性，刘建丰等（2020）通过，把房价等重要经济指标纳入DSGE模型研究发现开征房产税对房地产开发投资、房价和新住房生产具有明显的抑制作用，张同斌等（2025）通过考虑住房的投机性非理性预期也得到了相似的结论，骆永民和伍文中（2012）指出，房产税在实施初期会对消费与投资形成短期负面冲击，且税率过低“无效”、过高“高风险”，难以在现实约束下兼顾效率与稳定目标的房产税实践难题。因而房产税不但难以承担核心稳定器角色，而且在下行期若设计不当，反而可能强化下行压力，因此更适合作为中长期税制改革的一部分，而难以成为在下行阶段稳定房价的主力工具。\n从货币政策视角看，既有研究普遍认为利率与房价负相关（刘金全等，2022；André et al., 2022），货币供给与房价正相关（骆永民和伍文中，2012；倪鹏飞，2019；Snyder & Vale, 2022）。但在“抑涨防跌”的长效机制框架下，利率与货币供给作为政策调节工具，一方面在宽松时容易放大资产泡沫（Ferrero, 2015；Edelstein & Magin, 2017），另一方面在收紧时又压制真实住房需求、加剧下行风险（Kearl et al., 1977；Albuquerque, 2020），此外，还有不少学者研究认为货币政策不能降低房价波动（陈彦斌等，2015；Kiley&Sim，2017），故而传统的货币政策难以兼顾稳定房价与防范风险的目标。宏观审慎政策被视作应对房价波动转向的有效工具，其在房价上行期间起到抑制房价上涨过快的作用（孟宪春等，2018；马理和范伟，2021；江振龙，2023），然而Cerutti et al（2016）研究认为，以贷款价值比为代表的宏观审慎政策能在繁荣期有效降低系统性风险，在萧条期则用途不明显。而杨济海等（2025）尽管通过构建是否对货币政策有预期的DSGE模型得到双支柱政策可以在萧条期有效稳定房产市场的结论，但是却忽略了政府在调控过程中面临的难题：近年来财政约束和地方政府债务风险，将“财政可持续性”推向房地产长效机制讨论的前台。一方面，随着房地产市场下行，土地出让收入和土地抵押价值降低，进而对地方政府财政收入造成冲击（魏伟等，2018；梅冬州等，2018；闫先东和张鹏辉，2019），严重削弱了地方政府以土地为核心的偿债能力，债务违约风险显著上升（张莉等，2018；梅冬州等，2021；王劲松等，2024）。另一方面，从全国范围看，地方财政也呈现出“支出刚性上升、收入增长乏力”的结构性矛盾（梁上坤等，2024）。在这种背景下，地方政府在房地产领域已难以再托底市场，长效机制的设计必须在明确的“约束”之下展开，即在不显著恶化财政和债务风险的前提下，实现房地产市场的平稳运行。\n在传统调控政策效果失效时，部分学者注意到公共住房逐渐“弱势群体保障工具”，演变为可能影响整体住房需求结构、价格形成机制乃至地方财政结构的重要政策变量。陈超等（2011）通过求解多主体动态模型得到提供保障房可以解决高地价与高房价的恶性循环，赵扶扬等（2023）则通过在DSGE模型家庭效用中引入保障房得到在供给端提供保障房可以稳定房价的结论，然而现有研究则忽视了边际买家与“商品房市场和公共住房市场”的互动作用。基于Geltner（2003）关于“边际交易决定价格”的理论，在交易稀疏、信息不完备的房地产市场中，决定价格的关键并非所有家庭的平均估值，而是少数“边际买家”的行为。孟宪春与张屹山（2021）将家庭划分为“储蓄型”和“借款型”，其中受抵押约束、对利率与信贷条件高度敏感的低财富“借款型家庭”，正是中国商品房市场中的关键边际买家。Krivenko（2023）通过生命周期模型研究发现在信贷收紧或预期转弱时，边际买家最先被挤出市场，从而触发需求萎缩和价格下跌的负反馈循环。若在此框架中引入公共住房，其一方面为低财富家庭提供了相对独立于商品房价格和信贷波动之外的居住选择，Kiyotaki et al（2023）认为通过提供一个完善的租赁市场可以缓解这部分“边际买家”在商品房市场上的需求波动，从而平滑需求与价格调整路径；另一方面，在有效抑制投机、突出使用价值的制度安排下，Tomat （2021）研究发现公共住房价格可以近似由未来长期租金收入的贴现值决定，更接近资产“基本面”，为总体住房价格提供一个更稳健的锚。\n总体来看，现有文献一方面揭示了房产税、货币政策和宏观审慎政策在当前环境下的适用边界，另一方面也暴露出在统一框架内将“异质性家庭—双轨住房市场—地方政府债务约束”联结起来的研究仍明显不足，针对上述研究不足，本文可能的主要贡献体现在以下两方面：其一，在动态随机一般均衡框架中同时引入高财富家庭与受信贷约束的低财富家庭两类异质性家庭主体，将其在商品房与公共住房两条住房轨道中的不同选择行为、对利率与房价变化的敏感程度系统加以刻画，从而更真实地反映“边际买家”对房价波动路径的决定性影响。其二，通过提供地方政府预算约束，将土地出让收入、公共住房投资支出与地方政府债务滚续过程联结起来，刻画在财政约束条件下地方政府调控房地产市场的可行政策空间。",
+    "files": [
+      {
+        "filename": "政府保障房供给与稳定房价预期2026.2.13.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/136/政府保障房供给与稳定房价预期2026.2.13.pdf",
+        "size": "574.9 KB"
+      },
+      {
+        "filename": "双支柱政策、公众预期与房价稳定_杨济海 (2).pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/136/双支柱政策、公众预期与房价稳定_杨济海 (2).pdf",
+        "size": "1.7 MB"
+      }
+    ],
+    "annotation": {
+      "category": "multi_turn",
+      "language": "zh",
+      "origin_id": 187
+    },
+    "rewritten_query": "我是一名房地产经济学研究者，最近在撰写一篇关于政府保障房供给政策的学术论文。根据我收集的文献资料，发现2024年住建部明确提出要推动县级以上城市收购存量商品房用作保障性住房，这被认为是当前房地产调控的重要创新举措。我需要基于附件中的早期版文献综述全文以及两份PDF研究文献，将现有的文献综述重写为四个标准学术部分：预期与房价关联机制、既有调控工具局限性分析、公共住房政策的理论基础与实践价值、以及本研究的核心贡献。同时，我还需要对一个具体的研究命题进行可行性评议，并确保整个写作符合CSSCI期刊的学术规范。请帮我完成这项文献整理和学术写作任务。"
+  },
+  {
+    "id": 137,
+    "chat_id": "c6ff37b9-727b-42c8-936d-4479f6e6daf4",
+    "query": "基于附件《2025全球医疗健康投融资报告.pdf》和《2025年生命科学和医疗健康投融资及IPO市场回顾快报.pdf》，请输出一套两页PPT内容，主题：2025中国医疗器械投融资趋势（向好导向）。请严格使用附件中的可验证数据进行论证；若需补充权威公开来源（如NMPA、财政部、海关总署、上交所/深交所/港交所、Wind、清科、IT桔子等），须给出准确来源与时间；无法核实的数据一律不写。\n\n交付物\n- 两页PPT文案（可直接粘贴）\n  - 布局：每页采用1+4结构\n    - 页眉主结论：一句话，不超过18字，结论先行\n    - 四个短观点：每条不超过14字；每条配一张图/表与不超过40字的数据要点（含数值与时间）\n- 配图方案\n  - 为每个短观点指定最能体现趋势的图型（折线、柱状、堆叠、瀑布、散点/气泡、矩阵、地图、桑基图等）\n  - 明确指标口径、时间区间、对比维度与切片方式（中国对比全球、器械对比全医疗），轴标签与图例示例\n  - 若附件已有可直接引用的图，请给出文件名与页码/图号；若需重绘，请列出可复现的数据点清单\n- 证据清单\n  - 列表化呈现每个数据项的数值、单位、时间、来源文件与准确页码/图号，便于审计\n- 100字内总述摘要一条\n- 风险与不确定性提示一条（不超过30字，基于附件可证实内容）\n\n内容与覆盖范围（先总后分，层层展开，凸显向好）\n- 视角与对比：聚焦中国医疗器械；必要时提供中国对比全球、器械对比全医疗两种对比，以同口径指标呈现\n- 指标优先级与可选库（以附件为准；仅在附件有据或权威来源可证实时采用）\n  1) 融资生态：VC/PE/成长股权融资笔数与金额、轮次结构、单笔中位数、超大额占比、赛道分布（体外诊断、影像、骨科、心血管、耗材、手术机器人等）\n  2) 基金端：私募股权与创投基金设立数量与规模、人民币基金与外资基金结构、干火药与在投节奏\n  3) 资本市场：IPO数量与募资额（A股主板/科创板/创业板、港交所、纳斯达克），再融资与并购退出，估值区间\n  4) 二级市场：医疗器械相关指数表现、换手与风险溢价、估值倍数\n  5) 产业运行：医院设备采购或资本开支指标、集采批次与覆盖品类及价格变化、NMPA注册证与创新器械特别审查进展、出海与跨境并购、出口金额与增速\n  6) 政策与环境：财政与税收支持、医保支付与预算、监管提效信号、外贸与汇率环境\n- 页面建议结构（供选，最终以附件数据能支撑为准）\n  - 第1页（总论）：政策与监管驱动、融资与基金募集回暖、IPO与退出窗口改善、二级市场风险偏好修复\n  - 第2页（运行与赛道）：医院采购节奏改善、集采节制与价格企稳、NMPA创新审批提速、出海与跨境交易活跃或恢复、细分赛道修复（择其有据者）\n\n写作与格式要求\n- 风格：简洁、干练、专业，麦肯锡咨询报告风格；金字塔原理；结论先行\n- 标题规范：禁止在标题中使用“与”“和”“&”等并列连词；每个标题只聚焦一个动作或结论；若必须对比，用揭示关系的词（如“转化”“制约”“分化”），不要并列罗列\n- 双引号克制：除直接引用法规原文、口号、他人原话或特有名词外，不加引号\n- 括号克制：避免长括号插入；将背景信息转化为前置定语或同位语；避免词语机械重复\n- 结论导向：在不编造数据的前提下，优先选择能够客观体现“向好趋势”的指标与切片\n\n输出格式示例（请按此结构完整给出最终内容）\n- 第1页\n  - 主结论（≤18字）\n  - 观点1（≤14字）+ 数据要点（≤40字）+ 图型方案 + 数据来源页码\n  - 观点2（…）\n  - 观点3（…）\n  - 观点4（…）\n- 第2页\n  - 主结论（≤18字）\n  - 观点1（…）\n  - 观点2（…）\n  - 观点3（…）\n  - 观点4（…）\n- 证据清单：逐条列示数据项、数值、时间、来源文件与页码/图号\n- 总述摘要（≤100字）\n- 风险提示（≤30字）\n\n请完整研读两份附件，优先抽取能体现中国医疗器械相对全球、相对全医疗更快修复或更具韧性的证据与图表。输出时直接给出两页内容草稿与图表清单，不要空泛方法论。",
+    "files": [
+      {
+        "filename": "2025全球医疗健康投融资报告.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/137/2025全球医疗健康投融资报告.pdf",
+        "size": "846.9 KB"
+      },
+      {
+        "filename": "2025年生命科学和医疗健康投融资及IPO市场回顾快报.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/137/2025年生命科学和医疗健康投融资及IPO市场回顾快报.pdf",
+        "size": "1.1 MB"
+      }
+    ],
+    "annotation": {
+      "category": "multi_turn",
+      "language": "zh",
+      "origin_id": 188
+    },
+    "rewritten_query": "我正在准备一个关于中国医疗器械投融资的分析报告，看了一下附件中的两份行业报告。从报告数据来看，2025年中国医疗器械融资金额同比增长应该是61%左右？能帮我基于这两份附件制作一套两页PPT内容，主题是2025中国医疗器械投融资趋势（向好导向）。请严格使用附件中的可验证数据，如果需要补充权威公开来源的话，也要给出准确来源。我需要的交付物包括两页PPT文案、配图方案、证据清单和总述摘要等。"
+  },
+  {
+    "id": 138,
+    "chat_id": "08d490c8-540b-4539-ba30-2875ba2963d5",
+    "query": "请基于附件《大六壬心镜加排盘（打印）.doc》和《六壬大全-神将释.doc》，系统整理并回答以下任务，要求以文献为据、条理清晰、可直接用作判例速查表：\n\n1) 概念与总则\n- 全面讲解“大六壬中‘朱雀游十二宫’”的概念来源、判象逻辑与常见名象，说明此处的“十二宫”应如何对应十二地支。\n- 明确“天盘”与“地盘”的区别、作用与先后取象规则，阐明“天官/天将/神将”术语对应关系与使用范围。\n- 系统论证“天官取象需上下结合”的方法论：体用、主次、何时从天盘、何时从地盘、何时折中；五行生克、旺衰、旬空、冲合刑害、三合六合、墓绝胎等对取象的加减法；有矛盾时的裁断优先级。请尽量引用并标注出自哪一附件的章节或页码（若可定位）。\n\n2) 逐将逐支判象总览\n- 以十二神将/天将为主轴（贵人、螣蛇、朱雀、六合、勾陈、青龙、天空、白虎、太常、玄武、太阴、天后），分别说明其“加临地盘十二支”时的传统名象与吉凶倾向，给出典型关键词或成句名象（如：青龙加丑为“盘泥”、螣蛇居寅为“生角”等），并解释五行与旺衰理据、适用前提与常见例外。\n- 若两附件或诸本存在异说，请并列列出并注明出处与取舍理由。\n\n3) 天盘加临的修正规则\n- 在第2点的“地盘象”基础上，加入“天盘所临之支/五行”对名象的修正法：何种情形以天盘为用（改写或强化地盘象），何种情形仍以地盘为主（天盘仅作参佐），何种情形两者并行给出复合象。\n- 明确列出可操作的判断流程：起点（定将、定体用）→核五行与旺衰→看上下盘同异→检冲合刑害与三合六合→看旬空与墓绝→定主象与副象→定吉凶与应期。\n\n4) 专题案例复核与结论\n- 逐句解析《六壬辨疑》案例“青龙盘泥若何？青龙加丑为盘泥；今得子水加之，则飞矣。”请按我所理解的结构进行复核：\n  - 神将：青龙\n  - 地盘：丑土（据此称“盘泥”）\n  - 天盘：子水（据此称“得子水加之，则飞矣/游海”）\n- 判断在此结构下应取“游海”不取“盘泥”的条件、限制与例外，并与两附件条文交叉核证后给出最终裁断：我的理解是否正确？若不完全正确，请指出误区并给出统一、可执行的判准。\n\n5) 重点条目举例\n- 为每一位天将至少给出1–2条“地盘名象”与其被“天盘名象”改写后的对照示例，特别包含：\n  - 螣蛇居寅（“生角”“火喜木生，贪荣不祸”）的上下盘合参演绎\n  - 青龙加丑（“盘泥”）遇天盘子水（“游海/飞矣”）的判象演绎\n- 每个示例需标明判象步骤、关键依据与可能误判点。\n\n输出要求\n- 先给总则与判断流程，再给详细清单与案例，最后附一段“速查规则”要点列表。\n- 尽量引用附件原文短句并标注出自哪一附件（及页码/章节，若可定位）。",
+    "files": [
+      {
+        "filename": "大六壬心镜加排盘（打印）.doc",
+        "type": "word",
+        "dir": "multimodal-attachments/138/大六壬心镜加排盘（打印）.doc",
+        "size": "477.5 KB"
+      },
+      {
+        "filename": "六壬大全-神将释.doc",
+        "type": "word",
+        "dir": "multimodal-attachments/138/六壬大全-神将释.doc",
+        "size": "219.0 KB"
+      }
+    ],
+    "annotation": {
+      "category": "multi_turn",
+      "language": "zh",
+      "origin_id": 189
+    },
+    "rewritten_query": "我最近在研究传统文化中的大六壬术数学，手头有两份古籍文献《大六壬心镜加排盘（打印）.doc》和《六壬大全-神将释.doc》。想请你帮我做个系统性的文献整理工作，主要是把这两个文档中关于神将加临十二地支的判象规则提取出来，整理成一个便于查阅的对照表格。具体来说，我需要你先从文献中找出每个神将（贵人、螣蛇、朱雀等十二将）加临不同地支时的传统名象和吉凶判断，然后按神将分类整理成表格形式，每条都要注明出处页码。另外，如果两个文献对同一条目有不同说法，请都列出来并标注来源。最后能否总结一下这套判象体系的基本原则和使用要点？我想用这个整理结果作为学习资料，所以格式要清晰易懂。"
+  },
+  {
+    "id": 139,
+    "chat_id": "96293299-cac2-4139-8ffe-aa39a0b2ff8a",
+    "query": "请参考附件直流远供设备的局端机和远端机参数规格，仿照如下规格分别形成局端机和远端机的命名规则，要求尽量贴合原规则，命名规则的位数不要增加，关键规格具有区分性，预留充足的扩展空间。\n局端机参考命名规则如下：\nGDD\t    X    \t XXX    X     X    X    XX   X    X\n1\t    2\t   3\t\t4\t 5     6    7    8   9\n1.\t产品种类: GDD：高压直流供电柜\n2.\t产品类型: L：路灯，S：隧道灯，J：景观灯，M：地铁照明灯，E：其他。\n3.\t功率:  如：006:6KW，036: 36KW，150:150KW\n4.\t产品级别: J：基础版，Z：組合版，G：高级版\n序号\t编码\t描述\n1\tJ\t基础版\t\t就地回路控\n2\tZ\t組合版\t\t能联入系统，就地、远程控制\n\t回路控\n\t电能计量\n3\tG\t高级版\t\t能联入系统，就地、远程及移动终端多种方式的控制\n\t单灯控\n\t电能高精度计量\n5.\t上行通信方式: R: RJ45/RS485，G: GPRS，E：其他，N：无通信\n6.\t下行通信方式: P：PLC，Z：ZigBee，D：直流载波，S：电压调节，E：其他，N：无通信\n7.\t回路数: 如：04：4路，08：8路，36：36路\n8.\t版本号:采用A~Z英文字母来区分。(I. O. X 不使用, Y表示长交期备料BOM)\n9.\t用于区分同一客户不同的应用场景，采用A~Z英文字母来区分。(I. O. X 不使用, Y表示长交期备料BOM)\n远端机参考命名规则如下：\nQDD     XXX    \tXX     XXX      X     X \t　X     X    -X   X\n1\t\t  2\t\t 3\t    4\t    5     6　　 7     8     9   10\n1.\t产品种类: QDD：LＥＤ驱动控制器\n2.\t功率: 005: 5W，050: 50W，150: 150W，1K5:1.5KW，6KW: 6KW，15K:15KW\n3.\t输入类型: AC：交流，DC：直流\n4.\tLED驱动电流: 005: 50mA，070: 700mA，100：1A，20A：20A\n5.\t通信方式: P：电力线载波（PLC），Z：ZigBee通信，D：直流载波，N：无通信\n6.\t调光方式: P：PWM调光，V：0~10V电压调光，C：通信调光，S:输入电压调光 N：无调光\n7.\t版本号: 采用A~Z英文字母来区分。 (I. O. X 不使用, Y表示长交期备料BOM)\n8.\t用于区分同一客户不同的应用场景，采用A~Z英文字母来区分。(I. O. X 不使用, Y表示长交期备料BOM)，此位空白，则为通用场景\n9.\t包装方式: 此位空白为驱动控制器用正常包装出货；-S: 驱动控制器的PWBA采用栈板纸箱等包装出货；-P: 驱动控制器的PWBA采用塑料袋纸箱等包装出货，-W: 驱动控制器的PWBA出货有胶合板箱的包装材料\n注：第9位空白时，为驱动控制器用正常包装出货，则第10位也是空白\n10.\t包装的版本形式: 当第9位空白时，此位也是空白。 0: 初版发行，1: 升版发行第一版，2：升版发行第二版，依次类推",
+    "files": [
+      {
+        "filename": "直流远供产品型录参考——中文版.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/139/直流远供产品型录参考——中文版.pdf",
+        "size": "471.3 KB"
+      },
+      {
+        "filename": "直流远供设备技术参数.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/139/直流远供设备技术参数.pdf",
+        "size": "178.0 KB"
+      }
+    ],
+    "annotation": {
+      "category": "multi_doc",
+      "language": "zh",
+      "origin_id": 194
+    },
+    "rewritten_query": "我们公司最近在做直流远供电源系统的产品标准化工作，技术部门让我参考现有的LED驱动控制器命名规范来制定新的命名体系。附件里有两份技术文档，一个是产品型录，另一个是详细的技术参数表，包含了局端机和远端机的各种规格参数。我需要根据这些技术规格设计出两套命名规则：一套给局端机用，一套给远端机用。要求是尽量参考我们现有的GDD和QDD命名格式，保持相同的位数长度，但要能清楚区分关键的技术参数，比如功率等级、电压范围、防护等级这些，同时还要给将来的产品扩展留出足够空间。能帮我从附件中提取相关参数，然后设计出具体的编码规则吗？最好能给出每一位代表什么含义的说明表格。"
+  },
+  {
+    "id": 140,
+    "chat_id": "ea44bef8-a479-4dba-8177-6e9ab32e0449",
+    "query": "根据我上传的《目录.docx》文件，把《2015.pdf》这份2015年生物联赛真题的每一个题的每一个选项按照目录进行分类汇总。 要求： 1.每一个选项的分析都要具体到目录的最小分支，要让每个选项所考察的知识点准确对应在目录中的各级目录中，并且知识点的覆盖范围由大到小逐步拆分，脉络清晰，这一点非常重要，必须要做到； 2.给出一个表格，每级目录分支成一列，每个题一行； 3.每个选项依次分析； 4.第一列写题号，第二列写选项符号，第三列写对应的学科，注意不要遗漏任何一个选项，然后每级目录做成一列； 5.注意，有些题可能会涉及多个学科，都要依次列出； 6.表格的倒数第二列列出本题考查了学生的哪几种能力（按照知识记忆、概念精准辨析、实验设计与数据分析、快速阅读与图表解析能力、模型与数学应用能力、逻辑思维、批判性思维、文献与前沿知识迁移能力等进行分类）； 7.全部题目都要分析，表格要完整； 8.分析过程中严格、准确的分析《2015.pdf》这个文件内的内容，不要加入猜测或者臆想的内容；9.最后一列为备注，你可以写在前面的列中没有提及但你认为有必要提及的内容。",
+    "files": [
+      {
+        "filename": "2015.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/140/2015.pdf",
+        "size": "1.0 MB"
+      },
+      {
+        "filename": "目录.docx",
+        "type": "word",
+        "dir": "multimodal-attachments/140/目录.docx",
+        "size": "154.2 KB"
+      }
+    ],
+    "annotation": {
+      "category": "multi_doc",
+      "language": "zh",
+      "origin_id": 198
+    },
+    "rewritten_query": "我是一名生物竞赛教练，最近在研究不同年份全国中学生生物学竞赛试题的知识点分布规律和能力考查特点。想请你帮我做一个深度分析：首先梳理2015年全国中学生生物学竞赛试题中涉及的主要知识模块分布情况，包括细胞生物学、生物化学、微生物学、植物生理学、动物生理学、遗传学、进化生物学、生态学等各模块的题目数量和分值占比。然后分析这套试题在能力考查方面的设计特点，比如知识记忆、概念辨析、实验分析、逻辑推理、综合应用等不同层次能力的考查比例。最后对比分析一下这套试题与近年来其他省市生物竞赛试题在知识点覆盖面和难度设计上的异同点，特别是在前沿生物学知识和跨学科综合题目的设置方面。请尽量引用具体的题目内容和官方数据来支撑你的分析。"
+  },
+  {
+    "id": 141,
+    "chat_id": "c5ebc5d4-aff0-404f-92e5-00e7ce035e71",
+    "query": "Give me a bibliography on implementation theory with partially-honest individuals, socially responsible individuals and similar cases with requirements on honesty or responsibility similar to these papers, explain the mathematical results and formulations:\n1. https://www.sciencedirect.com/science/article/abs/pii/S0899825613001644\n2. https://link.springer.com/article/10.1007/s00355-025-01592-z\n(Two other papers are attached, can you please explain them, dear Professor Elphaba Thropp - please stay in-character?)",
+    "files": [
+      {
+        "filename": "wp_tse_1369 (3).pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/141/wp_tse_1369 (3).pdf",
+        "size": "868.9 KB"
+      },
+      {
+        "filename": "HKT_implementation_honesty (4).pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/141/HKT_implementation_honesty (4).pdf",
+        "size": "224.8 KB"
+      }
+    ],
+    "annotation": {
+      "category": "multi_doc",
+      "language": "en",
+      "origin_id": 201
+    },
+    "rewritten_query": "I'm a graduate student working on my dissertation about mechanism design and implementation theory. I need to understand the mathematical foundations of two specific papers I've found - one by Kartik, Tercieux, and Holden on simple mechanisms with preferences for honesty, and another by Gavan and Penta on safe implementation. Could you help me extract the key mathematical conditions and theorems from these papers? Specifically, I'm looking for the formal definitions of 'separable punishment' from the first paper and 'comonotonicity' from the second paper, along with their main implementation results. I also need to find similar work in this area that deals with honesty constraints or social responsibility in mechanism design to build a comprehensive literature review."
+  },
+  {
+    "id": 142,
+    "chat_id": "ba41ee67-0d56-47a0-9363-a16b1226a71d",
+    "query": "[Turn 1]\n各家投行的2026年中国市场的策略展望，有哪些共识展望？哪些股票被各家投行推荐的次数多？统计出现次数并从高到低排出前10名\n\n[Turn 2]\n我的选择逻辑和这些报告的共识方向类似，聚焦TMT板块（腾讯、阿里），AI应用/高股息/消费服务（分众传媒），半导体制造（中微公司、北方华创），创新药（恒瑞、百济神州、信达生物），机器人（三花智控，绿地谐波）",
+    "files": [
+      {
+        "filename": "JPM 2026 Year ahead Inbestment Outlook.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/142/JPM 2026 Year ahead Inbestment Outlook.pdf",
+        "size": "1.6 MB"
+      },
+      {
+        "filename": "GS Global Equity Strategy_ 2026 Outlook.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/142/GS Global Equity Strategy_ 2026 Outlook.pdf",
+        "size": "801.5 KB"
+      },
+      {
+        "filename": "GS Investment Outlook 2026 Seeking catalysts amid cmplexity.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/142/GS Investment Outlook 2026 Seeking catalysts amid cmplexity.pdf",
+        "size": "8.6 MB"
+      },
+      {
+        "filename": "ASIA-PACIFIC PORTFOLIO STRATEGY 2026 Outlook- Room to run, but a tighter leash.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/142/ASIA-PACIFIC PORTFOLIO STRATEGY 2026 Outlook- Room to run, but a tighter leash.pdf",
+        "size": "2.4 MB"
+      },
+      {
+        "filename": "Blackrock 2026 Global Outlook Pushing limits.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/142/Blackrock 2026 Global Outlook Pushing limits.pdf",
+        "size": "715.5 KB"
+      },
+      {
+        "filename": "GS Commodity Views_ 2026 Outlook.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/142/GS Commodity Views_ 2026 Outlook.pdf",
+        "size": "757.4 KB"
+      },
+      {
+        "filename": "GS Global Markets Analyst_ Markets Outlook 2026.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/142/GS Global Markets Analyst_ Markets Outlook 2026.pdf",
+        "size": "403.0 KB"
+      },
+      {
+        "filename": "BofA The Ric report year ahead 2026 the adopters and the dollar.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/142/BofA The Ric report year ahead 2026 the adopters and the dollar.pdf",
+        "size": "1.7 MB"
+      },
+      {
+        "filename": "GS Global Economics Analyst_ Macro Outlook 2026.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/142/GS Global Economics Analyst_ Macro Outlook 2026.pdf",
+        "size": "2.4 MB"
+      },
+      {
+        "filename": "GS Peter Callahan - 2026 Tech Outlook.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/142/GS Peter Callahan - 2026 Tech Outlook.pdf",
+        "size": "2.1 MB"
+      }
+    ],
+    "annotation": {
+      "category": "multi_doc",
+      "language": "zh",
+      "origin_id": 202
+    },
+    "rewritten_query": "附件包含十份国际投行的2026年市场策略展望报告（Goldman Sachs、JPMorgan、BlackRock、Bank of America等）。请完成以下跨报告分析：（1）共识观点提取：从每份报告中提取对2026年中国/亚太市场的核心观点，制作观点矩阵表（行=投行，列=宏观经济、货币政策、市场估值、行业偏好等维度），标注各家共识和分歧点；（2）推荐股票统计：提取各报告中明确推荐的个股名称，按被推荐次数从高到低排列Top 10，标注每个推荐的来源报告和推荐理由；（3）行业配置对比：各投行对TMT、半导体、创新药、消费、新能源等板块的配置建议对比；（4）风险因素汇总：各报告提及的主要风险因素及其评估；（5）结合以下个人持仓方向评估一致性：TMT（腾讯、阿里）、半导体制造（中微公司、北方华创）、创新药（恒瑞、百济神州、信达生物）、机器人（三花智控）。所有数据标注来源报告名称。"
+  },
+  {
+    "id": 143,
+    "chat_id": "eae12e24-7699-489b-ad15-f083845f3e12",
+    "query": "[Turn 1]\n在中国的美亚保险被苏黎世保险收购了。如果 现在出境游，有什么好的出境游保险，推荐的吗？谢谢  请你综合考虑 告我答案。谢谢\n\n[Turn 2]\n欧洲  去30 天\n\n[Turn 3]\n瑞士的苏黎世保险  这家的口碑怎么样\n\n[Turn 4]\n这个是苏黎世保险的条款，父母快70 了。想买它的 申根保险，请问，请你认真阅读，不要丢掉细节，根据这个文件里的信息，要特别注意什么？ 担心的就是 拒保。谢谢\n\n[Turn 5]\n那么 从中国出发 从京东安联 和 苏黎世保险  这两个里面选一个的话，选哪个呢？谢谢   去申根国家\n\n[Turn 6]\n这个是安联的保险条款，请你认真阅读。和之前发你的苏黎世保险条款做对比，出境 去欧洲，父母60岁，你更推荐哪个呢？谢谢。我们担心的是拒保\n\n[Turn 7]\n那么京东安联的口碑怎么样呢？",
+    "files": [
+      {
+        "filename": "233701012_00028416.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/143/233701012_00028416.pdf",
+        "size": "533.0 KB"
+      },
+      {
+        "filename": "f1741c67a730fb2597436713887843a2.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/143/f1741c67a730fb2597436713887843a2.pdf",
+        "size": "1.2 MB"
+      }
+    ],
+    "annotation": {
+      "category": "multi_doc",
+      "language": "zh",
+      "origin_id": 203
+    },
+    "rewritten_query": "我的父母（约60岁）计划前往欧洲申根国家旅行30天，需要购买出境旅行保险。附件包含两份保险条款：（1）苏黎世保险的申根签证保险条款PDF；（2）京东安联保险的出境旅行保险条款PDF。请完成以下对比分析：（1）制作详细对比表格，覆盖以下维度：承保年龄上限、既往症条款、医疗费用保额及免赔额、紧急医疗转运保额、旅行取消/延误保障、个人责任险保额、申根签证合规性、保费（60岁档位）；（2）重点分析两份条款中关于60岁以上投保人的特殊条款、限制和除外责任，逐条列出可能导致拒保或拒赔的情况；（3）对比两家保险公司在中国市场的理赔服务口碑和网络评价；（4）基于上述分析，给出明确的推荐建议，说明推荐理由和需要特别注意的风险点。所有对比数据需标注条款具体条目编号。"
+  },
+  {
+    "id": 144,
+    "chat_id": "fe41ea07-cfc9-4bf7-bfd4-80dc2c1ac889",
+    "query": "遍历所有真题（注意文件已经更新），找出所有与核医学“第四章 中枢神经系统”相关的内容和考题\n请全面展示所有的题目，并给出你的正确答案。\n包括：\n1、教学内容\n第一节脑血流灌注显像及负荷试验\n第二节脑代谢显像\n第三节神经递质和受体显像\n第四节脊髓蛛网膜下腔和脑池显像\n第五节 血脑屏障功能显像\n第六节、不同影像技术的比较与选择",
+    "files": [
+      {
+        "filename": "17级核医学考试题.docx",
+        "type": "word",
+        "dir": "multimodal-attachments/144/17级核医学考试题.docx",
+        "size": "11.0 KB"
+      },
+      {
+        "filename": "核医学历届大题（更新by chujie）.docx",
+        "type": "word",
+        "dir": "multimodal-attachments/144/核医学历届大题（更新by chujie）.docx",
+        "size": "42.1 KB"
+      },
+      {
+        "filename": "2011八年制核医学 期末考试题.docx",
+        "type": "word",
+        "dir": "multimodal-attachments/144/2011八年制核医学 期末考试题.docx",
+        "size": "13.5 KB"
+      },
+      {
+        "filename": "13.核医学往年题.docx",
+        "type": "word",
+        "dir": "multimodal-attachments/144/13.核医学往年题.docx",
+        "size": "21.3 KB"
+      },
+      {
+        "filename": "核医学八年制历年考题更新到11级.docx",
+        "type": "word",
+        "dir": "multimodal-attachments/144/核医学八年制历年考题更新到11级.docx",
+        "size": "21.6 KB"
+      },
+      {
+        "filename": "核医学选择题.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/144/核医学选择题.pdf",
+        "size": "528.5 KB"
+      },
+      {
+        "filename": "核医学各章节试题总结.docx",
+        "type": "word",
+        "dir": "multimodal-attachments/144/核医学各章节试题总结.docx",
+        "size": "12.1 KB"
+      },
+      {
+        "filename": "核医学选择题.docx",
+        "type": "word",
+        "dir": "multimodal-attachments/144/核医学选择题.docx",
+        "size": "28.8 KB"
+      },
+      {
+        "filename": "核医学大题补充 2.docx",
+        "type": "word",
+        "dir": "multimodal-attachments/144/核医学大题补充 2.docx",
+        "size": "514.3 KB"
+      },
+      {
+        "filename": "核医学各章节试题总结by chujie.docx",
+        "type": "word",
+        "dir": "multimodal-attachments/144/核医学各章节试题总结by chujie.docx",
+        "size": "17.6 KB"
+      }
+    ],
+    "annotation": {
+      "category": "multi_doc",
+      "language": "zh",
+      "origin_id": 204
+    },
+    "rewritten_query": "我是一名医学院核医学科的研究生，最近在准备期末考试复习。我整理了一些核医学历年考试题的文档资料，想请你帮我从这些附件中找出几道与脑血流灌注显像相关的典型考题，比如99mTc-TRODAT-1或18F-FDG在神经系统疾病中的应用。另外，也希望你能查一下目前临床上脑血流灌注显像在癫痫、脑梗死等疾病诊断中的最新应用进展，这样我能更好地理解题目背景和临床意义。"
+  },
+  {
+    "id": 145,
+    "chat_id": "9396c836-c65d-4810-9350-a67afc292432",
+    "query": "我们是一家电商运营公司，如果你是steve jobs，你现在想要在宠物领域创业，想找一个细分的领域，最好是蓝海，开始容易上手，投资不大，竞争不充分的领域，可以快速的冷启动，你会做哪一个细分的领域，有潜力的细分市场。我们有一个合伙人他是建筑设计公司的合伙人，对于色彩，视觉，产品开发有着独到的见解，也是我们的资源之一。",
+    "files": [
+      {
+        "filename": "2025-08-14_炼丹炉大数据_水族 小宠 异宠市场消费洞察_【发现报告 fxbaogao.com】.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/145/2025-08-14_炼丹炉大数据_水族 小宠 异宠市场消费洞察_【发现报告 fxbaogao.com】.pdf",
+        "size": "9.5 MB"
+      },
+      {
+        "filename": "2025-08-18_尼尔森_2025全球宠物行业趋势与中国增长机遇报告_【发现报告 fxbaogao.com】.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/145/2025-08-18_尼尔森_2025全球宠物行业趋势与中国增长机遇报告_【发现报告 fxbaogao.com】.pdf",
+        "size": "3.1 MB"
+      },
+      {
+        "filename": "2025-08-14_小U出海&USEEPAY_全球宠物用品电商市场分析报告_【发现报告 fxbaogao.com】.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/145/2025-08-14_小U出海&USEEPAY_全球宠物用品电商市场分析报告_【发现报告 fxbaogao.com】.pdf",
+        "size": "10.2 MB"
+      },
+      {
+        "filename": "2025-03-07_Mob研究院&库润数据_2025年宠物行业消费趋势洞察_【发现报告 fxbaogao.com】.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/145/2025-03-07_Mob研究院&库润数据_2025年宠物行业消费趋势洞察_【发现报告 fxbaogao.com】.pdf",
+        "size": "4.0 MB"
+      },
+      {
+        "filename": "2024-09-20_亚宠研究院_2024年中国小宠消费者洞察MINI蓝皮书_【发现报告 fxbaogao.com】.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/145/2024-09-20_亚宠研究院_2024年中国小宠消费者洞察MINI蓝皮书_【发现报告 fxbaogao.com】.pdf",
+        "size": "13.7 MB"
+      },
+      {
+        "filename": "2025-04-24_京东_2025年宠物消费报告_【发现报告 fxbaogao.com】.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/145/2025-04-24_京东_2025年宠物消费报告_【发现报告 fxbaogao.com】.pdf",
+        "size": "1.3 MB"
+      },
+      {
+        "filename": "2025-04-08_-_2025年跨境电商选品策略与热门市场分析报告_【发现报告 fxbaogao.com】.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/145/2025-04-08_-_2025年跨境电商选品策略与热门市场分析报告_【发现报告 fxbaogao.com】.pdf",
+        "size": "13.2 MB"
+      },
+      {
+        "filename": "2026年宠物行业白皮书.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/145/2026年宠物行业白皮书.pdf",
+        "size": "49.7 MB"
+      },
+      {
+        "filename": "2025-08-26_36氪研究院_2025年宠物用品与家具家居独立站出海白皮书_【发现报告 fxbaogao.com】.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/145/2025-08-26_36氪研究院_2025年宠物用品与家具家居独立站出海白皮书_【发现报告 fxbaogao.com】.pdf",
+        "size": "2.0 MB"
+      },
+      {
+        "filename": "2025-08-06_大数跨境_2025小宠异宠用品市场洞察报告_【发现报告 fxbaogao.com】.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/145/2025-08-06_大数跨境_2025小宠异宠用品市场洞察报告_【发现报告 fxbaogao.com】.pdf",
+        "size": "10.5 MB"
+      }
+    ],
+    "annotation": {
+      "category": "multi_doc",
+      "language": "zh",
+      "origin_id": 208
+    },
+    "rewritten_query": "我们是一家电商运营公司，正在评估进入宠物行业的机会。团队优势包括电商运营经验和一位擅长色彩/视觉/产品设计的合伙人。附件包含十份宠物行业报告（涵盖2024-2026年消费趋势、跨境电商选品、小宠异宠市场洞察等）。请基于附件数据完成以下分析：（1）从十份报告中提取宠物行业各细分市场的市场规模、增速和竞争格局数据，制作对比表格；（2）筛选出符合以下条件的蓝海细分市场：市场增速>20%、头部品牌市占率<30%、客单价50-500元、适合电商冷启动；（3）结合我们团队的设计优势，评估每个候选市场中'高颜值差异化产品'的机会空间；（4）推荐Top 3细分方向，每个方向给出：目标用户画像、产品策略、定价区间、启动资金估算、6个月冷启动路线图；（5）特别分析小宠/异宠用品赛道的跨境电商机会。所有结论必须标注数据来源（具体报告名称和页码）。"
+  },
+  {
+    "id": 146,
+    "chat_id": "a24de7e4-06cf-46b9-93b9-90d34eb6e965",
+    "query": "我想从这两篇文章中知道装载机是什么？分为哪几种？各自的用途是什么？优劣势对比如何？装载机主要的构成是哪些？目前存在哪些缺陷？电动装载机的构成是什么？相对于燃油装载机好在哪里？综合使用成本相差多少？",
+    "files": [
+      {
+        "filename": "电动化工程设备.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/146/电动化工程设备.pdf",
+        "size": "6.2 MB"
+      },
+      {
+        "filename": "电动装载机介绍.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/146/电动装载机介绍.pdf",
+        "size": "8.5 MB"
+      }
+    ],
+    "annotation": {
+      "category": "multi_doc",
+      "language": "zh",
+      "origin_id": 211
+    },
+    "rewritten_query": "我是一家工程机械租赁公司的采购经理，最近在考虑引入电动装载机来扩展我们的设备租赁业务。附件是我收集到的两份关于电动化工程设备和电动装载机的技术文档，能帮我看看电动装载机相比传统柴油装载机在能效方面有多少提升吗？另外也想了解一下目前市场上主流电动装载机厂商的产品性能对比情况，这样我好评估投资回报和制定采购策略。"
+  },
+  {
+    "id": 147,
+    "chat_id": "d5823d16-3137-4b7e-a38f-f05ecf8fc822",
+    "query": "根据这篇推送和对应原文，我要制作一个ppt，至少要展现推送中的所有内容和原pdf全文的所有要点，请你帮我设计每一页ppt的内容和storyline，需要每一页的详细内容，分页叙述给我，要求风格维持学术，面向受众是临床医生和专业人士",
+    "files": [
+      {
+        "filename": "2026 HRS EHRA 脉冲消融联合声明精要.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/147/2026 HRS EHRA 脉冲消融联合声明精要.pdf",
+        "size": "20.7 MB"
+      },
+      {
+        "filename": "强烈推荐！一文读懂 PFA：争议、进展与共识 —2026 HRS_EHRA 脉冲消融联合声明精要.pdf",
+        "type": "pdf",
+        "dir": "multimodal-attachments/147/强烈推荐！一文读懂 PFA：争议、进展与共识 —2026 HRS_EHRA 脉冲消融联合声明精要.pdf",
+        "size": "7.4 MB"
+      }
+    ],
+    "annotation": {
+      "category": "multi_doc",
+      "language": "zh",
+      "origin_id": 212
+    },
+    "rewritten_query": "附件包含两份文档：（1）2026 HRS/EHRA脉冲消融（PFA）联合声明原文PDF；（2）该声明的中文精要推送文章。我需要制作一份面向临床医生和电生理专业人士的学术PPT。请完成以下任务：（1）设计完整的PPT storyline，确保覆盖推送文章中的所有内容要点和原文PDF的全部关键信息；（2）分页输出每一页PPT的详细内容，包括：页面标题、核心要点（3-5条bullet points）、需要展示的关键数据/图表描述、speaker notes（讲解要点）；（3）PPT结构建议：开场页→背景与临床需求→PFA技术原理→临床证据总结→与传统射频/冷冻消融对比→争议与未解问题→共识推荐要点→未来研究方向→总结页；（4）确保学术风格，使用规范的医学术语，关键数据引用原文具体章节；（5）总页数控制在25-35页。"
+  }
+]

@@ -1,0 +1,53 @@
+# Process Evaluation Configuration — Multimodal
+
+data:
+  data_dir: "../data/method_multimodal_results"
+  data_type: "multimodal"
+
+target_models:
+  - "claude"
+  - "gemini"
+  - "glm"
+  - "manus"
+  - "minimax"
+  - "mirothinker"
+  - "mirothinker_v17"
+  - "qwen"
+  - "grok"
+
+llm:
+  model: "gpt-5.2"
+  api_type: "openai"
+  max_tokens: 16384
+  temperature: 0.1
+  retry_count: 3
+  retry_backoff: 2
+
+preprocessing:
+  max_chars: 50000
+  report_max_chars: 30000
+
+execution:
+  max_workers: 10
+  phases: "all"        # all | phase1 | phase2
+  continue_on_error: true
+
+entry_selection:
+  max_entries_per_model: null   # null = all entries
+  entry_ids: null               # specific entry IDs
+  selection_method: "first"
+
+cache:
+  enabled: true
+  cache_dir: "outputs/cache_multimodal"
+
+output:
+  results_dir: "outputs/results_multimodal"
+  results_file: "outputs/results_multimodal/process_eval_results.json"
+  structured_processes_file: "outputs/results_multimodal/structured_processes.json"
+  save_structured_processes: true
+
+logging:
+  level: "INFO"
+  file: "outputs/logs/process_eval_multimodal.log"
+  console: true

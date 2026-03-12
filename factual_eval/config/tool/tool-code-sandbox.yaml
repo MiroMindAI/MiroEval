@@ -1,0 +1,8 @@
+name: "tool-code-sandbox"
+tool_command: "python"
+args:
+  - "-m"
+  - "miroflow.tool.mcp_servers.code_sandbox"
+env:
+  E2B_API_KEY: "${oc.env:E2B_API_KEY}"
+  LOGS_DIR: "./logs"

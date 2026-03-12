@@ -1,0 +1,40 @@
+defaults:
+  - benchmark: factual-eval
+  - override hydra/job_logging: none
+  - _self_
+
+entrypoint: main_agent
+main_agent:
+  name: main_agent
+  type: IterativeAgentWithToolAndRollback
+  max_consecutive_rollbacks: 3
+  max_turns: 30
+  llm:
+    _base_: config/llm/base_gpt5_mini.yaml
+  prompt: config/prompts/prompt_factual_eval.yaml
+
+  tools:
+    - config/tool/tool-searching.yaml
+
+  input_processor:
+    - ${input-message-generator}
+  output_processor:
+    - ${output-summary}
+
+segment_processor:
+  type: ReportSegmentProcessor
+  prompt: config/prompts/prompt_factual_eval.yaml
+  llm:
+    _base_: config/llm/base_gpt5_mini.yaml
+
+input-message-generator:
+  type: InputMessageGenerator
+output-summary:
+  type: SummaryGenerator
+
+output_dir: logs/factual-eval-kimi-text-only-gen/
+data_dir: "${oc.env:DATA_DIR,data}"
+
+benchmark:
+  data:
+    data_dir: "${data_dir}/factual-eval/kimi-text-only-gen"
