@@ -10,11 +10,12 @@ All three evaluation modules share a unified `data/` directory as their input da
 MiroEval/
 ├── data/                      # Shared data directory (input queries + model results)
 │   ├── input_queries/         # Evaluation query sets
-│   ├── method_results/        # Text-only model results (14 models × 100 queries)
-│   └── method_multimodal_results/  # Multimodal model results (10 models × 47 queries)
+│   ├── method_results/        # Text-only model results (JSON array per model)
+│   └── method_multimodal_results/  # Multimodal model results (JSON array per model)
 ├── factual_eval/              # Factual evaluation (MiroFlow-based fact-checking agent)
 ├── point_quality/             # Quality evaluation (adaptive point-wise scoring)
-└── process_eval/              # Process evaluation (intrinsic process quality + report alignment)
+├── process_eval/              # Process evaluation (intrinsic process quality + report alignment)
+└── scripts/                   # Shared utility scripts (data conversion, etc.)
 ```
 
 ---
@@ -99,11 +100,12 @@ Active fact-checking powered by the [MiroFlow](https://github.com/MiroMindAI/Mir
 ```
 factual_eval/
 ├── config/                    # Hydra configuration files
-│   ├── benchmark/             # Benchmark configs (factual-eval.yaml, etc.)
+│   ├── benchmark/             # Base benchmark config (factual-eval.yaml)
 │   ├── llm/                   # LLM model configs
 │   ├── tool/                  # Tool configs (search, browsing, etc.)
 │   ├── prompts/               # Prompt templates
-│   └── benchmark_factual-eval_*.yaml  # Per-model evaluation configs
+│   ├── benchmark_factual-eval_text.yaml        # Canonical config for text-only models
+│   └── benchmark_factual-eval_multimodal.yaml  # Canonical config for multimodal models
 ├── miroflow/                  # MiroFlow core framework
 │   ├── agents/                # Agent implementations (iterative + rollback)
 │   ├── benchmark/             # Evaluation runners and verifiers
@@ -111,33 +113,37 @@ factual_eval/
 │   ├── tool/                  # MCP server tool integration
 │   ├── io_processor/          # I/O processors (segmentation, summarization, etc.)
 │   └── utils/                 # Utility functions
+├── utils/
+│   ├── convert_to_factual_eval.py  # Convert method_results JSON array → per-item files
+│   └── check_progress_factual_eval.py
 ├── scripts/
-│   ├── run_factual_eval.sh    # Main run script
-│   └── benchmark/             # Per-model benchmark scripts
+│   └── run_factual_eval.sh    # Main run script
 ├── .env.template              # Environment variables template
 └── pyproject.toml             # Dependencies (Python >= 3.11)
 ```
 
 ### Data Loading
 
-Reads model result files from the shared `data/` directory. Each per-model config specifies the data source:
+Factual eval reads per-item JSON files from `miroflow/data/factual-eval/<model-dir>/`.
+The base data directory is configured via the `DATA_DIR` environment variable (default: `../../miroflow/data` relative to `factual_eval/`).
 
-```yaml
-data_dir: "${oc.env:DATA_DIR,../data}"
+**Step 1 — Convert raw results to per-item files** (one-time, skip if already done):
 
-benchmark:
-  data:
-    data_dir: "${data_dir}/method_results"           # Text-only
-    source_file: "mirothinker_text_100.json"         # Specific model file
+```bash
+cd factual_eval
+
+# Convert a method_results JSON array → individual files in miroflow/data/factual-eval/
+python utils/convert_to_factual_eval.py \
+    --input ../data/method_results/mirothinker_v17_text_100.json \
+    --output-dir ../../miroflow/data/factual-eval/mirothinker-v17-text-only-50 \
+    --num-samples 50
 ```
 
-The loader supports multiple data formats:
-- **JSON array files** (shared MiroEval data format, via `source_file` config)
-- `standardized_data.jsonl` (preprocessed format)
-- Sub-directory structure with individual JSON files
-- Flat directory with JSON files
+The output format is one JSON file per item (same schema as the source), named `<model-name>_<id>.json`.
 
-For multimodal queries, associated attachment files are stored in `data/input_queries/multimodal-attachments/<query_id>/` and referenced via the `files` field.
+The loader also supports reading directly from a JSON array file via `--source-file` (see Usage below).
+
+For multimodal queries, attachment files are stored in `data/input_queries/multimodal-attachments/<query_id>/` and referenced via the `files` field.
 
 ### Setup
 
@@ -150,22 +156,33 @@ uv sync
 # Configure API keys (copy template and fill in values)
 cp .env.template .env
 # Edit .env with your API keys (OPENAI_API_KEY, SERPER_API_KEY, etc.)
+# Optionally set DATA_DIR to the absolute path of miroflow/data/
 ```
 
 ### Usage
 
 ```bash
-# Run factual evaluation with default config
-bash scripts/run_factual_eval.sh
+cd factual_eval
 
-# Specify model config
-bash scripts/run_factual_eval.sh --config config/benchmark_factual-eval_mirothinker-text-only.yaml
+# Evaluate a specific model (from pre-converted per-item files)
+bash scripts/run_factual_eval.sh --model-dir chatgpt-text-only-50
+
+# Evaluate directly from a raw method_results JSON array (no pre-conversion needed)
+bash scripts/run_factual_eval.sh --source-file mirothinker_v17_text_100.json
+
+# Multimodal evaluation
+bash scripts/run_factual_eval.sh \
+    --config config/benchmark_factual-eval_multimodal.yaml \
+    --model-dir mirothinker-v17-multimodal
 
 # Limit number of tasks (for testing)
-bash scripts/run_factual_eval.sh --max-tasks 5
+bash scripts/run_factual_eval.sh --model-dir chatgpt-text-only-50 --max-tasks 5
 
 # Resume a previous run
 bash scripts/run_factual_eval.sh --result-dir logs/factual-eval/prev_run
+
+# Override data directory
+DATA_DIR=/path/to/miroflow/data bash scripts/run_factual_eval.sh --model-dir gemini-text-only-50
 ```
 
 ### Output Format

@@ -10,8 +10,8 @@ The output format (miroflow/data/factual-eval/<model_dir>/<model_name>_<id>.json
 is one JSON file per item, same schema, one object per file.
 
 Usage:
-    python scripts/convert_to_factual_eval.py \\
-        --input data/method_results/mirothinker_v17_text_100.json \\
+    python utils/convert_to_factual_eval.py \\
+        --input ../data/method_results/mirothinker_v17_text_100.json \\
         --output-dir ../../miroflow/data/factual-eval/mirothinker-v17-text-only-50 \\
         [--model-name mirothinker_v17] \\
         [--num-samples 50] \\
