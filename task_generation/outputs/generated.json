@@ -1,0 +1,577 @@
+[
+  {
+    "id": 1,
+    "chat_id": "3705e402-7583-4569-9572-63faadf620f9",
+    "query": "As an HR/workforce strategist, I need a data-driven map of which occupations are actually shifting skill demand due to AI in 2025–2026, versus headline fears. Triangulate evidence from employer surveys (e.g., SHRM, Indeed), labor-market posting data, and government stats to quantify reskilling needs by sector (healthcare, manufacturing, IT, education). Reconcile conflicting claims about “job freeze” vs continued hiring. Then benchmark the U.S. reskilling ecosystem against the EU/UK (apprenticeships, training credits, employer-led programs), and predict 6–12 month priorities for employers based on measurable leading indicators.",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "education",
+      "topic": "Education & Workforce",
+      "persona": "enterprise workforce transformation lead",
+      "anchored_event": "SHRM 2026 Top Five Workplace Issues; Indeed 2026 Hiring Trends; The Atlantic on AI and jobs",
+      "time_sensitive": true,
+      "dr_confidence": 0.94,
+      "quality_score": 0.28,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 9,
+        "has_recent_results": true
+      }
+    }
+  },
+  {
+    "id": 2,
+    "chat_id": "9afe8c7f-ab91-467f-8ecc-c3fb3678948e",
+    "query": "As a machine learning engineer tasked with AI safety and product assurance, synthesize how the International AI Safety Report 2026 and other leading safety frameworks (NIST AI RMF, ISO/IEC AI standards drafts, sector regulators) are being operationalized into concrete regulatory expectations under the EU AI Act and emerging US state regimes. Identify contested technical points (evals, red-teaming, incident reporting, model cards, capability thresholds) and forecast which practices are most likely to become de facto compliance norms over the next 3–6 months.",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "tech",
+      "topic": "AI Policy & Regulation",
+      "persona": "machine learning engineer",
+      "anchored_event": "Publication of International AI Safety Report 2026 and its influence on evolving AI safety frameworks used by regulators",
+      "time_sensitive": true,
+      "dr_confidence": 0.93,
+      "quality_score": 0.26,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 8,
+        "has_recent_results": true
+      }
+    }
+  },
+  {
+    "id": 3,
+    "chat_id": "0207d35e-8152-4868-9684-8fec533d9d7b",
+    "query": "As a startup founder selling an AI-enabled product across the US and EU, compare how 2025–2026 US state AI laws (e.g., governance frameworks, transparency, consumer notice, automated decision systems) align or conflict with EU AI Act requirements. Build a jurisdiction-by-jurisdiction matrix of obligations, exemptions, and enforcement mechanisms, then propose an engineering/compliance strategy that minimizes duplicated work. Validate interpretations by triangulating statutes, AG guidance, industry memos, and compliance tooling practices.",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "legal",
+      "topic": "AI Policy & Regulation",
+      "persona": "startup founder",
+      "anchored_event": "Acceleration of US state AI legislative sessions and multiple state AI laws effective in 2026 alongside EU AI Act ramp-up",
+      "time_sensitive": true,
+      "dr_confidence": 0.92,
+      "quality_score": 0.22,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 10,
+        "has_recent_results": true
+      }
+    }
+  },
+  {
+    "id": 4,
+    "chat_id": "a2d2bddb-fecd-455a-95c8-133c36d2f4f1",
+    "query": "I’m advising a state education agency on 2025–2026 K–12 generative AI governance. Synthesize how emerging federal “guardrails,” state-level guidance, and district policies are converging/diverging on (a) student data privacy and vendor contracts, (b) classroom use rules by grade band (K–5 vs 6–12), and (c) teacher training requirements. Compare the U.S. approach with Indonesia’s national push for AI/computational thinking and at least one other OECD system. Identify measurable policy levers (funding, procurement clauses, audits) and where experts disagree on effectiveness and equity.",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "policy",
+      "topic": "Education & Workforce",
+      "persona": "state education policy analyst",
+      "anchored_event": "Federal & State Push for AI Policy and Teacher Training in K-12; RAND-led panel on uneven AI policy development; Indonesia AI in K-12 momentum (Jakarta Post)",
+      "time_sensitive": true,
+      "dr_confidence": 0.93,
+      "quality_score": 0.28,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 10,
+        "has_recent_results": true
+      }
+    }
+  },
+  {
+    "id": 5,
+    "chat_id": "770257e7-dca5-4a66-8536-ed907322ad1b",
+    "query": "As a journalist covering algorithmic discrimination in hiring, map the emerging “patchwork” of US state/local rules and federal litigation trends on AI hiring tools (age/sex/race proxies), and compare them to EU GDPR/AI governance approaches to automated employment decision-making. Use statutes, agency guidance, court dockets/settlements, technical audit standards, and vendor documentation to quantify compliance burdens (audit frequency, notice requirements, bias testing thresholds) and highlight conflicting expert views on whether bias audits reduce liability or create discoverable risk—especially after recent rulings limiting privilege for AI communications.",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "legal",
+      "topic": "Legal & Compliance",
+      "persona": "investigative journalist",
+      "anchored_event": "Current reporting on AI hiring discrimination compliance guides, pending deadlines reshaping AI governance, and federal lawsuits challenging AI hiring software; plus recent privilege rulings for AI tool communications.",
+      "time_sensitive": true,
+      "dr_confidence": 0.93,
+      "quality_score": 0.28,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 10,
+        "has_recent_results": false
+      }
+    }
+  },
+  {
+    "id": 6,
+    "chat_id": "8620dd7d-eeef-49ed-8295-023a33fc71ac",
+    "query": "As in-house litigation counsel at a multinational, I need a comparative analysis of how US courts are treating attorney-client privilege/work-product claims when clients share facts or drafts with third-party generative AI tools, versus how UK/EU legal professional privilege doctrines approach similar “outsourcing” to vendors. Build a practical risk framework (what tool terms, data flows, and attorney involvement matter), cite leading post-2024 decisions and bar guidance, and propose contract + workflow controls that would still allow AI-assisted drafting without privilege waiver.",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "legal",
+      "topic": "Legal & Compliance",
+      "persona": "in-house litigation counsel",
+      "anchored_event": "Recent US federal/NY court decisions holding client communications with generative AI tools are not privileged (as summarized by Clark Hill and other legal alerts).",
+      "time_sensitive": true,
+      "dr_confidence": 0.9,
+      "quality_score": 0.32,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 10,
+        "has_recent_results": false
+      }
+    }
+  },
+  {
+    "id": 7,
+    "chat_id": "09d3f99e-af53-4f44-9ccd-afdcb07a963f",
+    "query": "As a privacy compliance lead designing 2025-2026 readiness, synthesize what the EDPB’s Coordinated Enforcement Framework focus on transparency/information obligations means in practice for AI systems that use personal data (including “shadow AI” in workplaces). Compare likely enforcement posture and remedies across at least 5 DPAs (e.g., Ireland, France, Spain, Netherlands, Germany), using recent decisions, annual reports, and guidance. Identify measurable common failure modes (notice content, lawful basis, automated decision-making disclosures) and predict where enforcement will converge/diverge.",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "legal",
+      "topic": "Legal & Compliance",
+      "persona": "privacy compliance lead",
+      "anchored_event": "EDPB selection of the 2026 Coordinated Enforcement Action topic on transparency and information obligations; parallel commentary on improving GDPR enforcement and “Shadow AI” concerns.",
+      "time_sensitive": true,
+      "dr_confidence": 0.92,
+      "quality_score": 0.27,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 10,
+        "has_recent_results": true
+      }
+    }
+  },
+  {
+    "id": 8,
+    "chat_id": "5547721e-9f60-4e59-adc8-1e1857ca4a9c",
+    "query": "As a DeFi protocol engineer building a compliant lending/DEX stack, synthesize 2025–2026 developments in AML/sanctions expectations for DeFi across the U.S. (FinCEN/OFAC guidance, enforcement patterns, Travel Rule interpretations) and the EU (AMLR/transfer-of-funds updates), and contrast them with FATF positions. Evaluate competing technical approaches—KYC/whitelisting pools, identity attestations, risk-based wallet screening, and zk-KYC—on censorship-resistance, user privacy, and operational feasibility. Provide an architecture recommendation with a threat model and a table mapping controls to specific regulatory obligations.",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "tech",
+      "topic": "Crypto & Digital Assets",
+      "persona": "DeFi protocol engineer at a fintech startup",
+      "anchored_event": "Industry/legal analyses on DeFi compliance in 2026 (AML, sanctions) and emerging regulator scrutiny signals",
+      "time_sensitive": true,
+      "dr_confidence": 0.93,
+      "quality_score": 0.42,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 5,
+        "source_diversity": 5,
+        "has_recent_results": true
+      }
+    }
+  },
+  {
+    "id": 9,
+    "chat_id": "2bd8109f-8a8c-4095-814c-c7f67c1a1873",
+    "query": "As a health-system pharmacy director designing a 2026 GLP-1 strategy, build a multi-source forecast of GLP-1 demand, net cost, and access constraints under three scenarios: (1) continued shortages and growth of compounded products, (2) tighter enforcement actions and telehealth advertising scrutiny, (3) broader indications and oral GLP-1 entrants. Triangulate payer benefit-design reports, wholesaler/supply data, employer PBM analyses, IQVIA/GoodRx utilization signals, and FDA enforcement/compounding guidance. Include a cross-country comparison (US vs UK/Germany) on reimbursement criteria and budget impact, highlighting conflicting expert views.",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "health",
+      "topic": "Healthcare & Pharma",
+      "persona": "health-system pharmacy director",
+      "anchored_event": "US FDA warns 30 telehealth firms over misleading ads for compounded weight-loss drugs; GLP-1 trends/outlook reports in 2026",
+      "time_sensitive": true,
+      "dr_confidence": 0.95,
+      "quality_score": 0.28,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 10,
+        "has_recent_results": true
+      }
+    }
+  },
+  {
+    "id": 10,
+    "chat_id": "f66a51c9-6c95-4940-acfc-9734178b851c",
+    "query": "As a regulatory affairs graduate student, evaluate how FDA’s shift toward accepting single pivotal trials as the default evidentiary standard could change approval strategies for biologics (including gene therapies) and metabolic drugs over the next 3–6 months. Compile and compare: FDA announcements/guidance, RAPS expert reactions, past FDA approval packages (how often confirmatory evidence came from RWE or post-marketing studies), and EMA/PMDA standards for ‘one-study’ acceptability. Quantify historical approval/label-expansion outcomes (time-to-approval, post-marketing commitments, safety-related label changes) and identify where experts disagree on patient-risk tradeoffs.",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "policy",
+      "topic": "Healthcare & Pharma",
+      "persona": "regulatory affairs grad student",
+      "anchored_event": "Experts react to FDA's shift to single pivotal trials for most drugs; FDA removes two study requirement for new drug approval",
+      "time_sensitive": true,
+      "dr_confidence": 0.92,
+      "quality_score": 0.22,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 9,
+        "has_recent_results": true
+      }
+    }
+  },
+  {
+    "id": 11,
+    "chat_id": "fa8ffdb1-aff9-406e-acfb-745012966f37",
+    "query": "For an “agentic SOC” (tools that plan/act, not just recommend), what architectures and control patterns are emerging as best practice in 2025-2026—multi-agent orchestration, tool-use guardrails, human-in-the-loop thresholds, and auditability? Compare claims vs evidence across vendors and practitioner writeups (e.g., Elastic, LimaCharlie, IRONSCALES) plus any standards guidance (NIST/ISO, AI risk frameworks, AI-BOM discussions). Include a cross-industry comparison (healthcare vs finance) with measurable outcomes: alert MTTR, false-positive rates, containment success, and failure modes/near-misses.",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "cybersecurity",
+      "topic": "Cybersecurity",
+      "persona": "SOC engineering lead evaluating procurement for a regulated healthcare network",
+      "anchored_event": "Public positioning of “agentic SOC” as a new SecOps model (Elastic/LimaCharlie) and recent reports on agentic AI adoption and vendor-launched security agents",
+      "time_sensitive": true,
+      "dr_confidence": 0.93,
+      "quality_score": 0.32,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 4,
+        "source_diversity": 4,
+        "has_recent_results": false
+      }
+    }
+  },
+  {
+    "id": 12,
+    "chat_id": "5591ac08-60c6-4ceb-a5d8-14ca349b1b44",
+    "query": "In 2025-2026, how is the zero-day market shifting toward enterprise software/appliances vs mobile (Android/Chrome), and what evidence links the change to spyware/exploit vendors rather than “traditional” cybercrime? Build a quantitative view (counts, affected product classes, patch latency, exploitation confirmation rates) by triangulating Google/GTIG tracking, vendor advisories (e.g., Qualcomm/Android/Chrome), and independent vulnerability datasets. Compare disclosure/mitigation mechanisms across the US/EU/Japan (e.g., KEV-style lists, coordinated disclosure norms) and highlight where experts disagree on attribution and measurement bias.",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "cybersecurity",
+      "topic": "Cybersecurity",
+      "persona": "threat intelligence analyst at a multinational enterprise",
+      "anchored_event": "Google/GTIG reporting that it tracked 43 zero-days in 2025 with major share in enterprise software/appliances; multiple Google-confirmed in-the-wild Android/Chrome zero-days and a Qualcomm-marked exploited issue",
+      "time_sensitive": true,
+      "dr_confidence": 0.94,
+      "quality_score": 0.22,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 10,
+        "has_recent_results": true
+      }
+    }
+  },
+  {
+    "id": 13,
+    "chat_id": "b2f5bf47-8d31-415a-b14f-97ff31e96a52",
+    "query": "What are the emerging “agentic SDLC” patterns for coding assistants (planning, code generation, automated review/maintenance, CI integration) and which tools actually improve outcomes in production? Build a comparative analysis of Cursor’s agentic code maintenance approach vs Xcode’s built-in agentic workflow and leading cross-editor agents. Require evidence from public case studies, telemetry/experiments (bug rate, PR acceptance time, security findings, rollback frequency), and academic work on code-agent evaluation. Include cross-country enterprise adoption constraints (data residency, IP controls) and forecast near-term standardization.",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "tech",
+      "topic": "AI Engineering",
+      "persona": "startup founder choosing an agentic coding stack",
+      "anchored_event": "TechCrunch on Cursor’s new agentic coding tool; Apple announcement for Xcode 26.3 agentic coding",
+      "time_sensitive": true,
+      "dr_confidence": 0.94,
+      "quality_score": 0.22,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 9,
+        "has_recent_results": true
+      }
+    }
+  },
+  {
+    "id": 14,
+    "chat_id": "5fab7346-884e-4049-a8d1-80da846571e1",
+    "query": "As a biotech equity analyst, map how the FDA’s recent lifting of clinical holds on in vivo gene-editing/gene therapy INDs (e.g., Intellia) is reshaping the de-risking playbook for 2025–2026 trials. Synthesize: FDA/CBER communications and safety review themes (immunogenicity, off-target, hepatotoxicity), company 8-Ks/earnings transcripts, trial registry protocol changes, and KOL commentary. Compare US expectations vs EMA/UK MHRA on risk mitigation (sentinel dosing, stopping rules, long-term follow-up). Produce a forward-looking framework with quantitative indicators (hold frequency, time-to-resume, CMC vs clinical causes).",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "finance",
+      "topic": "Healthcare & Pharma",
+      "persona": "biotech equity analyst",
+      "anchored_event": "Regulator lifts clinical hold on Intellia's gene therapy trials / Reuters: Intellia gets FDA nod to resume second gene therapy trial after safety pause",
+      "time_sensitive": true,
+      "dr_confidence": 0.93,
+      "quality_score": 0.32,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 9,
+        "has_recent_results": true
+      }
+    }
+  },
+  {
+    "id": 15,
+    "chat_id": "85850af4-d812-469e-9d38-c65baf36c050",
+    "query": "In 2025–2026, how are frontier-model benchmarks evolving to measure real-world agentic/tool-use capability rather than static QA, and what quantitative evidence supports or refutes “benchmark overfitting” and data contamination claims? Compare approaches across major leaderboard maintainers and vendors (e.g., model cards/tech reports) and contrast US/EU/China evaluation priorities (multilinguality, safety, privacy). Synthesize papers, benchmark documentation, third-party audits, and pricing/latency data to propose a robust, reproducible benchmarking stack for procurement decisions.",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "tech",
+      "topic": "AI Engineering",
+      "persona": "enterprise AI evaluation lead (Fortune 500)",
+      "anchored_event": "AI News, Benchmarks & New Models; The Best AI Models So Far in 2026 (model rankings and benchmark claims)",
+      "time_sensitive": true,
+      "dr_confidence": 0.92,
+      "quality_score": 0.28,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 10,
+        "has_recent_results": true
+      }
+    }
+  },
+  {
+    "id": 16,
+    "chat_id": "1c7a6b12-5090-496f-9c15-55cf2e9d6363",
+    "query": "As a grid planning analyst, I need a cross-region comparison of how grid constraints are shaping data center approvals and design in 2025–2026. Using interconnection queue data, ISO/RTO reliability filings (e.g., PJM/ERCOT), state moratorium proposals (e.g., bills like HB 1265), and utility IRPs, what are the most common “binding constraints” (transformer/substation capacity, transmission congestion, capacity market limits, water constraints) and which mitigation strategies actually clear permitting (on-site generation, storage, flexible load, curtailed PPAs, microgrids)? Please quantify timelines/cost ranges and highlight conflicting views from grid operators vs developers.",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "energy",
+      "topic": "Climate & Energy",
+      "persona": "grid planning analyst at a utility/ISO",
+      "anchored_event": "Data Center Moratorium Bills Are Spreading in 2026 (Good Jobs First); Data center electricity growth driving U.S. grid changes",
+      "time_sensitive": true,
+      "dr_confidence": 0.93,
+      "quality_score": 0.28,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 10,
+        "has_recent_results": true
+      }
+    }
+  },
+  {
+    "id": 17,
+    "chat_id": "6f03ddc3-77cd-4c46-a086-2ccd314eee66",
+    "query": "As a financial journalist tracking CBDC adoption, analyze how jurisdictions are shifting between retail CBDCs, wholesale/tokenized deposits, and regulated stablecoins as payment rails. Compare at least three regions (e.g., EU, UK, Singapore/Brazil/India) on pilot scope, interoperability standards, privacy safeguards, and commercial-bank roles, and contrast with U.S. constraints implied by recent legislative proposals delaying or restricting retail CBDCs. Use measurable indicators (pilot transaction volumes, bank/PSP participation, cross-border corridor tests) and summarize conflicting expert forecasts on whether regulated stablecoins will outpace CBDCs for domestic and cross-border payments over the next 6–18 months.",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "policy",
+      "topic": "Crypto & Digital Assets",
+      "persona": "Financial journalist",
+      "anchored_event": "U.S. legislative proposals to restrict or delay retail CBDC issuance alongside accelerating stablecoin regulation discussions",
+      "time_sensitive": true,
+      "dr_confidence": 0.93,
+      "quality_score": 0.22,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 9,
+        "has_recent_results": false
+      }
+    }
+  },
+  {
+    "id": 18,
+    "chat_id": "912e77de-8383-41dc-80da-a9760ee7668d",
+    "query": "As a computational biology engineer, evaluate where quantum computing is genuinely competitive for biomolecular simulation and drug discovery workflows in 2025–2026 (e.g., electronic structure, docking, ML acceleration, optimization). Synthesize evidence from peer-reviewed benchmarks, vendor roadmaps, and independent assessments to compare superconducting vs trapped-ion vs photonic/measurement-based approaches, including error mitigation, qubit counts, circuit depth, and end-to-end runtime/cost versus classical HPC. Explain why some experts argue the hype may cool and identify the most defensible near-term use cases.",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "tech",
+      "topic": "Biotech & Science",
+      "persona": "computational biology / HPC engineer",
+      "anchored_event": "The Quantum Computing Hype Could Cool Off in 2026 -- Here's Why",
+      "time_sensitive": true,
+      "dr_confidence": 0.93,
+      "quality_score": 0.33,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 10,
+        "has_recent_results": true
+      }
+    }
+  },
+  {
+    "id": 19,
+    "chat_id": "1b7daa38-1015-40c9-9cb0-39e8d1609901",
+    "query": "As a payments compliance attorney advising a stablecoin issuer, compare how the OCC’s proposed GENIUS Act implementing rule, recent SEC stablecoin-related guidance/FAQs, and EU MiCA/UK FCA frameworks treat (1) reserve composition and custody, (2) redemption rights and timelines, and (3) yield-bearing or “interest-like” stablecoin products. Identify the main areas of regulatory divergence and where experts disagree on issuer profitability and bank-charter viability. Include a quantitative scenario analysis for how reserve constraints and disclosure/audit requirements change net interest margins and liquidity risk.",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "legal",
+      "topic": "Crypto & Digital Assets",
+      "persona": "Payments compliance attorney",
+      "anchored_event": "OCC Notice of Proposed Rulemaking to implement key GENIUS Act stablecoin provisions; contemporaneous SEC stablecoin guidance/FAQs",
+      "time_sensitive": true,
+      "dr_confidence": 0.93,
+      "quality_score": 0.22,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 10,
+        "has_recent_results": false
+      }
+    }
+  },
+  {
+    "id": 20,
+    "chat_id": "19b568d6-802c-4f6d-8aaf-4550d1333f4c",
+    "query": "I’m a logistics robotics startup founder deciding where to scale. Build a comparative, evidence-based view of autonomous logistics (sidewalk robots, autonomous vans, yard automation, and early autonomous coastal/river vessels): where are unit economics actually improving in 2025–2026 (cost per stop, utilization, OPEX, safety incident rates), and where are pilots stalling due to regulation, labor rules, or insurance constraints? Compare the U.S., EU, and China using market reports, city/state permitting rules, NHTSA/transport authorities, and operator performance disclosures (e.g., cumulative autonomous kilometers).",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "tech",
+      "topic": "Supply Chain & Industrial",
+      "persona": "Autonomous logistics startup founder",
+      "anchored_event": "Autonomous Last Mile Delivery Market Report 2026; 2026 Outlook Survey: Signs of caution, but automation marches on; Neolix Hits 100M Kilometers in Autonomous Operations; Construction of the first Liberty-class autonomous logistics vessel for ...",
+      "time_sensitive": true,
+      "dr_confidence": 0.95,
+      "quality_score": 0.32,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 8,
+        "has_recent_results": false
+      }
+    }
+  },
+  {
+    "id": 21,
+    "chat_id": "f6051b80-ba01-4859-abdd-1b6717f36c7e",
+    "query": "As a science journalist covering research policy, analyze how shifting open-access funding and compliance rules in 2025–2026 are changing publishing strategies in computational biology and quantum computing. Compare NIH public-access changes and major Chinese funder restrictions on paying high APCs, then map how university “read-and-publish” agreements and publisher waiver policies alter total cost of publication, journal choice, and preprint-to-journal pathways across the US/UK/EU/China. Use policy documents, library agreements, APC datasets, and author behavior studies; surface conflicting stakeholder views.",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "policy",
+      "topic": "Biotech & Science",
+      "persona": "science journalist",
+      "anchored_event": "Addressing changes in NIH open access requirements, questions ...",
+      "time_sensitive": true,
+      "dr_confidence": 0.93,
+      "quality_score": 0.28,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 10,
+        "has_recent_results": true
+      }
+    }
+  },
+  {
+    "id": 22,
+    "chat_id": "141c62b8-6f8e-4075-8587-175fa0fd340b",
+    "query": "As a sustainability finance investor evaluating AI/data center expansion, synthesize how carbon pricing regimes will change the all-in cost and siting strategy for large data centers across the U.S., EU, and China over 2026–2030. Compare: U.S. federal carbon pricing proposals (C2ES summary), EU’s upcoming carbon market with strengthened price curbs (Reuters), China’s 2026–30 emissions-intensity target (Carbon Pulse), and California allowance price dynamics. Convert each into an implied $/MWh and $/tCO2e exposure for a data center using grid power vs PPAs/RECs, noting methodological disputes (market-based vs location-based accounting).",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "finance",
+      "topic": "Climate & Energy",
+      "persona": "infrastructure/energy transition investor",
+      "anchored_event": "Carbon Pricing Proposals in the 119th Congress (C2ES PDF); EU countries back stronger price curbs on new carbon market; China 2026–30 emissions-intensity target (Carbon Pulse)",
+      "time_sensitive": true,
+      "dr_confidence": 0.93,
+      "quality_score": 0.28,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 10,
+        "has_recent_results": true
+      }
+    }
+  },
+  {
+    "id": 23,
+    "chat_id": "0188cd55-b881-47fc-83cb-f95a9380d2b0",
+    "query": "As a graduate student studying industrial resilience, map the 2025–2026 semiconductor supply-chain bottlenecks that matter most (advanced packaging capacity, specialty gases/chemicals like helium, photoresists, substrates, and test/assembly). Compare risk-mitigation approaches across the U.S., Taiwan, South Korea, Japan, and the EU (dual sourcing, inventory policies, long-term offtake, onshoring incentives), and quantify impacts on lead times and pricing for selected nodes (e.g., HBM-related components vs. mature nodes). Synthesize analyst outlooks, customs/trade data, company 10-Ks, and government industrial-policy documents.",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "science",
+      "topic": "Supply Chain & Industrial",
+      "persona": "Graduate researcher in industrial engineering",
+      "anchored_event": "2026 Global Semiconductor Industry Outlook - Deloitte; Electronics Weekly News | Feb 23 - Mar 1, 2026; 2026 semiconductor industry outlook + M&A - Sourceability",
+      "time_sensitive": true,
+      "dr_confidence": 0.93,
+      "quality_score": 0.28,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 9,
+        "has_recent_results": true
+      }
+    }
+  },
+  {
+    "id": 24,
+    "chat_id": "668398d4-3433-4e88-80c2-252aaed78a2d",
+    "query": "How are “cloud-only” vs hybrid/on-prem LLM deployment architectures changing in 2025–2026, and what hard trade-offs exist among throughput optimizations, observability, retention policies, and compliance (EU AI Act readiness, HIPAA-like constraints, SOC2/ISO)? Compile multi-source evidence: vendor architecture docs, MLOps best-practice guides, inference-optimization research, and data-center/power availability reports. Provide a cross-region (US/EU/APAC) TCO model (GPU supply, egress, downtime risk) and identify which workloads (RAG, coding agents, batch eval) justify each architecture.",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "policy",
+      "topic": "AI Engineering",
+      "persona": "journalist covering enterprise AI infrastructure",
+      "anchored_event": "AI News Roundup coverage of cloud-only deployment architectures and retention; New Data Center Developments (March 2026); MLOps in 2026 best practices",
+      "time_sensitive": true,
+      "dr_confidence": 0.94,
+      "quality_score": 0.32,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 10,
+        "has_recent_results": true
+      }
+    }
+  },
+  {
+    "id": 25,
+    "chat_id": "8ee52247-7882-40b3-9f7b-d0505ea6755b",
+    "query": "As a supply-chain finance analyst, quantify how 2025–2026 nearshoring into Mexico is evolving beyond headline announcements: compare FDI/plant startups, cross-border freight volumes (truck/rail), border dwell times, and logistics cost inflation vs. alternative nearshoring hubs (e.g., Poland/Czechia, Vietnam). Incorporate how tariff-policy uncertainty and compliance/enforcement risk are affecting CAPEX timing, inventory buffers, and supplier selection. Reconcile conflicting views from forwarders, macro economists, and manufacturer filings; produce a base-case forecast for 2026–2027 capacity and lane pricing.",
+    "files": [],
+    "annotation": {
+      "category": "text-auto",
+      "language": "en",
+      "domain": "trade",
+      "topic": "Supply Chain & Industrial",
+      "persona": "Supply-chain finance analyst at an industrial manufacturer",
+      "anchored_event": "US–Mexico Cross-Border Logistics: Nearshoring Trends for 2026; Nearshoring Without Growth: Why Investment Uncertainty Is Holding ...; US Supreme Court Strikes Down Major Tariffs, Triggering New Trade Uncertainty",
+      "time_sensitive": true,
+      "dr_confidence": 0.95,
+      "quality_score": 0.24,
+      "search_complexity": "High",
+      "search_validation": {
+        "result_count": 10,
+        "source_diversity": 10,
+        "has_recent_results": true
+      }
+    }
+  }
+]

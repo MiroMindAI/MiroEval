@@ -1,0 +1,8 @@
+.env
+
+# Regenerable cache
+outputs/intermediate_*.json
+
+# Python
+__pycache__/
+*.pyc

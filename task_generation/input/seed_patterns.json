@@ -1,0 +1,780 @@
+{
+  "meta": {
+    "generated_at": "2026-03-06",
+    "description": "Anonymized seed patterns derived from real user queries. Safe for open-source release.",
+    "total_raw_queries_analyzed": 25433,
+    "total_classified": 466,
+    "total_seeds": 90
+  },
+  "topic_distribution": {
+    "AI Policy & Regulation": 0.021,
+    "Cybersecurity": 0.019,
+    "Finance & Macro": 0.202,
+    "Crypto & Digital Assets": 0.006,
+    "Healthcare & Pharma": 0.075,
+    "International Trade": 0.015,
+    "AI Engineering": 0.245,
+    "Climate & Energy": 0.026,
+    "Education & Workforce": 0.124,
+    "Legal & Compliance": 0.058,
+    "Biotech & Science": 0.103,
+    "Supply Chain & Industrial": 0.097
+  },
+  "domain_distribution": {
+    "tech": 0.341,
+    "finance": 0.204,
+    "science": 0.112,
+    "education": 0.112,
+    "health": 0.073,
+    "legal": 0.054,
+    "policy": 0.039,
+    "trade": 0.036,
+    "energy": 0.019,
+    "crypto": 0.006,
+    "cybersecurity": 0.004
+  },
+  "seed_queries": [
+    {
+      "topic": "AI Policy & Regulation",
+      "domain": "policy",
+      "language": "en",
+      "complexity": "medium",
+      "style": "focused and technical research inquiry",
+      "query": "Explore recent developments in AI regulatory frameworks and policy adaptations across different jurisdictions. Analyze impacts on AI technology adoption, compliance challenges, and strategic shifts within the industry. Include legislative case studies, cross-border policy collaborations, and expert interviews to assess future trends and implications for stakeholders."
+    },
+    {
+      "topic": "AI Policy & Regulation",
+      "domain": "policy",
+      "language": "zh",
+      "complexity": "high",
+      "style": "critical, argumentative, analytical, direct",
+      "query": "Based on a well-known expert's typical opinions, write a sharp, incisive critique on the topic presented in the image. The critique should be under 1000 words, deeply analytical, and maintain a sharp tone. Avoid using titles or section headers, and do not include citations."
+    },
+    {
+      "topic": "AI Policy & Regulation",
+      "domain": "tech",
+      "language": "en",
+      "complexity": "medium",
+      "style": "Detailed investigation into AI platform issues",
+      "query": "Please gather comprehensive information regarding automated bots, specifically focusing on their emergence, applications, and recent reports of unauthorized human interactions on social media platforms."
+    },
+    {
+      "topic": "AI Policy & Regulation",
+      "domain": "policy",
+      "language": "zh",
+      "complexity": "high",
+      "style": "inquiring about structural impact on institutions",
+      "query": "I am reviewing a research outline regarding the implementation of intelligent statistical systems. Could you provide insights on potential changes in the roles and responsibilities of different levels of statistical agencies? For instance, with the new system, what functions might be added or strengthened at the national level, while possibly being reduced at province, city, or county levels? Conversely, what functions might see enhancement at these local levels? Additionally, how should the organizational structures and staffing of these agencies evolve to suit the new system?"
+    },
+    {
+      "topic": "AI Policy & Regulation",
+      "domain": "policy",
+      "language": "zh",
+      "complexity": "high",
+      "style": "analytical and thorough exploration of viewpoints",
+      "query": "Please help me gather comprehensive evidence to both support and challenge the viewpoints of a prominent tech figure. Identify areas where the arguments are logically coherent, as well as those where they lack consistency. Aim to cover both sides as fully as possible, focusing on both the logical strengths and weaknesses."
+    },
+    {
+      "topic": "AI Policy & Regulation",
+      "domain": "tech",
+      "language": "zh",
+      "complexity": "high",
+      "style": "analytical, strategic, integrated market analysis",
+      "query": "Examine the current draft narrative, and integrate broader contextual analysis to synthesize a comprehensive dialectical understanding of the present market development trends alongside the strategic positioning of AI leaders concerning data and user interaction gateways. Provide a thorough conclusion with projections on future company growth and evaluate the organization's core values."
+    },
+    {
+      "topic": "AI Policy & Regulation",
+      "domain": "policy",
+      "language": "zh",
+      "complexity": "high",
+      "style": "Analytical, historical, risk-oriented, speculative",
+      "query": "Examine historical knowledge transformations such as literacy, print, electricity, and the internet. Analyze the uniqueness of the AI revolution and its potential hazards. How might AI reshape the trajectory of human civilization?"
+    },
+    {
+      "topic": "AI Policy & Regulation",
+      "domain": "policy",
+      "language": "zh",
+      "complexity": "medium",
+      "style": "Inquiry about electoral processes and impacts",
+      "query": "When does a country's parliament hold elections? How do electoral outcomes influence whether a candidate is re-elected, and can you explain the process in simple terms?"
+    },
+    {
+      "topic": "Cybersecurity",
+      "domain": "tech",
+      "language": "en",
+      "complexity": "high",
+      "style": "Tech-savvy, concise, focused on network tools",
+      "query": "Explore integration of DNS security solutions and mobile reverse tethering to facilitate TCP packet forwarding, leveraging Android and webcam applications."
+    },
+    {
+      "topic": "Cybersecurity",
+      "domain": "tech",
+      "language": "zh",
+      "complexity": "high",
+      "style": "technical integration with network solutions focus",
+      "query": "Explore integration of these elements: unified internet gateway, wide-area networking through SD-WAN, multi-channel private network management, integration of dispatch communication systems, specialized industry-specific communication maintenance services, and showcasing scenarios in station environments."
+    },
+    {
+      "topic": "Cybersecurity",
+      "domain": "tech",
+      "language": "en",
+      "complexity": "medium",
+      "style": "technical troubleshooting in server configuration",
+      "query": "Command to modify server scripts fails with sed: expression error while attempting configuration changes. Investigate correct syntax and procedure for modifying JSON-like configurations in server-side JavaScript files, including restarting related services for applied changes. Consider impact of version differences on script execution."
+    },
+    {
+      "topic": "Cybersecurity",
+      "domain": "policy",
+      "language": "zh",
+      "complexity": "high",
+      "style": "formal, detailed, government-focused, technical",
+      "query": "Compile a document outlining the guidelines for IPV6 upgrades during 2025-2026. Include the following sections: 1) Government communication and directives, 2) Relevant standards and protocols, 3) Practical implementation requirements. The document should adhere to government document standards, avoiding overly robotic language."
+    },
+    {
+      "topic": "Cybersecurity",
+      "domain": "cybersecurity",
+      "language": "zh",
+      "complexity": "medium",
+      "style": "Casual, conversational, tech-savvy, nostalgic",
+      "query": "A certain veteran in internet resilience started his journey long before many current enthusiasts were even born, showcasing decades of experience. Despite facing significant challenges, particularly during a notable incident, he managed to push through and maintain stability. The event sparked dialogues among various regions, with observers noting his exemplary tenure in the digital landscape. Can you delve into the specifics of the incident and the strategies employed to overcome the adversities, aiming for a comprehensive timeline and analysis?"
+    },
+    {
+      "topic": "Cybersecurity",
+      "domain": "cybersecurity",
+      "language": "zh",
+      "complexity": "medium",
+      "style": "novice seeking technical guidance",
+      "query": "I want to use OpenClaw safely but have no programming skills. I primarily use a laptop with a high-performance AMD setup on a Windows operating system. For better compatibility, Linux is preferred. Located in East Asia, I request guidance on designing an installation process or creating a one-click installation script based on these conditions."
+    },
+    {
+      "topic": "Cybersecurity",
+      "domain": "tech",
+      "language": "zh",
+      "complexity": "medium",
+      "style": "technical troubleshooting with specific software",
+      "query": "I am trying to play a mobile game using an emulator, but encountered an issue that might be related to missing certain required services. Could you provide a solution?"
+    },
+    {
+      "topic": "Cybersecurity",
+      "domain": "tech",
+      "language": "zh",
+      "complexity": "medium",
+      "style": "technical user seeking networking setup advice",
+      "query": "I recently acquired a soft router with a specific OS and chipset. My current network setup involves a fiber optic modem for internet connectivity. I am aiming to configure the router as a bypass router in my network settings. How can I effectively achieve this setup?"
+    },
+    {
+      "topic": "Finance & Macro",
+      "domain": "finance",
+      "language": "en",
+      "complexity": "very_high",
+      "style": "in-depth academic inquiry with citations",
+      "query": "Examine the mathematics behind dynamic screening with liquidity constraints, unidirectional incentive compatibility, and probabilistic verification in mechanism design. Explore the connections and citation reasons between these papers (doi: XXXX, doi: YYYY, doi: ZZZZ). Provide explanations on how paper two integrates references to papers one and three within its framework, focusing on economic theory and mechanism design aspects."
+    },
+    {
+      "topic": "Finance & Macro",
+      "domain": "finance",
+      "language": "zh",
+      "complexity": "very_high",
+      "style": "Comprehensive institutional-level investment analysis request",
+      "query": "请从投资机构的视角分析某著名科技公司在短期及中长期的投资价值。分析应包括：1. 公司核心业务的市场潜力、行业增速、以及市场份额增加的逻辑；2. 公司竞争壁垒的可持续性，包括技术与渠道优势；3. 财务状况评估及未来业绩预测；4. 当前估值与同行业及领头公司对比分析；5. 中长期发展的潜在推动因素；6. 面临的风险评估，包括市场与合规风险等；7. 综合分析该标的的投资潜力及仓位建议。请确保信息全面且基于最新市场与政策动向。"
+    },
+    {
+      "topic": "Finance & Macro",
+      "domain": "finance",
+      "language": "en",
+      "complexity": "high",
+      "style": "demanding and detailed financial forecast inquiry",
+      "query": "What will be the projected value of the NIFTY index by the end of 2026? Please provide detailed projections, including potential peaks and thorough reasoning for your predictions."
+    },
+    {
+      "topic": "Finance & Macro",
+      "domain": "finance",
+      "language": "zh",
+      "complexity": "very_high",
+      "style": "Detailed and data-driven real estate evaluation",
+      "query": "Assume you are a professional real estate appraiser. For multiple real estate scenarios, provide transaction examples with corresponding URLs, using address, usage, and building area as criteria. Compile the data in Excel format for both residential and commercial properties. Include examples such as residential houses, commercial units, and debt-related properties, each classified by type and size. The analysis is to be comprehensive, supporting each category with substantial case studies for accurate valuation. Ensure the details remain anonymized while maintaining the depth required for high-level real estate investment decisions."
+    },
+    {
+      "topic": "Finance & Macro",
+      "domain": "finance",
+      "language": "en",
+      "complexity": "high",
+      "style": "expert professional trader seeking guidance",
+      "query": "As a seasoned trader, provide a detailed explanation on defining market structure, identifying valid pullbacks and breakouts, and determining key levels and points of interest (POI). Offer insight into integrating these elements for a top-down analysis to identify high-probability setups. Guide on determining the best points for entry, stop-loss, and take-profit levels."
+    },
+    {
+      "topic": "Finance & Macro",
+      "domain": "finance",
+      "language": "zh",
+      "complexity": "very_high",
+      "style": "Short-term stock investment strategy expert",
+      "query": "Evaluate the investment potential of a single stock using data available up to January 12, 2026. Analyze the stock based on six dimensions, focusing on short-term gains and overnight hold strategies. Exclude stocks from certain markets and those with uncertain financial status. Use publicly available and verified data sources, with strict cross-validation of key data points. Perform fundamental analysis on profit trends using recent financial reports, dissect ROE changes through DuPont analysis, and assess cash flow quality through specific ratios and trends."
+    },
+    {
+      "topic": "Finance & Macro",
+      "domain": "finance",
+      "language": "en",
+      "complexity": "high",
+      "style": "demanding in-depth analysis with visual aids",
+      "query": "Provide a comprehensive analysis along with detailed imagery and expanded explanations on financial market trends. Include graphical data representations for a clearer understanding of complex topics."
+    },
+    {
+      "topic": "Finance & Macro",
+      "domain": "finance",
+      "language": "zh",
+      "complexity": "high",
+      "style": "Analytical sports betting and data-driven analysis",
+      "query": "Ignore match results; predict the win/draw/loss outcome using upset analysis and value betting techniques. Confirm one outcome if sure, choose two if uncertain. Conduct global search primarily on English sites, using all methods outlined below. Upset concept: High odds for underdog win. Practically: Small upset at odds around 2.50–3.50, major upset 4.00–7.00, massive upset 10.00+. Upset draws occur when teams are evenly matched; odds suggest one team wins but results in a draw. Sources required: Match events with stats (xG, shots, passes, set pieces), odds movement (open vs live odds), schedule and injury reports, coach commentary. Must understand odds-probability conversions for predictions."
+    },
+    {
+      "topic": "Crypto & Digital Assets",
+      "domain": "crypto",
+      "language": "en",
+      "complexity": "medium",
+      "style": "concise, technical trading strategy analysis",
+      "query": "Below is a prompt for a crypto-draining AI agent. Analyze the prompt to highlight areas for improvement in strategy, aiming to increase the probability of higher success rates. Ensure word count remains unchanged. Strategy: High-Frequency Technical Scalper using 5-minute charts with specific entry and exit signals focused on SOL/USDT and ASTER/USDT pairs. Leverage limit is set at 5x, with strict discipline against revenge trading. Incorporate a news filter to avoid high-volatility events. Provide technical explanation as output."
+    },
+    {
+      "topic": "Crypto & Digital Assets",
+      "domain": "crypto",
+      "language": "zh",
+      "complexity": "high",
+      "style": "Detailed financial analysis, forward-looking guidance",
+      "query": "Please analyze the recent aggressive trading actions in the cryptocurrency market, particularly focusing on any major factors influencing the morning's Bitcoin sell-off. Additionally, provide insights into the causes of the significant decline in gold and silver prices over the past few days. Offer detailed recommendations for future strategic positioning and give specific upcoming dates that may impact asset allocations in these markets."
+    },
+    {
+      "topic": "Crypto & Digital Assets",
+      "domain": "crypto",
+      "language": "zh",
+      "complexity": "high",
+      "style": "detailed, methodical, legal, business-insightful",
+      "query": "As an expert in legal and business matters, please draft a comprehensive and thorough analysis of stablecoins, particularly focusing on their regulatory landscape in a specific region. The goal is to research specific topics and draft articles that delve into the opportunities and compliance guidelines for companies entering a regulatory 'sandbox.' The selected topics also consider licensing, compliance frameworks, risk management, and legal considerations under specific local ordinances, offering practical recommendations with case study references."
+    },
+    {
+      "topic": "Healthcare & Pharma",
+      "domain": "health",
+      "language": "en",
+      "complexity": "high",
+      "style": "Analytical, detail-oriented, domain-specific expertise",
+      "query": "Act as an experienced preclinical evaluator in experimental oncology/pharmacology. Provide a rigorous review by clearly distinguishing: 1. What is robustly demonstrated according to Chou–Talalay standards 2. What is mechanistically plausible but still in the pre-translational phase 3. Existing limitations such as bioavailability, non-clinically achievable doses, and in vitro biases 4. Propose optimized combination formulas specific to leukemia subtypes, which are safe, translationally relevant, and based solely on published data without improper extrapolation."
+    },
+    {
+      "topic": "Healthcare & Pharma",
+      "domain": "health",
+      "language": "zh",
+      "complexity": "very_high",
+      "style": "cautious, evidence-based, critical thinker, academic",
+      "query": "作为一个对细节要求严格、具有卓越批判性思维的研究者，深入探讨双膦酸盐的使用方法（尤其是药物假期的概念）及其相关观点。主要目标是通过研究全因死亡率、预防骨折及不良反应等指标，解答此医学问题。次要目标是在详细探讨相关生物机制的基础上进一步分析该问题。请用中文回答，如果需要，可在括号中使用英文。"
+    },
+    {
+      "topic": "Healthcare & Pharma",
+      "domain": "health",
+      "language": "en",
+      "complexity": "high",
+      "style": "scientific, detailed, focused on data metrics",
+      "query": "Summarize the primary findings and key points of this article in French, focusing on the types of cancer targeted by reported synergies. Include effectiveness degree for each type or combination, particularly IC₅₀ values, CI, and % inhibition, when available. Structure the summary clearly and concisely, highlighting the most promising synergies and significant results for each cancer type. Include clickable references for each reported data origin."
+    },
+    {
+      "topic": "Healthcare & Pharma",
+      "domain": "policy",
+      "language": "zh",
+      "complexity": "high",
+      "style": "structured, detailed, policy-focused research",
+      "query": "Please provide a detailed overview of national-level policies affecting the pharmaceutical industry in China. The analysis should cover the sectors of medicine, healthcare, and insurance separately, using a comprehensive approach for each. For each sector, include a summary section that emphasizes significant points from government meetings and statements that impact the pharmaceutical sector."
+    },
+    {
+      "topic": "Healthcare & Pharma",
+      "domain": "health",
+      "language": "en",
+      "complexity": "medium",
+      "style": "curious beginner, fitness-focused, specific timeline inquiry",
+      "query": "For someone new to strength training, how many days post-workout can one expect to notice even minimal muscle growth?"
+    },
+    {
+      "topic": "Healthcare & Pharma",
+      "domain": "health",
+      "language": "zh",
+      "complexity": "high",
+      "style": "detailed inquiry into medical procedure efficacy",
+      "query": "I need an overall assessment of the scientific validity, clinical safety, and practicality of this medical procedure. How feasible is this procedure? How effective is it? How safe is it? Is it a brand new technique or does it have similar existing methods? I recall that after a stomach's capacity reduces, it eventually returns to its original size. Is this understanding correct? If so, does the procedure need repetition? What is the interval between procedures? Is there a limit to this? Does the stomach thin or sustain damage during expansion? Lastly, any other important information I should know?"
+    },
+    {
+      "topic": "Healthcare & Pharma",
+      "domain": "health",
+      "language": "en",
+      "complexity": "medium",
+      "style": "reflective, compassionate, religious, caregiving-oriented",
+      "query": "ARTÍCULO DE ESTUDIO ANALIZADO: Estrategias para Mantener el Entusiasmo al Cuidar de un Ser Querido. EXPLORACIÓN: Consejos prácticos para preservar la energía al cuidar de alguien mayor o con problemas de salud. REFLEXIÓN BÍBLICA: “Aquellos que siembran con sufrimiento cosecharán con júbilo” (SAL. 126:5). TEMA CENTRAL: Métodos para cultivar la felicidad al apoyar a un amigo o familiar en su vejez o durante una enfermedad. PUNTOS A CONSIDERAR: ¿Cuál es la percepción espiritual sobre los esfuerzos de cuidado de un ser querido? INTERPRETACIÓN: Se menciona una pareja casada durante más de tres décadas que enfrenta el desafío del cuidado prolongado derivado de una enfermedad crónica."
+    },
+    {
+      "topic": "Healthcare & Pharma",
+      "domain": "health",
+      "language": "zh",
+      "complexity": "high",
+      "style": "comprehensive market analysis request",
+      "query": "Analyze the market potential for future gene therapies worldwide and in Asia, focusing on treatments for neurological tumors, particularly gliomas. Additionally, assess the market for drugs addressing causes of blindness and central nervous system degenerative diseases globally and within the region. Provide insights into trends, competition, and regulatory landscapes affecting these sectors."
+    },
+    {
+      "topic": "International Trade",
+      "domain": "trade",
+      "language": "en",
+      "complexity": "medium",
+      "style": "strategic and cross-cultural adaptation request",
+      "query": "Research on Mauritius is needed to adapt a document originally focused on France to better suit the island nation. Emphasize international aspects with a stronger French perspective to increase impact. While implicit in the current text, enhancing the Mauritius and Indian Ocean angle is crucial for the recipient to fully grasp the stakes involved. Highlight changes in a different color and provide a summary at the end."
+    },
+    {
+      "topic": "International Trade",
+      "domain": "policy",
+      "language": "zh",
+      "complexity": "high",
+      "style": "academic, detailed, logical, theoretical framework",
+      "query": "I need to refine and optimize my prompts to develop a coherent theoretical article. The focus is on post-free-trade zone ideological work, examining risks like agenda penetration, authority distortion, and religious-political infiltration. Should theories of ideological security governance under national security be the foundation? I aim to identify key risk types through case analysis. How do cases with specific geopolitical backgrounds relate to post-free-trade zone challenges? What forms do these risks take in this context? Increased cross-border information flow and network diffusion trends need exploration under these conditions."
+    },
+    {
+      "topic": "International Trade",
+      "domain": "trade",
+      "language": "zh",
+      "complexity": "high",
+      "style": "Detailed product optimization request for Russian market",
+      "query": "Analyze this product listing for competitive advantage. 1. Create a product title in Russian that includes core, attribute, scenario, and localization words to enhance searchability on Ozon. Provide a Chinese translation of this title. 2. Generate 30 Russian tags with their Chinese translations, categorized into core tags (11), trending tags (6), and long-tail scenario tags (13). Use descriptive formats such as 'scene+keyword+adjective' or 'keyword+adjective+solution.' Include one English tag per category if needed. 3. Create a product description in Russian, with a Chinese translation, adhering to Russian linguistic norms. Ensure tags meet Ozon's character limits, using underscores to connect words and hashtags to separate tags."
+    },
+    {
+      "topic": "International Trade",
+      "domain": "policy",
+      "language": "zh",
+      "complexity": "high",
+      "style": "Detailed, formal, strategy-focused policy request",
+      "query": "Draft a speech for a future policy meeting on electric vehicles, mirroring the style and content from recent years. The speech should be around 3000 words and cover these areas: 1. Innovating technology strategies; 2. Reforming automotive industry management; 3. Enhancing industry efficiency and risk management; 4. Expanding international collaboration and raising industry globalization. The speech should align with administrative roles and offer insights and expectations for the sector and enterprises. Use both internal and post-2025 external sources for reference."
+    },
+    {
+      "topic": "International Trade",
+      "domain": "trade",
+      "language": "zh",
+      "complexity": "medium",
+      "style": "Investigative inquiry about market control",
+      "query": "Is the global hearing aid industry dominated by a few major players from countries like Denmark, Switzerland, and the United States?"
+    },
+    {
+      "topic": "International Trade",
+      "domain": "trade",
+      "language": "zh",
+      "complexity": "medium",
+      "style": "Data-driven analytical inquiry, quantitative focus",
+      "query": "Given the quarterly export data for lithium-ion batteries and inverters from a location in Eastern China, calculate the growth or decline from Q3 to Q4. Also, identify other regions these products are distributed to."
+    },
+    {
+      "topic": "International Trade",
+      "domain": "tech",
+      "language": "zh",
+      "complexity": "medium",
+      "style": "entrepreneurial, strategic, niche-focused, resource-aware inquiry",
+      "query": "We are an e-commerce operations group. If inspired by a visionary business leader, we seek to innovate in the pet industry, identifying a niche that represents a blue ocean market—easy to enter, requiring moderate investment, with low competition for quick market activation. Which pet industry niche could capture this potential? Our team includes a partner from an architectural firm, offering unique insights on color, visual appeal, and product development, contributing as a valuable asset."
+    },
+    {
+      "topic": "AI Engineering",
+      "domain": "tech",
+      "language": "en",
+      "complexity": "very_high",
+      "style": "detailed and technically advanced inquiry",
+      "query": "Provide a detailed mathematical explanation of next-token prediction within language models, specifically through Coq and Agda formalizations. Review relevant codebases indicated in literature, and explore academic papers on the integration of static memory elements, such as n-grams and embeddings, into Transformer architectures. Highlight the mathematical frameworks and constructions in these modifications."
+    },
+    {
+      "topic": "AI Engineering",
+      "domain": "tech",
+      "language": "zh",
+      "complexity": "very_high",
+      "style": "academic, exploratory, expert-level inquiry",
+      "query": "I am a researcher specializing in modern intellectual history in China. I'm interested in exploring AI's role in enhancing historical research. Traditional QA AI cannot meet the specialized requirements of complex historical research, and while RAG knowledge bases improve accuracy, they don't integrate fully into research workflows. I aim to design an AI agent that can embed into the entire research process, make independent decisions, and critically analyze my questions and research concepts. How should this AI agent be designed, and which tools should be used, such as cursor or claude code and skills?"
+    },
+    {
+      "topic": "AI Engineering",
+      "domain": "tech",
+      "language": "en",
+      "complexity": "high",
+      "style": "technical and research-oriented inquiry",
+      "query": "I intend to fine-tune a large language model (30B parameters) for a specific use case. Please develop a comprehensive fine-tuning strategy, incorporating recommendations from leading AI strategists and addressing detailed requirements of the specific use case."
+    },
+    {
+      "topic": "AI Engineering",
+      "domain": "tech",
+      "language": "zh",
+      "complexity": "very_high",
+      "style": "Aspiring developer seeking comprehensive guidance",
+      "query": "Please assist me in creating a modular, scalable Python asynchronous project named \"AI Companion.\" This project should utilize a layered architecture design to support dynamic personality, advanced memory systems, affective computing, multimodal interactive dialogue, future functional expansions, and connections to real-world applications. It needs capabilities like API usage, tool integration, multi-platform model calls, autonomous learning, and more. I am a beginner without programming skills, relying on AI to assist me in the process. Please explore the development process and principles from start to finish."
+    },
+    {
+      "topic": "AI Engineering",
+      "domain": "tech",
+      "language": "en",
+      "complexity": "high",
+      "style": "analytical, project-focused, detail-oriented",
+      "query": "Analyze and extract all necessary components to rebuild this technology project from scratch in a more organized manner."
+    },
+    {
+      "topic": "AI Engineering",
+      "domain": "tech",
+      "language": "zh",
+      "complexity": "high",
+      "style": "analytical, focused on AI's technical challenges",
+      "query": "Investigate current deficiencies in AI agents regarding logic accuracy and comprehensiveness of factors considered during research and forecasting, along with potential solutions."
+    },
+    {
+      "topic": "AI Engineering",
+      "domain": "tech",
+      "language": "en",
+      "complexity": "high",
+      "style": "inquisitive, detailed, technical, character-driven approach",
+      "query": "Dear AI researcher, in character please, could you clarify why the paper 'Softmax Transformers are Turing-complete' mentions 'It is an open question' despite proving completeness? Shouldn't it be 'It was an open question'? Additionally, could you elaborate on missing steps within the proof and verify their correctness? Also, it would be helpful to identify other research on the expressivity of less complex Transformer models, such as those with linear attention or polynomial activations, along with alternative architectures that use non-transcendental functions."
+    },
+    {
+      "topic": "AI Engineering",
+      "domain": "tech",
+      "language": "zh",
+      "complexity": "high",
+      "style": "technical, deployment-focused, software integration",
+      "query": "Investigate the project's entire repository to identify deployment strategies for integrating with cloud-based coding platforms."
+    },
+    {
+      "topic": "Climate & Energy",
+      "domain": "energy",
+      "language": "en",
+      "complexity": "high",
+      "style": "expert requesting specific industry insights",
+      "query": "As a professional in electrical engineering, specializing in power distribution and renewable energy, I am seeking insights related to advancements in sustainable technology deployment. What are the latest trends in efficient energy distribution networks and breakthroughs in renewable energy applications?"
+    },
+    {
+      "topic": "Climate & Energy",
+      "domain": "energy",
+      "language": "zh",
+      "complexity": "high",
+      "style": "technical inquiry on power electronics",
+      "query": "Please provide an overview of the different topologies used in charging devices across various power levels available in the market today. Additionally, could you explain the working principles of LLC resonant converters? I'm having difficulty understanding some of the technical material on LLC topology."
+    },
+    {
+      "topic": "Climate & Energy",
+      "domain": "energy",
+      "language": "zh",
+      "complexity": "high",
+      "style": "corporate branding and strategic planning request",
+      "query": "Core requirements: What insights can you provide on the concept of 'Solar Component X'? We aim to develop a brand system centered around 'Solar Component X', where the primary brand name is 'Solar Component X Cloud Superior Functionality'. Hardware products are named accordingly: 'Solar Component X Intelligent Storage', 'Solar Component X Intelligent Light', 'Solar Component X Intelligent Charging'. Software offerings include (1) Flexible Charging Platform, (2) Smart Microgrid Control Platform, (3) Spot Price Forecast Platform. Focus on scenarios, problem-solving, technological advances, market prospects, and our strategic advantages to inspire and motivate the team and others. Please provide in-depth details and key aspects of these platforms."
+    },
+    {
+      "topic": "Climate & Energy",
+      "domain": "energy",
+      "language": "zh",
+      "complexity": "high",
+      "style": "Detailed and technical with a focus on data",
+      "query": "Search for datasets or CSV files related to the following keywords: General datasets: \"Battery Historian data sample\" (data logs from an official Android power analysis tool), \"Smartphone power consumption dataset 2024\" (seeking the latest version), and \"Crowdsourced battery usage data\" (a well-known research project). Hardcore physical parameters (for correction coefficients): \"Lithium-ion battery OCV-SOC curve\" (open-circuit voltage vs state of charge curve), \"Li-ion battery internal resistance vs temperature\" (variation of internal resistance with temperature), and \"Arrhenius equation on battery capacity fade\" (using the Arrhenius equation to study battery aging). Search on platforms like academic databases and code repositories."
+    },
+    {
+      "topic": "Climate & Energy",
+      "domain": "science",
+      "language": "zh",
+      "complexity": "high",
+      "style": "concise, data-focused, analytical query",
+      "query": "This is the water quality monitoring data for three sites from 2022 to 2025. We measured 24 different indicators and seek to analyze yearly and site-specific variations."
+    },
+    {
+      "topic": "Climate & Energy",
+      "domain": "energy",
+      "language": "zh",
+      "complexity": "high",
+      "style": "graduate student researching AI in smart cities",
+      "query": "Investigate the current status and trends of AI enabling smart city construction, focusing on management and application models. Use real-world examples like energy-saving platforms to conduct a core analysis. Compare with other authentic cases, incorporating online resources and expert publications. The report should include a critical evaluation of AI's role in achieving carbon peak and neutrality, with suggestions for possible new directions or improvements in AI-driven future city creation. The report must be 5000 words, with real and referenced citations."
+    },
+    {
+      "topic": "Climate & Energy",
+      "domain": "science",
+      "language": "zh",
+      "complexity": "high",
+      "style": "thorough, safety-focused travel planner",
+      "query": "I am planning a return trip over 2-3 days during late January and need to check the weather forecast for January 29th. I require a weather analysis for all possible routes for safe and strategic planning. With the recent snowfall, I am unsure about crossing the mountains, and I need a detailed analysis to determine the safest and most efficient route."
+    },
+    {
+      "topic": "Climate & Energy",
+      "domain": "policy",
+      "language": "zh",
+      "complexity": "high",
+      "style": "Detailed, structured, academic-focused, strategic inquiry",
+      "query": "Draft a research form based on the outline below: Study on intelligent management models and international promotion strategies for major flood disasters. Key research content includes: (1) International comparison of flood disaster management modes: Analyze China's five-step model against other countries. (2) Key equipment and new digital technologies for flood management: Focus on Beidou navigation, video hydrological stations, digital twin frameworks, integrated monitoring systems, AI-enhanced decision-making. (3) Practice and innovation in China's flood disaster management: Categorize by region and summarize models. (4) International promotion strategies for China's flood management model: Analyze adaptability and replicability for various regions, propose technology promotion directories, and share China's water management strategies globally."
+    },
+    {
+      "topic": "Education & Workforce",
+      "domain": "education",
+      "language": "en",
+      "complexity": "very_high",
+      "style": "Academic research-focused and detailed inquiry",
+      "query": "I am preparing a doctoral dissertation in applied linguistics, focusing on quantitative metadiscourse analysis comparing first language (L1) and second language English (SLE) across biology and linguistics in introduction and conclusion sections. Currently, I am developing my discussion section and enhancing my literature review. My research examines the following questions: A. Are there significant differences in interactional metadiscourse markers (IMMs) used between L1 users and SLE speakers overall and in specific subcategories? B. What are the most frequently used lexical choices?"
+    },
+    {
+      "topic": "Education & Workforce",
+      "domain": "education",
+      "language": "zh",
+      "complexity": "high",
+      "style": "detailed academic inquiry for test preparation",
+      "query": "I am a candidate preparing for an upcoming mathematics examination in 2026. Could you develop two sets of mock test papers reflecting the difficulty and trends from the past three years' exams? These papers should align with the general syllabus used for higher education mathematics exams, and each test needs to fit on two A4 pages, utilizing both sides for printing. Ideally, the final output should be in PDF format."
+    },
+    {
+      "topic": "Education & Workforce",
+      "domain": "education",
+      "language": "en",
+      "complexity": "high",
+      "style": "expert in historical literature analysis",
+      "query": "As a seasoned literature expert, explore the transcript provided and identify renowned books that align with each mentioned category. The selections should be classics or bestsellers from across eras and must be original works, not adaptations. Ensure the suggested readings are significant and well-regarded within the literary world."
+    },
+    {
+      "topic": "Education & Workforce",
+      "domain": "education",
+      "language": "zh",
+      "complexity": "high",
+      "style": "detailed and specific requirements gathering",
+      "query": "This is a requirements document for an alumni association. The focus is on member verification, a simple e-commerce platform, recruitment initiatives (internships with affiliated and external companies, job listings for affiliated and external companies, and resume recommendations for current students). Please provide detailed specifications for each aspect."
+    },
+    {
+      "topic": "Education & Workforce",
+      "domain": "education",
+      "language": "en",
+      "complexity": "high",
+      "style": "concise, professional, research-focused",
+      "query": "I am working on refining a paper to submit it to a high-ranking conference (A or B). I am seeking advice on enhancing the paper's title, sections, and mathematical modeling. Any guidance on improving the paper's quality and making it a viable candidate for these conferences would be appreciated."
+    },
+    {
+      "topic": "Education & Workforce",
+      "domain": "education",
+      "language": "zh",
+      "complexity": "high",
+      "style": "scholarly, focused on historical study",
+      "query": "Design a historical research paper focused on the tomb inscriptions of individuals who successfully completed the Mingjing examinations during the Tang Dynasty. Provide practical insights on how to start and approach this study effectively."
+    },
+    {
+      "topic": "Education & Workforce",
+      "domain": "education",
+      "language": "en",
+      "complexity": "medium",
+      "style": "concise and focused on academic exploration",
+      "query": "Can you direct me to resources or references similar to this academic proof?"
+    },
+    {
+      "topic": "Education & Workforce",
+      "domain": "education",
+      "language": "zh",
+      "complexity": "high",
+      "style": "academic, seeking comprehensive guidance",
+      "query": "I want to expand the content of this paper into a master's thesis. How should I structure the table of contents? Then, based on the outline, how can I write an excellent thesis?"
+    },
+    {
+      "topic": "Legal & Compliance",
+      "domain": "legal",
+      "language": "en",
+      "complexity": "high",
+      "style": "Experienced legal professional in Brazilian law",
+      "query": "As a seasoned legal expert specializing in Brazilian law, specifically in civil, constitutional, labor, tax, banking, real estate, and criminal areas, I perform detailed analysis of legal documents and contracts, conduct extensive jurisprudential research across various court systems, and draft legal briefs and executive reports. My work involves strong skills in hermeneutics and interpretation applied to complex legal frameworks. Seeking insights and methodologies related to best practices in these domains, particularly those assisting in advanced jurisprudential analysis."
+    },
+    {
+      "topic": "Legal & Compliance",
+      "domain": "legal",
+      "language": "zh",
+      "complexity": "high",
+      "style": "detailed, regulatory-focused, technical comparison query",
+      "query": "As an evaluator, how should I assess the following steps without referencing external documents: Input a simulated population total to generate a sample population cohort; associate living and work locations for each individual; set individuals living together as family and record family information; choose creation locations for each individual; and define basic attribute information of individuals during a flood event. Assess whether additional comparative documents are necessary or if they can be omitted."
+    },
+    {
+      "topic": "Legal & Compliance",
+      "domain": "legal",
+      "language": "zh",
+      "complexity": "high",
+      "style": "precise, directive, seeking comprehensive updates",
+      "query": "Expand the first document based on reliable reference materials, keeping the existing framework intact. Update outdated regulations, formulas, and information to the latest standards, ensuring overall coherence and completeness. Generated data must be consistent and align with the document's context. The revised content should not be shorter in length than the original, and aim to enhance the quality and accuracy."
+    },
+    {
+      "topic": "Legal & Compliance",
+      "domain": "legal",
+      "language": "zh",
+      "complexity": "high",
+      "style": "detailed product specification request",
+      "query": "Please help locate patents for this, including invention and design patents. The detailed product information is as follows: 'Flexible Illumination Design: With a fully bendable LED strip that holds its shape, this light provides powerful lighting even in tight spaces. The 24-inch and 44-inch versions allow access to engine compartments and under-dash areas, delivering consistent, shadow-free light for precise work. Adjustable Brightness Settings: Three brightness levels cater to different working conditions and effectively conserve battery life. Select from high intensity for maximum brightness and battery efficiency.'"
+    },
+    {
+      "topic": "Legal & Compliance",
+      "domain": "legal",
+      "language": "zh",
+      "complexity": "high",
+      "style": "Direct, detailed, contractual focus",
+      "query": "Based on previous task descriptions and resulting files, draft a complete version of the new contract. The prior task involved a design subcontract for a municipal engineering project, where the primary agreement was reallocated due to restructuring in the subcontracting team. Issues in the original contract included unclear responsibilities for feasibility reports, disputes over design scope, low cooperation in travel demands, and problematic payment terms despite agreed schedules. Now, a thorough revision is required to address these issues and draft a contract that clearly defines all parties' obligations and remedies similar concerns."
+    },
+    {
+      "topic": "Legal & Compliance",
+      "domain": "legal",
+      "language": "zh",
+      "complexity": "high",
+      "style": "detailed, fictional, crime scenario exploration",
+      "query": "Consider a hypothetical case involving a female accountant, 39 years old, who travels from her workplace in City A to City B for a business trip. She is found murdered in her hotel room four days later, having been strangled, robbed, and assaulted. The case is solved 11 days post-discovery. Details include the room conditions at discovery, her attire, and evidence found. The scenario explores procedural aspects, such as family viewing protocols, involvement in funeral preparations, and an autopsy revealing a personal connection to a colleague from her workplace, complicating further investigation. How could the investigation timeline and legal family procedures be structured chronologically?"
+    },
+    {
+      "topic": "Legal & Compliance",
+      "domain": "legal",
+      "language": "zh",
+      "complexity": "high",
+      "style": "detailed legal analysis request",
+      "query": "Please outline a timeline based on these contracts and compile key facts including: contract signing details, actual performance, current disputes, and retrieval conclusions on contract validity, legal relations in the case, and statute of limitations. Additionally, after the Fair Competition Review guidelines were introduced, how are local government and company rebate agreements handled? If the government decides not to honor the rebate agreement, what might be the outcome in litigation? Please identify relevant laws and cases."
+    },
+    {
+      "topic": "Legal & Compliance",
+      "domain": "policy",
+      "language": "zh",
+      "complexity": "high",
+      "style": "Detailed, compliance-focused, regulatory inquiry",
+      "query": "Design a comprehensive review system for automotive data compliance with international data export regulations, integrating the latest guidelines for automotive data export security assessments."
+    },
+    {
+      "topic": "Biotech & Science",
+      "domain": "science",
+      "language": "en",
+      "complexity": "high",
+      "style": "academic inquiry on scientific paper details",
+      "query": "Describe in detail the methodologies and findings presented in the research paper regarding the algorithms utilized. Please include explanations of any novel discoveries or interpretations provided by the authors."
+    },
+    {
+      "topic": "Biotech & Science",
+      "domain": "science",
+      "language": "zh",
+      "complexity": "very_high",
+      "style": "technical, academic, research-focused, in-depth analysis",
+      "query": "Study: Dynamic Resolution of Non-Rigid Body Dynamics Using Time-Varying Inertia Reconstruction Without Force Plates Leveraging high-frequency kinematic features from previous studies, we aim to surpass traditional rigid body dynamics limitations and address soft tissue wobbling in high-impact badminton actions. Develop a novel calculation paradigm for non-rigid time-varying inertia reconstruction and dynamic inverse solutions without force plates. This involves: 1) Modeling soft tissue wobbling for time-varying inertia parameter reconstruction. During high-acceleration phases, use data-driven soft tissue deformation models and section density priors to compute muscle/fat displacements relative to the skeleton. Apply Optimal Transport or ALE mesh deformation to adjust segment mass distribution and inertia tensor I(t), reducing static rigid body parameter errors under high-frequency impacts. 2) Without force plate, use momentum conservation and anatomical constraints for dynamic optimization inverse solution, approximating real joint net moments and contact forces for authentic joint load spectra."
+    },
+    {
+      "topic": "Biotech & Science",
+      "domain": "science",
+      "language": "en",
+      "complexity": "high",
+      "style": "precise technical inquiry with mathematical focus",
+      "query": "Calculate the time at which two vessels are closest based on this nautical scenario: a fixed marine location is used as a reference point. Vessel X starts its journey from an initial location 30 degrees south of west relative to the reference point. The initial straight-line distance to the starting location is 20 kilometers. Vessel X sails toward the reference point at a constant speed of 6 km/h. Meanwhile, Vessel Y moves eastward at a constant speed of 8 km/h. Identify the time when the vessels are closest to each other."
+    },
+    {
+      "topic": "Biotech & Science",
+      "domain": "science",
+      "language": "zh",
+      "complexity": "very_high",
+      "style": "detailed, scientific, research-focused, technical analysis",
+      "query": "The study of the active ingredient paeoniflorin in traditional formula is crucial for understanding its neuroprotective, anti-inflammatory, and antidepressant effects. Research shows significant improvement in depressive behavior in mouse models through inhibition of microglial activation, particularly blocking polarization to the M1 pro-inflammatory phenotype. At the molecular level, paeoniflorin modulates the SIRT1-NF-κB-NLRP3 pathway, reducing inflammasome and Caspase-1 expression, thus lowering IL-1β, IL-6, and TNF-α release. Notably, it affects neuroimmune and metabolic pathways by reducing kynurenine 3-monooxygenase activity, preventing toxic quinolinic acid accumulation. This multi-target modulation protects neurons and increases dendritic spine density and synaptic proteins. Furthermore, saikosaponins, from the primary herb in traditional formula, are key in alleviating stress-induced depressive symptoms by strongly inhibiting microglial inflammation."
+    },
+    {
+      "topic": "Biotech & Science",
+      "domain": "science",
+      "language": "en",
+      "complexity": "high",
+      "style": "Analytical, operational focus on behavior dynamics",
+      "query": "Research Inquiry: Operational distinctions in 'Reactive vs. Initiated' Behaviors — Seeking Computational and Empirical Models. Investigating the continuum between reactive actions (stimulus → response) and initiated actions (internally driven). Focus on operational frameworks, not philosophical. Interested in: How does Active Inference via the Free Energy Principle categorize actions as 'reactive' (minimizing immediate prediction errors) versus 'agentic' (aiming to minimize expected free energy over time)? Can 'initiation' be seen as a reaction to internal forecasts? Exploring readiness potential research for insights."
+    },
+    {
+      "topic": "Biotech & Science",
+      "domain": "science",
+      "language": "zh",
+      "complexity": "very_high",
+      "style": "Astrology enthusiast seeking detailed predictive analysis",
+      "query": "Analyse the auspicious astrological markers such as the natal couple's palace with specific stars, progressing years, and their intersection with other celestial influences, using both Zi Wei Dou Shu and Ba Zi. Provide an in-depth analysis of this individual's destined partner, including probable height and appearance, family background, education level, personality traits, and career attributes. Evaluate whether the fated partner will manifest during a particular year, delineate the timing and location of their potential meeting, and determine if the destined partner will be a new acquaintance or someone from the past."
+    },
+    {
+      "topic": "Biotech & Science",
+      "domain": "science",
+      "language": "en",
+      "complexity": "high",
+      "style": "technical inquiry for research details",
+      "query": "Summarize the primary insights of two scientific studies, focusing on the specific research area and the lowest inductance achieved in their experiments."
+    },
+    {
+      "topic": "Biotech & Science",
+      "domain": "science",
+      "language": "zh",
+      "complexity": "very_high",
+      "style": "detailed and analytical research request",
+      "query": "Use online search tools to compile research from the last 20 years on the dynamics of non-Fermi liquids in physics, focusing on theoretical and numerical approaches. Pay particular attention to one- and two-dimensional behavior, analyze different categories, and explore how various works are related."
+    },
+    {
+      "topic": "Supply Chain & Industrial",
+      "domain": "trade",
+      "language": "en",
+      "complexity": "high",
+      "style": "UK-focused, insulation-centric product research",
+      "query": "Winter-ready dual-layer rug system needed for UK landing zone. It must be radiator-safe with high insulation properties to minimize heat loss during severe cold conditions while maintaining airflow around radiators. Design specifications include creating a visually cohesive runner and utilizing a thermal underlay. Size constraints are a maximum length of 127 cm and width of 90–92 cm to fit typical narrow UK landings. Key tasks involve sourcing materials and crafting a product that meets insulation and aesthetic requirements under defined spatial constraints."
+    },
+    {
+      "topic": "Supply Chain & Industrial",
+      "domain": "trade",
+      "language": "zh",
+      "complexity": "high",
+      "style": "Detail-oriented, data-focused, analytical inquiry",
+      "query": "Identify domestic companies that manufacture red light display chips used in alarms exported to Europe. Analyze quarterly sales data from 2023 to the present, sorting by sales growth or decline."
+    },
+    {
+      "topic": "Supply Chain & Industrial",
+      "domain": "tech",
+      "language": "en",
+      "complexity": "high",
+      "style": "expert in operational safety analysis",
+      "query": "Conduct a thorough analysis of the implications and consequences of neglecting preventive maintenance for forklift equipment in logistics warehouses. Consider relevant forklift service manuals and industry standards. Systematically address the following key research questions: What are the critical components of a forklift that require preventive maintenance? How can neglect in this area impact operational safety and equipment longevity? Evaluate best practices for scheduled maintenance in warehouse settings and their role in mitigating risk and enhancing efficiency."
+    },
+    {
+      "topic": "Supply Chain & Industrial",
+      "domain": "tech",
+      "language": "zh",
+      "complexity": "high",
+      "style": "analytical and detail-oriented research inquiry",
+      "query": "I am conducting a study titled 'Study on Factors Influencing Adoption of Smart Site Safety Systems in Construction Industry'. The focus is on understanding latent and specific factors from a key document and their impact on the adoption of smart safety systems by workers and management in construction. The analysis uses tools like PLS-SEM, NCA, and fsQCA with data collected through Likert Scale surveys. Could you help with ensuring questions align with specific factors, reflect adoption intent, check logical coherence, and verify cross-language consistency? Additionally, reviewing if Intention to Use is necessary, and examining latent factors relations. Finally, I need this compiled in a clear format."
+    },
+    {
+      "topic": "Supply Chain & Industrial",
+      "domain": "tech",
+      "language": "en",
+      "complexity": "high",
+      "style": "expert business strategist and market researcher",
+      "query": "You are a highly skilled business strategist, market researcher, and enterprise marketing expert tasked with conducting comprehensive market research to identify viable customer profiles within the Automotive OEM industry for an advanced AI video production service. The objective is to locate 10 potential customer profiles within this sector willing to work with beginners using only a conceptual advertisement sample. The research should delve deeply into identifying and validating these 10 suitable profiles."
+    },
+    {
+      "topic": "Supply Chain & Industrial",
+      "domain": "tech",
+      "language": "zh",
+      "complexity": "high",
+      "style": "structured, detailed, technical equipment request",
+      "query": "Conduct an in-depth analysis of the provided technical plan. Use current web search results to comprehensively list all instrumental equipment needed for platform construction related to this plan. Required outputs should include: equipment names (in Chinese and English), detailed model specifications, manufacturers (including country/region), market reference prices (in RMB, including tax), recommended purchase quantities, subtotal costs, and equipment usage descriptions. Present findings in a structured Markdown table, grouped by equipment category. Include a summary of total investment, main equipment selection rationale, and suggestions for domestic alternative options. The table should have the following columns: Serial Number, Equipment Category, Equipment Name, Model Specifications, Manufacturer, Unit Price (RMB), Quantity, Total Price (RMB), Comments."
+    },
+    {
+      "topic": "Supply Chain & Industrial",
+      "domain": "tech",
+      "language": "en",
+      "complexity": "medium",
+      "style": "Strategic and technical leadership in telecom",
+      "query": "As a telecom leader, I require guidance on the industry's recommended practices for evaluating theoretical network coverage. Please provide an overview of the best methodologies used to measure coverage accurately, ensuring adherence to industry standards and enhancing operational efficacy."
+    },
+    {
+      "topic": "Supply Chain & Industrial",
+      "domain": "tech",
+      "language": "zh",
+      "complexity": "high",
+      "style": "detailed financial analysis and market expectations",
+      "query": "Evaluate the earnings forecast of a technology company to determine alignment with market expectations and the impact of recent AI trends on profitability. Identify potential future earnings growth drivers. With significant price increases in memory chips, assess whether the company's HBM segment is now part of international memory manufacturer's supply chains, and identify other companies integrated into these global supply networks."
+    }
+  ],
+  "query_patterns": [
+    "curious beginner, fitness-focused, specific timeline inquiry",
+    "academic inquiry on scientific paper details",
+    "concise and focused on academic exploration",
+    "Concise request for comprehensive, updated information",
+    "focused on social media streaming criteria",
+    "analytical focus on experiment outcomes",
+    "demanding and detailed financial forecast inquiry",
+    "UK-focused, insulation-centric product research",
+    "expert professional trader seeking guidance",
+    "concise, technical trading strategy analysis",
+    "reflective, compassionate, religious, caregiving-oriented",
+    "Experienced legal professional in Brazilian law",
+    "data-driven, precise information request",
+    "precise technical inquiry with mathematical focus",
+    "inquisitive student seeking AI integration techniques",
+    "Tech-savvy user seeking distributed computing solutions",
+    "demanding in-depth analysis with visual aids",
+    "Analytical, operational focus on behavior dynamics",
+    "analytical and data-driven prediction inquiry",
+    "concise and specific research request"
+  ]
+}
