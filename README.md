@@ -1,6 +1,6 @@
 # MiroEval
 
-MiroEval is a comprehensive evaluation framework for Deep Research systems, providing automated assessment across three complementary dimensions: **Factual** correctness, **Point**-wise quality, and **Process** quality.
+MiroEval is a comprehensive evaluation framework for Deep Research systems, providing automated **task generation** and assessment across three complementary dimensions: **Factual** correctness, **Point**-wise quality, and **Process** quality.
 
 All three evaluation modules share a unified `data/` directory as their input data source. Each sub-project manages its own `.env` file for API keys (see `.env.template` in each sub-project).
 
@@ -8,6 +8,7 @@ All three evaluation modules share a unified `data/` directory as their input da
 
 ```
 MiroEval/
+├── task_generation/           # Evaluation task generation pipeline
 ├── data/                      # Shared data directory (input queries + model results)
 │   ├── input_queries/         # Evaluation query sets
 │   ├── method_results/        # Text-only model results (JSON array per model)
@@ -17,6 +18,14 @@ MiroEval/
 ├── process_eval/              # Process evaluation (intrinsic process quality + report alignment)
 └── scripts/                   # Shared utility scripts (data conversion, etc.)
 ```
+
+---
+
+## Task Generation
+
+Automated pipeline for generating high-quality deep-research evaluation queries. Combines anonymized seed patterns from real user queries, real-time web trends, LLM generation, and multi-stage filtering (search validation, deep-research necessity, quality gating) to produce challenging evaluation tasks.
+
+See [`task_generation/README.md`](task_generation/README.md) for full details.
 
 ---
 
